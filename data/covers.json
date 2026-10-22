@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T10:54:32.559Z",
+ "generated": "2026-10-22T10:57:20.593Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1471,6 +1471,22 @@
    "h": 280,
    "page": "https://en.wikipedia.org/wiki/Unicorn_Overlord",
    "title": "Unicorn Overlord",
+   "how": "title"
+  },
+  "ssbu-ps4": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 254,
+   "h": 392,
+   "page": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate",
+   "title": "Super Smash Bros. Ultimate",
+   "how": "title"
+  },
+  "smbw-ps4": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a3/Mariowonder.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 298,
+   "h": 296,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_Bros._Wonder",
+   "title": "Super Mario Bros. Wonder",
    "how": "title"
   }
  }

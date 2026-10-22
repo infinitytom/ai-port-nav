@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T10:53:15.032Z",
+ "generated": "2026-10-22T10:55:51.583Z",
  "repos": {
   "HarbourMasters/Shipwright": {
    "stars": 5716,
@@ -2186,7 +2186,7 @@
    ]
   },
   "Supermedo/uncharted_pc": {
-   "stars": 1812,
+   "stars": 1813,
    "pushed_at": "2026-10-17T23:37:21Z",
    "archived": false,
    "release": {
@@ -2432,6 +2432,20 @@
     "PPSA92008.zip"
    ]
   },
+  "nefariousjosiah/WWE-SVR2008-RECOMP": {
+   "stars": 29,
+   "pushed_at": "2026-10-21T23:00:52Z",
+   "archived": false,
+   "release": {
+    "tag": "v2.0.2",
+    "published_at": "2026-10-21T23:00:53Z",
+    "prerelease": false
+   },
+   "targets": [],
+   "assets": [
+    "SVR2008-NATIVE.zip"
+   ]
+  },
   "Apolinario-coder/SkyRecomp": {
    "stars": 377,
    "pushed_at": "2026-10-22T04:04:44Z",
@@ -2469,6 +2483,18 @@
     "ssbu-runtime-daa0938053.zip"
    ]
   },
+  "OpenSmash-Ultimate/WindowSmash": {
+   "stars": 335,
+   "pushed_at": "2026-10-22T10:52:05Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.2.0-alpha.1",
+    "published_at": "2026-10-18T20:07:14Z",
+    "prerelease": true
+   },
+   "targets": [],
+   "assets": []
+  },
   "Nycolazs/EoWRecomp": {
    "stars": 17,
    "pushed_at": "2026-10-21T10:01:17Z",
@@ -2488,6 +2514,23 @@
     "SHA256SUMS.txt"
    ]
   },
+  "swaymun/AC-Recomp": {
+   "stars": 10,
+   "pushed_at": "2026-10-19T21:40:52Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.1.0",
+    "published_at": "2026-10-19T20:55:53Z",
+    "prerelease": true
+   },
+   "targets": [
+    "macos"
+   ],
+   "assets": [
+    "AC-Recomp-v0.1.0-macos.dmg",
+    "AC-Recomp-v0.1.0-macos.zip"
+   ]
+  },
   "Coz-0/smo-recomp": {
    "stars": 12,
    "pushed_at": "2026-10-18T22:34:39Z",
@@ -2499,6 +2542,66 @@
   "MonsterDruide1/OdysseyDecomp": {
    "stars": 480,
    "pushed_at": "2026-10-12T00:46:01Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "BelmanteGu/SuperMarioWonderRecomp": {
+   "stars": 380,
+   "pushed_at": "2026-10-18T18:12:20Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "K0NL/B2recomp": {
+   "stars": 334,
+   "pushed_at": "2026-10-22T06:07:17Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.3.2",
+    "published_at": "2026-10-22T06:05:38Z",
+    "prerelease": false
+   },
+   "targets": [],
+   "assets": [
+    "B2recomp-builder-428fbfc.zip"
+   ]
+  },
+  "c22dev/mush8": {
+   "stars": 574,
+   "pushed_at": "2026-10-21T20:53:12Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "smm2recomp/smm2recomp": {
+   "stars": 120,
+   "pushed_at": "2026-10-22T10:55:29Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.4.2",
+    "published_at": "2026-10-22T07:06:30Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "SHA256SUMS.txt",
+    "SMM2Recomp-linux-aarch64.tar.gz",
+    "SMM2Recomp-linux-x86_64.tar.gz",
+    "SMM2Recomp-macos-arm64.zip",
+    "SMM2Recomp-windows-x86_64.zip"
+   ]
+  },
+  "ILFforever/YW4Recomp": {
+   "stars": 1,
+   "pushed_at": "2026-10-22T10:12:46Z",
    "archived": false,
    "release": null,
    "targets": [],
@@ -2593,7 +2696,7 @@
    ]
   },
   "HayatoG/gr2_pc": {
-   "stars": 78,
+   "stars": 79,
    "pushed_at": "2026-10-21T22:36:13Z",
    "archived": false,
    "release": {
@@ -2630,6 +2733,28 @@
     "Unicorn-Overlord-x86_64.AppImage",
     "unicorn-source-88404b6e8e74.tar.gz",
     "unicorn-windows-symbols-88404b6e8e74.tar.gz"
+   ]
+  },
+  "iHaiDeeZ/SSBU": {
+   "stars": 2,
+   "pushed_at": "2026-10-22T10:17:25Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "iHaiDeeZ/SMW": {
+   "stars": 43,
+   "pushed_at": "2026-10-19T15:11:36Z",
+   "archived": false,
+   "release": {
+    "tag": "v00.30",
+    "published_at": "2026-10-19T05:04:39Z",
+    "prerelease": false
+   },
+   "targets": [],
+   "assets": [
+    "SMW-Maker-v00.30.zip"
    ]
   }
  }
