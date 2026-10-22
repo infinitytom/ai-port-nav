@@ -1,0 +1,33 @@
+name: 推荐 / 更正项目
+description: 推荐一个反编译、重编译或原生移植项目，或报告失效链接
+title: "[推荐] "
+labels: [submission]
+body:
+  - type: input
+    id: game
+    attributes: { label: 游戏名（中文 / 英文）, placeholder: "塞尔达传说：时之笛 / Ocarina of Time" }
+    validations: { required: true }
+  - type: input
+    id: link
+    attributes: { label: 项目地址, placeholder: "https://github.com/owner/repo" }
+    validations: { required: true }
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 原平台
+      options: [NES, SNES, Genesis, N64, GameCube, Wii, Switch, GBA, DS, PS1, PS2, PSP, Xbox, Xbox 360, Arcade, PC, 其他]
+  - type: dropdown
+    id: ai
+    attributes:
+      label: AI 参与程度
+      options: [AI 主导, 允许 AI 辅助, 纯人工, 不清楚]
+  - type: checkboxes
+    id: legal
+    attributes:
+      label: 收录要求
+      options:
+        - label: 该项目需要玩家自备游戏文件，不分发 ROM / ISO / 版权素材
+          required: true
+  - type: textarea
+    id: note
+    attributes: { label: 补充说明（可玩程度、特色、已知问题） }

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 移植游戏导航</title>
+<meta name="description" content="收录游戏反编译、静态重编译与原生 PC 移植项目，标注 AI 参与程度、可玩状态与更新时间。所有项目均需自备正版游戏文件。">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23e8590c'/><path d='M9 11h14v10H9z' fill='none' stroke='white' stroke-width='2.5'/><circle cx='13' cy='16' r='1.6' fill='white'/><circle cx='19' cy='16' r='1.6' fill='white'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="topbar">
+      <span class="logo">◧ PORT/NAV</span>
+      <button id="themeBtn" class="ghost" aria-label="切换主题">◐</button>
+    </div>
+    <h1>AI 移植游戏导航</h1>
+    <p class="lead">老游戏正在被反编译、重编译成原生 PC 程序——不用模拟器，高帧率、宽屏、可 Mod。这里帮你从井喷的项目里挑出<strong>能玩的、靠谱的</strong>那些。</p>
+    <div class="stats" id="stats"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2 class="sec">编辑推荐 <small>新手先从这里开始</small></h2>
+    <div class="featured" id="featured"></div>
+  </section>
+
+  <section>
+    <h2 class="sec">全部项目 <small id="count"></small></h2>
+    <div class="toolbar">
+      <input id="q" type="search" placeholder="搜索游戏名 / 英文名 / 项目名…" autocomplete="off">
+      <select id="fType" aria-label="类型"><option value="">全部类型</option></select>
+      <select id="fAI" aria-label="AI 参与"><option value="">AI 参与：全部</option></select>
+      <select id="fStatus" aria-label="状态"><option value="">全部状态</option></select>
+      <select id="sort" aria-label="排序">
+        <option value="rec">排序：推荐优先</option>
+        <option value="recent">最近更新</option>
+        <option value="stars">GitHub 星数</option>
+        <option value="name">名称</option>
+      </select>
+    </div>
+    <div class="chips" id="platforms"></div>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>没有符合条件的项目，换个筛选试试。</p>
+  </section>
+
+  <section class="info">
+    <div>
+      <h3>名词速查</h3>
+      <dl>
+        <dt>反编译移植</dt><dd>把游戏机器码还原成可读源码，再编译到 PC。可深度改造，周期最长。</dd>
+        <dt>静态重编译</dt><dd>把原机器码自动翻译成 C/C++ 直接编译成 PC 程序（如 N64Recomp、XenonRecomp）。</dd>
+        <dt>原生重写</dt><dd>参考原版逻辑重写引擎或移植层，不追求逐字节一致。</dd>
+        <dt>仅反编译</dt><dd>源码已还原，但还没有可直接游玩的 PC 版本。</dd>
+      </dl>
+    </div>
+    <div>
+      <h3>AI 参与度怎么标</h3>
+      <dl>
+        <dt><span class="ai ai-ai">AI 主导</span></dt><dd>作者声明或提交记录显示主要由 AI 编写。进度飞快，但稳定性和长期维护需自行判断。</dd>
+        <dt><span class="ai ai-assist">允许辅助</span></dt><dd>项目接受 AI 辅助的提交，核心由人工把关。</dd>
+        <dt><span class="ai ai-none">纯人工</span></dt><dd>未使用或明确禁止生成式 AI。</dd>
+      </dl>
+    </div>
+    <div>
+      <h3>收录原则</h3>
+      <ul>
+        <li>只收录<b>需要玩家自备正版游戏文件</b>的项目；打包分发版权素材、「打开即玩」的不收录。</li>
+        <li>本站不提供任何 ROM / ISO / 游戏文件下载。</li>
+        <li>星数、更新时间、最新版本每周由 GitHub Actions 自动抓取。</li>
+        <li>标「待核实」的链接会跳转到 GitHub 搜索，欢迎提交正确地址。</li>
+      </ul>
+      <p><a id="submitLink" class="btn" href="#" target="_blank" rel="noopener">＋ 推荐一个项目</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <span>数据更新于 <b id="updated">—</b> · 状态抓取于 <b id="fetched">—</b></span>
+  <span>本站与任何游戏厂商无关，所列商标归各自所有者。</span>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
