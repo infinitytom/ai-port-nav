@@ -43,8 +43,10 @@ const stars = (p) => (p.repo && repoStatus[p.repo]?.stars) || 0;
 function links(p) {
   const out = [];
   if (p.repo) {
-    out.push(`<a class="btn primary" href="https://github.com/${esc(p.repo)}/releases" target="_blank" rel="noopener">⬇ 下载 Releases</a>`);
-    out.push(`<a class="btn" href="https://github.com/${esc(p.repo)}" target="_blank" rel="noopener">GitHub</a>`);
+    const s = repoStatus[p.repo];
+    const hasRel = !s || !!s.release;
+    if (hasRel) out.push(`<a class="btn primary" href="https://github.com/${esc(p.repo)}/releases" target="_blank" rel="noopener">⬇ 下载 Releases</a>`);
+    out.push(`<a class="btn${hasRel ? "" : " primary"}" href="https://github.com/${esc(p.repo)}" target="_blank" rel="noopener">GitHub${hasRel ? "" : " 仓库"}</a>`);
   } else if (p.url) {
     out.push(`<a class="btn primary" href="${esc(p.url)}" target="_blank" rel="noopener">官网 / 下载</a>`);
   } else if (p.search) {
