@@ -8,13 +8,18 @@ let prev = {};
 try { prev = JSON.parse(await readFile("data/covers.json", "utf8")).covers || {}; } catch {}
 const UA = { "User-Agent": "ai-port-nav/1.0 (https://github.com/infinitytom/ai-port-nav)" };
 const API = "https://en.wikipedia.org/w/api.php";
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function q(params) {
   const u = new URL(API);
   for (const [k, v] of Object.entries({ format: "json", formatversion: "2", origin: "*", ...params })) u.searchParams.set(k, v);
-  const r = await fetch(u, { headers: UA });
-  if (!r.ok) throw new Error(`HTTP ${r.status}`);
-  return r.json();
+  for (let i = 0; ; i++) {
+    await sleep(350);
+    const r = await fetch(u, { headers: UA });
+    if (r.ok) return r.json();
+    if (i >= 4 || ![429, 500, 502, 503, 504].includes(r.status)) throw new Error(`HTTP ${r.status}`);
+    await sleep(2000 * 2 ** i);
+  }
 }
 const words = (s) => s.toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter((w) => w.length > 2 && !["the", "and", "of"].includes(w));
 
