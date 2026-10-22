@@ -5,7 +5,7 @@ const TYPE = { decomp: "反编译移植", recomp: "静态重编译", port: "原�
 const AI = { ai: "AI 主导", assist: "允许辅助", none: "纯人工", unknown: "未声明" };
 const STATUS = { released: "已发布 · 可玩", beta: "测试版", wip: "开发中", decomp: "仅反编译", lead: "线索 · 跟进中" };
 const STATUS_RANK = { released: 0, beta: 1, wip: 2, decomp: 3, lead: 4 };
-const PLAT_ORDER = ["NES","SNES","Genesis","N64","GameCube","Wii","Wii U","Switch","GB","GBC","GBA","DS","3DS","PS1","PS2","PSP","PS3","PS4","PS5","Xbox","Xbox 360","Neo Geo","Arcade","PC"];
+const PLAT_ORDER = ["NES","SNES","Genesis","N64","GameCube","Wii","Wii U","Switch","GB","GBC","GBA","DS","3DS","PS1","PS2","PSP","PS3","PS4","PS5","PS Vita","Xbox","Xbox 360","Neo Geo","Arcade","PC"];
 const TARGETS = {
   windows: { name: "Windows", short: "Win" },
   macos:   { name: "macOS", short: "Mac" },
@@ -31,7 +31,7 @@ const PALETTE = {
   "PC": ["#0f766e", "#99f6e4", "#042f2e"], "GB": ["#4d7c0f", "#d9f99d", "#1a2e05"],
   "GBC": ["#c026d3", "#f5d0fe", "#2e0a33"], "Wii U": ["#0369a1", "#bae6fd", "#071a2b"], "3DS": ["#b91c1c", "#fecaca", "#210909"],
   "Neo Geo": ["#a16207", "#fde68a", "#1c1203"], "PSP": ["#334155", "#e2e8f0", "#0b1120"],
-  "PS3": ["#18181b", "#d4d4d8", "#09090b"], "PS4": ["#1d4ed8", "#bfdbfe", "#030a1f"], "PS5": ["#e5e7eb", "#1e3a8a", "#0a0f1e"],
+  "PS3": ["#18181b", "#d4d4d8", "#09090b"], "PS4": ["#1d4ed8", "#bfdbfe", "#030a1f"], "PS5": ["#e5e7eb", "#1e3a8a", "#0a0f1e"], "PS Vita": ["#0e7490", "#a5f3fc", "#06161c"],
 };
 
 const $ = (s) => document.querySelector(s);
