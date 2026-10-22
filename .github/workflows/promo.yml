@@ -17,7 +17,8 @@ jobs:
           node-version: 20
       - name: 准备录制环境（中文字体由网页从 Google Fonts 加载）
         run: |
-          which ffmpeg
+          pip install -q imageio-ffmpeg
+          echo "FF=$(python3 -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')" >> $GITHUB_ENV
           npm i --no-save playwright@1.48.2
           npx playwright install ffmpeg
           google-chrome --version
@@ -28,8 +29,8 @@ jobs:
       - name: 转码为 MP4
         run: |
           mkdir -p promo
-          ffmpeg -y -i promo-out/promo.webm -c:v libx264 -preset slow -crf 22 -pix_fmt yuv420p -r 30 -movflags +faststart -an promo/ai-port-nav-promo.mp4
-          ffmpeg -y -ss 6 -i promo/ai-port-nav-promo.mp4 -frames:v 1 -q:v 3 promo/poster.jpg
+          "$FF" -y -i promo-out/promo.webm -c:v libx264 -preset slow -crf 22 -pix_fmt yuv420p -r 30 -movflags +faststart -an promo/ai-port-nav-promo.mp4
+          "$FF" -y -ss 6 -i promo/ai-port-nav-promo.mp4 -frames:v 1 -q:v 3 promo/poster.jpg
           ls -la promo
       - name: 提交
         run: |
