@@ -2151,8 +2151,8 @@
    "type": "recomp",
    "ai": "unknown",
    "status": "beta",
-   "search": "WWE-SVR2008-RECOMP",
-   "note": "PS5 版的原始 PC 重编译。"
+   "note": "Xbox 360 版原生 PC 移植，Linux/Steam Deck 可通过 Proton 运行。",
+   "repo": "nefariousjosiah/WWE-SVR2008-RECOMP"
   },
   {
    "id": "skyrecomp",
@@ -2188,9 +2188,9 @@
    "project": "WindowSmash",
    "type": "recomp",
    "ai": "unknown",
-   "status": "lead",
-   "search": "WindowSmash smash ultimate",
-   "note": ""
+   "status": "beta",
+   "note": "实验性 Windows x64 原生移植工具包：AArch64 静态重编译。",
+   "repo": "OpenSmash-Ultimate/WindowSmash"
   },
   {
    "id": "eow",
@@ -2209,12 +2209,12 @@
    "game": "异界锁链",
    "game_en": "Astral Chain",
    "platform": "Switch",
-   "project": "Astral Chain Windows port",
+   "project": "AC-Recomp",
    "type": "recomp",
    "ai": "ai",
    "status": "lead",
-   "search": "astral chain recomp",
-   "note": "ARM64 代码静态重编译为 C，NVN 图形转 Vulkan；已测试到第 1 章 60 帧，作者称由 AI 制作。"
+   "note": "实验性静态重编译（macOS 版本），需自备合法导出的游戏。",
+   "repo": "swaymun/AC-Recomp"
   },
   {
    "id": "smo-recomp",
@@ -2249,9 +2249,10 @@
    "project": "Super Mario Bros. Wonder Recomp",
    "type": "recomp",
    "ai": "unknown",
-   "status": "lead",
-   "search": "super mario bros wonder recomp",
-   "note": "早期演示已接近 60 帧。"
+   "status": "beta",
+   "note": "NVN 转 Vulkan/MoltenVK，支持 macOS、安卓、Windows。",
+   "repo": "BelmanteGu/SuperMarioWonderRecomp",
+   "featured": true
   },
   {
    "id": "bayo2",
@@ -2261,9 +2262,9 @@
    "project": "B2recomp",
    "type": "recomp",
    "ai": "unknown",
-   "status": "lead",
-   "search": "B2recomp bayonetta",
-   "note": ""
+   "status": "beta",
+   "note": "非官方 Windows 静态重编译，从你自己的游戏文件构建。",
+   "repo": "K0NL/B2recomp"
   },
   {
    "id": "mk8d",
@@ -2273,9 +2274,9 @@
    "project": "Mush8",
    "type": "recomp",
    "ai": "unknown",
-   "status": "lead",
-   "search": "Mush8 mario kart 8",
-   "note": "以移植到 iPhone 为目标的测试版。"
+   "status": "beta",
+   "note": "原生 iOS/macOS 移植，支持局域网、在线和无线联机。",
+   "repo": "c22dev/mush8"
   },
   {
    "id": "smm2",
@@ -2286,8 +2287,8 @@
    "type": "recomp",
    "ai": "ai",
    "status": "lead",
-   "search": "super mario maker 2 recomp",
-   "note": ""
+   "note": "",
+   "repo": "smm2recomp/smm2recomp"
   },
   {
    "id": "yw4",
@@ -2298,8 +2299,8 @@
    "type": "recomp",
    "ai": "ai",
    "status": "lead",
-   "search": "yo-kai watch 4 recomp",
-   "note": ""
+   "note": "ARM64 转 C、NVN 转 Vulkan，目标 Windows/Linux。",
+   "repo": "ILFforever/YW4Recomp"
   },
   {
    "id": "mclce",
@@ -2427,6 +2428,36 @@
    "status": "beta",
    "repo": "hachi23/unicorn_overlord_pc",
    "note": "基于 vwport。"
+  },
+  {
+   "id": "ssbu-ps4",
+   "game": "任天堂明星大乱斗 特别版（PS4 版）",
+   "game_en": "Super Smash Bros. Ultimate",
+   "platform": "Switch",
+   "project": "SSBU on PS4 (WindowSmash)",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "lead",
+   "repo": "iHaiDeeZ/SSBU",
+   "targets": [
+    "ps4"
+   ],
+   "note": "把 WindowSmash 重编译移植到破解 PS4（GoldHEN）上运行。"
+  },
+  {
+   "id": "smbw-ps4",
+   "game": "超级马力欧兄弟 惊奇（PS4 版）",
+   "game_en": "Super Mario Bros. Wonder",
+   "platform": "Switch",
+   "project": "SMW on PS4",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "lead",
+   "repo": "iHaiDeeZ/SMW",
+   "targets": [
+    "ps4"
+   ],
+   "note": "在破解 PS4（GoldHEN）上原生运行的重编译版本。"
   }
  ]
 }

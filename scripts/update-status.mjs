@@ -15,6 +15,7 @@ const TARGET_RULES = [
   ["android", /android|\.apk$/i],
   ["switch", /switch|\.nro$|\.nsp$|[-_.]nx[-_.]/i],
   ["ios", /\bios\b|\.ipa$|iphone/i],
+  ["ps4", /ps4|orbis|goldhen/i],
   ["ps5", /ps5|prospero/i],
   ["vita", /vita|\.vpk$/i],
   ["web", /wasm|web(assembly)?[-_.]|browser/i],

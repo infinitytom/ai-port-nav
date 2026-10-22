@@ -1,0 +1,38 @@
+name: 录制宣传视频
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: 安装浏览器、中文字体与 ffmpeg
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y -q fonts-noto-cjk ffmpeg
+          npm i --no-save playwright@1.48.2
+          npx playwright install --with-deps chromium
+      - name: 录制
+        run: node scripts/promo.mjs "https://infinitytom.github.io/ai-port-nav/" promo-out
+      - name: 转码为 MP4
+        run: |
+          mkdir -p promo
+          ffmpeg -y -i promo-out/promo.webm -c:v libx264 -preset slow -crf 22 -pix_fmt yuv420p -r 30 -movflags +faststart -an promo/ai-port-nav-promo.mp4
+          ffmpeg -y -ss 6 -i promo/ai-port-nav-promo.mp4 -frames:v 1 -q:v 3 promo/poster.jpg
+          ls -la promo
+      - name: 提交
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add promo
+          git diff --cached --quiet || git commit -m "chore: 更新宣传视频"
+          git pull --rebase -X theirs && git push

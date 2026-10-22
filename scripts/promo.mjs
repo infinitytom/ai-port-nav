@@ -100,13 +100,20 @@ await caption("甚至可以玩到移植到 PS5 的版本");
 await wait(2000);
 await clickSlow(`.tab[data-t=""]`);
 
-// 5. 原平台：PS4
-await caption("PS4 独占也来了：血源、战神 III、最后的守护者");
+// 5. 较新主机：Switch、PS4
+await caption("较新主机也来了：Switch 的御天之剑、奥德赛……");
+await clickSlow(`.chip[data-p="Switch"]`);
+await smoothScrollTo((await topOf("#grid")) - 220, 1100);
+await wait(1000);
+await smoothScrollTo((await topOf("#grid")) + 600, 2800);
+await wait(500);
+await smoothScrollTo((await topOf("#targets")) - 120, 1100);
+await caption("PS4 独占：血源、战神 III、最后的守护者");
 await clickSlow(`.chip[data-p="PS4"]`);
 await smoothScrollTo((await topOf("#grid")) - 220, 1100);
-await wait(1200);
-await smoothScrollTo((await topOf("#grid")) + 700, 3200);
-await wait(800);
+await wait(1000);
+await smoothScrollTo((await topOf("#grid")) + 900, 3400);
+await wait(700);
 await smoothScrollTo((await topOf("#targets")) - 120, 1200);
 await clickSlow(`.chip[data-p=""]`);
 

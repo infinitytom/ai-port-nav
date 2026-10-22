@@ -13,6 +13,7 @@ const TARGETS = {
   switch:  { name: "Switch", short: "Switch" },
   android: { name: "安卓", short: "安卓" },
   ios:     { name: "iOS", short: "iOS" },
+  ps4:     { name: "PS4", short: "PS4" },
   ps5:     { name: "PS5", short: "PS5" },
   vita:    { name: "PS Vita", short: "Vita" },
   web:     { name: "网页", short: "网页" },
