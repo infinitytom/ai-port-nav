@@ -1,0 +1,51 @@
+name: 玩家体验反馈
+description: 你实际玩过某个移植？告诉大家能不能玩、在什么平台上玩、遇到了什么问题
+title: "[反馈] "
+labels: [feedback]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: 项目
+      description: 从网站卡片点「反馈体验」进来会自动填好
+      placeholder: "例如 soh / Ship of Harkinian"
+    validations: { required: true }
+  - type: dropdown
+    id: rating
+    attributes:
+      label: 你的游玩体验
+      options:
+        - 已完整通关
+        - 主线基本可玩，有少量问题
+        - 能进游戏，但崩溃多或内容不全
+        - 无法正常游玩
+    validations: { required: true }
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 你在哪个平台上玩
+      multiple: true
+      options: [Windows, macOS, Linux, Steam Deck, 安卓, iOS, Switch, PS4, PS5, PS Vita, 其他]
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes: { label: 移植版本号, placeholder: "例如 v1.2.2" }
+  - type: input
+    id: hardware
+    attributes: { label: 硬件（可选）, placeholder: "例如 RTX 3060 / Ryzen 5 5600 / Steam Deck OLED" }
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体情况
+      description: 玩到了哪里、帧率如何、在哪里崩溃或卡死、有什么解决办法
+    validations: { required: true }
+  - type: input
+    id: proof
+    attributes: { label: 视频或截图链接（可选）, placeholder: "B 站 / YouTube / 图床链接" }
+  - type: checkboxes
+    id: legal
+    attributes:
+      label: 确认
+      options:
+        - label: 我使用的是自己合法拥有的游戏文件，反馈中不包含 ROM/ISO 下载链接
+          required: true

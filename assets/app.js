@@ -138,6 +138,8 @@ function links(p) {
   } else if (p.search) {
     out.push(`<a class="btn" href="https://github.com/search?type=repositories&q=${encodeURIComponent(p.search)}" target="_blank" rel="noopener">🔍 GitHub 搜索（待核实）</a>`);
   }
+  const fb = `https://github.com/${SITE_REPO}/issues/new?template=feedback.yml&title=${encodeURIComponent("[反馈] " + p.game + "（" + p.project + "）")}&project=${encodeURIComponent(p.id + " / " + p.project)}`;
+  out.push(`<a class="btn fb" href="${fb}" target="_blank" rel="noopener" title="你玩过？告诉大家能不能玩">反馈体验</a>`);
   return out.join("");
 }
 
