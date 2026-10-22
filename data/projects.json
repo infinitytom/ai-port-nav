@@ -2057,12 +2057,12 @@
    "game": "誓血龙骑士 3",
    "game_en": "Drakengard 3",
    "platform": "PS3",
-   "project": "ps3recomp: Drakengard 3",
+   "project": "dod3-recomp",
    "type": "recomp",
    "ai": "unknown",
-   "status": "lead",
-   "search": "Drakengard 3 ps3recomp",
-   "note": "据整理站称已用 ps3recomp 跑通。"
+   "status": "beta",
+   "note": "基于 ps3recomp 的静态重编译。",
+   "repo": "soyjxck/dod3-recomp"
   },
   {
    "id": "simpsons-arcade",
@@ -2073,8 +2073,8 @@
    "type": "recomp",
    "ai": "unknown",
    "status": "lead",
-   "search": "simpsons arcade ps3recomp",
-   "note": "已完成双人联机对战测试。"
+   "note": "已完成双人联机对战测试。",
+   "repo": "sp00nznet/simpsonsarcade-ps3"
   },
   {
    "id": "gh3",
@@ -2085,8 +2085,8 @@
    "type": "recomp",
    "ai": "unknown",
    "status": "lead",
-   "search": "guitar hero 3 ps3recomp",
-   "note": "ps3recomp 进度最快的游戏，45 首快速游戏曲目可跑通，暂无公开版本。"
+   "note": "ps3recomp 进度最快的游戏，45 首快速游戏曲目可跑通，暂无公开版本。",
+   "repo": "sp00nznet/gh3"
   },
   {
    "id": "ico-ps3",
@@ -2105,12 +2105,12 @@
    "game": "白骑士物语 II",
    "game_en": "White Knight Chronicles II",
    "platform": "PS3",
-   "project": "WKC2 Native",
+   "project": "White-Knight-Chronicles-2-Recomp",
    "type": "recomp",
    "ai": "ai",
    "status": "lead",
-   "search": "white knight chronicles 2 native recomp",
-   "note": ""
+   "note": "",
+   "repo": "WK2D/White-Knight-Chronicles-2-Recomp"
   },
   {
    "id": "burnout3-ps5",
@@ -2132,15 +2132,27 @@
    "game": "WWE SmackDown vs. Raw 2008（PS5 版）",
    "game_en": "WWE SmackDown vs. Raw 2008",
    "platform": "Xbox 360",
-   "project": "SvR 2008 PS5 homebrew",
+   "project": "SvR2008-Recomp-PS5",
    "type": "port",
    "ai": "ai",
-   "status": "lead",
-   "search": "smackdown vs raw 2008 ps5",
+   "status": "beta",
    "targets": [
     "ps5"
    ],
-   "note": ""
+   "note": "把 WWE-SVR2008-RECOMP 移植到破解 PS5，支持 DualSense。",
+   "repo": "elripalda/SvR2008-Recomp-PS5"
+  },
+  {
+   "id": "svr08",
+   "game": "WWE SmackDown vs. Raw 2008",
+   "game_en": "WWE SmackDown vs. Raw 2008",
+   "platform": "Xbox 360",
+   "project": "WWE-SVR2008-RECOMP",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "search": "WWE-SVR2008-RECOMP",
+   "note": "PS5 版的原始 PC 重编译。"
   }
  ]
 }
