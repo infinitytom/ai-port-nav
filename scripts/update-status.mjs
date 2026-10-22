@@ -98,8 +98,13 @@ for (const repo of repos) {
     };
     {
       const r = out.repos[repo], rt = r.signals?.readmeTargets || [];
-      if (!r.targets.length && rt.length) { r.targets = rt; r.targetsFrom = "readme"; }
-      else if (r.targets.length) { r.targetsFrom = "assets"; const extra = rt.filter((t) => !r.targets.includes(t)); if (extra.length) r.targetsReadmeOnly = extra; }
+      // 原平台本身不算运行平台（如 Switch 游戏的 README 里提到 Switch）
+      const ORIG = { Switch: "switch", PS4: "ps4", PS5: "ps5", "PS Vita": "vita", PC: "windows" };
+      const origs = new Set(projects.filter((p) => p.repo === repo).map((p) => ORIG[p.platform]).filter(Boolean));
+      const rt2 = rt.filter((t) => !origs.has(t));
+      // 没有发布过下载包的项目（纯反编译、早期线索）不据 README 推断
+      if (!r.targets.length && rt2.length && r.release) { r.targets = rt2; r.targetsFrom = "readme"; }
+      else if (r.targets.length) { r.targetsFrom = "assets"; const extra = rt.filter((t) => !r.targets.includes(t) && !origs.has(t)); if (extra.length) r.targetsReadmeOnly = extra; }
     }
     console.log(`✓ ${repo} ★${info.stargazers_count} ${stable?.tag_name ?? "-"} [${out.repos[repo].targets.join(",")}]`);
   } catch (e) {
