@@ -122,3 +122,17 @@ h1{font-size:clamp(32px,6vw,56px);font-weight:900;line-height:1.1;margin:18px 0 
 .play-unverified{background:none;padding:0} .play-unverified .pb{color:var(--muted);font-weight:500;font-size:12px}
 .info .muted{color:var(--muted);font-size:13.5px;margin:0 0 6px}
 .tgt-note{font-size:11px;color:var(--muted);align-self:center;margin-left:2px}
+
+/* 赞助 */
+.topbtns{display:flex;gap:8px;align-items:center}
+.sponsor{font:inherit;font-size:14px;font-weight:700;color:#fff;background:#1677ff;border:0;border-radius:999px;padding:8px 16px;cursor:pointer}
+.sponsor:hover{filter:brightness(1.08)}
+.sdlg{border:1px solid var(--line);border-radius:18px;background:var(--panel);color:var(--ink);padding:28px 28px 22px;max-width:340px;width:calc(100% - 32px);text-align:center;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.sdlg::backdrop{background:rgba(0,0,0,.55);backdrop-filter:blur(3px)}
+.sdlg h3{margin:0 0 8px;font-size:19px}
+.sdlg p{margin:0 0 16px;color:var(--muted);font-size:13.5px}
+.sdlg img{display:block;margin:0 auto 10px;width:240px;max-width:100%;height:auto;border-radius:12px;background:#fff;padding:8px}
+.sdlg small{color:var(--muted);font-size:12px}
+.sdlg form{position:absolute;top:8px;right:10px;margin:0}
+.sclose{background:none;border:0;color:var(--muted);font-size:24px;line-height:1;cursor:pointer}
+.sdlg{position:fixed}

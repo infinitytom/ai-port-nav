@@ -276,3 +276,17 @@ async function init() {
   render();
 }
 init();
+
+// ---------- 赞助作者：仅当收款码图片存在时显示按钮 ----------
+(function () {
+  const SRC = "assets/sponsor/alipay.png";
+  const probe = new Image();
+  probe.onload = () => {
+    $("#sponsorQR").src = SRC;
+    const btn = $("#sponsorBtn"), dlg = $("#sponsorDlg");
+    btn.hidden = false;
+    btn.onclick = () => (dlg.showModal ? dlg.showModal() : dlg.setAttribute("open", ""));
+    dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+  };
+  probe.src = SRC;
+})();

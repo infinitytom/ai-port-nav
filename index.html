@@ -15,7 +15,10 @@
   <div class="wrap">
     <div class="topbar">
       <span class="logo">◧ PORT/NAV</span>
-      <button id="themeBtn" class="ghost" aria-label="切换主题">◐</button>
+      <div class="topbtns">
+        <button id="sponsorBtn" class="sponsor" hidden>♥ 赞助作者</button>
+        <button id="themeBtn" class="ghost" aria-label="切换主题">◐</button>
+      </div>
     </div>
     <h1>AI 移植游戏导航</h1>
     <p class="lead">老游戏正在被反编译、重编译成原生 PC 程序——不用模拟器，高帧率、宽屏、可 Mod。这里帮你从井喷的项目里挑出<strong>能玩的、靠谱的</strong>那些。</p>
@@ -98,6 +101,13 @@
   <span>本站与任何游戏厂商无关，所列商标归各自所有者。</span>
 </footer>
 
+<dialog id="sponsorDlg" class="sdlg">
+  <form method="dialog"><button class="sclose" aria-label="关闭">×</button></form>
+  <h3>请作者喝杯咖啡</h3>
+  <p>本站免费、无广告，每周人工 + 自动更新。觉得有用的话，欢迎用支付宝扫码支持。</p>
+  <img id="sponsorQR" alt="支付宝收款码" width="240" height="240">
+  <small>赞助完全自愿，不影响任何功能。</small>
+</dialog>
 <script src="assets/app.js"></script>
 </body>
 </html>
