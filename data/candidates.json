@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T10:28:36.029Z",
+ "generated": "2026-10-22T10:53:18.093Z",
  "candidates": {
   "pilotwings": [],
   "battleship": [
@@ -24,7 +24,7 @@
    {
     "repo": "ZeldaWWHDRecomp/ZeldaWWHDRecomp",
     "desc": "Zelda Wind Waker HD Recomp",
-    "stars": 936,
+    "stars": 940,
     "pushed": "2026-10-22",
     "fork": false,
     "archived": false
@@ -122,53 +122,141 @@
   "hgss": [],
   "vf1": [],
   "wipeoutpure": [],
-  "drakengard3": [
-   {
-    "repo": "soyjxck/dod3-recomp",
-    "desc": "Drakengard 3 (PS3) static recompilation using ps3recomp",
-    "stars": 107,
-    "pushed": "2026-10-22",
-    "fork": false,
-    "archived": false
-   }
-  ],
-  "simpsons-arcade": [
-   {
-    "repo": "sp00nznet/simpsonsarcade-ps3",
-    "desc": "Static recompilation of The Simpsons Arcade Game (PS3/PSN) to native PC via ps3recomp. Sibling of the playable 360 port.",
-    "stars": 10,
-    "pushed": "2026-10-14",
-    "fork": false,
-    "archived": false
-   }
-  ],
-  "gh3": [
-   {
-    "repo": "sp00nznet/gh3",
-    "desc": "Guitar Hero III: Legends of Rock (PS3, BLUS30074) statically recompiled to native Windows with ps3recomp. Boots into gameplay.",
-    "stars": 2,
-    "pushed": "2026-09-28",
-    "fork": false,
-    "archived": false
-   }
-  ],
   "ico-ps3": [],
-  "wkc2": [
+  "svr08": [
    {
-    "repo": "WK2D/White-Knight-Chronicles-2-Recomp",
-    "desc": "Native C/C++ recompilation for White Knight Chronicles II (PS3).",
-    "stars": 14,
-    "pushed": "2026-10-22",
+    "repo": "nefariousjosiah/WWE-SVR2008-RECOMP",
+    "desc": "Native PC port of WWE SmackDown vs. Raw 2008 (Xbox 360) for Windows, plus Linux and Steam Deck through Proton: static recompilation + native Vulkan renderer, 60",
+    "stars": 29,
+    "pushed": "2026-10-21",
     "fork": false,
     "archived": false
-   }
-  ],
-  "svr08-ps5": [
+   },
    {
     "repo": "elripalda/SvR2008-Recomp-PS5",
     "desc": "WWE SmackDown vs. Raw 2008 on PS5: a port of nefariousjosiah's WWE-SVR2008-RECOMP, with a DualSense hub and PlayStation buttons.",
     "stars": 1,
     "pushed": "2026-10-18",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "ssbu-ws": [
+   {
+    "repo": "OpenSmash-Ultimate/WindowSmash",
+    "desc": "Experimental Windows x64 native porting toolkit for Super Smash Bros. Ultimate: static AArch64 recompilation, a D3D11 runtime, and Local Wireless relay netplay.",
+    "stars": 335,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "iHaiDeeZ/SSBU",
+    "desc": "SSBU: Super Smash Bros. Ultimate recomp (WindowSmash) on jailbroken PS4 (GoldHEN): native AArch64-to-C recomp, Direct3D 11 through DXVK on RADV, FSR 1, L3+R3 me",
+    "stars": 2,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "astralchain": [
+   {
+    "repo": "swaymun/AC-Recomp",
+    "desc": "Experimental native static recompilation of Astral Chain (Switch) for macOS. Bring your own legally dumped game; no game content included.",
+    "stars": 10,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "smbw": [
+   {
+    "repo": "BelmanteGu/SuperMarioWonderRecomp",
+    "desc": "Super Mario Bros. Wonder static recompilation (NVN on Vulkan/MoltenVK), macOS, Android and Windows. No game assets.",
+    "stars": 380,
+    "pushed": "2026-10-18",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "iHaiDeeZ/SMW",
+    "desc": "SMW: Super Mario Bros. Wonder Recomp on jailbroken PS4 (GoldHEN). Native static recomp, RADV Vulkan, FSR 1, L3+R3 quick menu, 4 players. Bring your own dump.",
+    "stars": 43,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "bayo2": [
+   {
+    "repo": "K0NL/B2recomp",
+    "desc": "Unofficial static recompilation of Bayonetta 2 (Switch) for Windows. Builds the game on your PC from your own legally dumped copy. No game files, keys or SDK co",
+    "stars": 334,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "donelysentretenimiento/Donelys-B2recomp",
+    "desc": "DONELYS Enhanced Edition de Bayonetta 2 Recomp para Windows: Vulkan, HDR10/scRGB preview, mods, audio y estabilidad. GPL-3.0-or-later.",
+    "stars": 0,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "mk8d": [
+   {
+    "repo": "c22dev/mush8",
+    "desc": "A native Mach-O iOS/macOS port of Mario Kart 8 Deluxe, with LAN, online and wireless multiplayer",
+    "stars": 574,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "smm2": [
+   {
+    "repo": "smm2recomp/smm2recomp",
+    "desc": "Super Mario Maker 2 Recomp",
+    "stars": 120,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "yw4": [
+   {
+    "repo": "ILFforever/YW4Recomp",
+    "desc": "Fan static recompilation of Yo-kai Watch 4++ (Switch) to native Windows/Linux. ARM64 → C, NVN on Vulkan. No game data included.",
+    "stars": 1,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "mhp3hd": [
+   {
+    "repo": "devdouglasonofre/mhp3rd-yakumo-ptbr",
+    "desc": "Brazilian Portuguese translation pack for Yakumo (Monster Hunter Portable 3rd)",
+    "stars": 1,
+    "pushed": "2026-10-08",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "cngjd/MHP3rd-HD-Texture-Pack-Merged",
+    "desc": "Monster Hunter Portable 3rd HD (NPJB40001) texture pack merging HolographicWings, Definitive Edition, Stormie and Ngeradak packs (Yakumo / PPSSPP)",
+    "stars": 0,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "jajdp/mhp3rd-xbox",
+    "desc": "Run the Yakumo static recompilation of Monster Hunter Portable 3rd HD on an Xbox Series in Developer Mode: the UWP port, as a recipe. An Xbox has no Vulkan, so ",
+    "stars": 1,
+    "pushed": "2026-10-20",
     "fork": false,
     "archived": false
    }
