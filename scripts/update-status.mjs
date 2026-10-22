@@ -42,6 +42,11 @@ async function gh(path) {
 // ---------- 可玩性信号：README 关键句 + 近期问题反馈 ----------
 const PLAY_RE = /(fully playable|completable|beatable|playable from start to finish|100% playable|can be (completed|beaten)|playable|not (yet )?playable|work in progress|wip|early (alpha|access|stage)|alpha|beta|experimental|known issues|softlock|crash(es)?|可通关|可游玩|不可玩|开发中)/i;
 const BUG_RE = /crash|freez|hang|black screen|softlock|soft-lock|stuck|won'?t (start|boot|launch)|doesn'?t (start|boot|launch)|segfault|access violation|闪退|卡死|黑屏|无法启动/i;
+const README_PLAT = [
+  ["windows", /\bwindows\b|\bwin(32|64)\b/i], ["linux", /\blinux\b|steam ?deck|appimage|flatpak/i], ["macos", /\bmac ?os\b|\bosx\b|apple silicon/i],
+  ["android", /\bandroid\b/i], ["ios", /\bios\b|iphone|ipad/i], ["switch", /nintendo switch|switch homebrew|\.nro\b/i],
+  ["ps4", /\bps4\b.*(homebrew|goldhen|jailbr)/i], ["ps5", /\bps5\b.*(homebrew|jailbr|etahen)/i], ["vita", /ps ?vita.*(homebrew|vpk)/i],
+];
 async function signals(repo) {
   const sig = {};
   try {
@@ -50,6 +55,9 @@ async function signals(repo) {
       const text = (await r.text()).replace(/<[^>]+>/g, " ").replace(/[#*_`>|\[\]]/g, " ");
       const lines = text.split(/(?<=[.!?。！？])\s+|\n+/).map((l) => l.trim()).filter((l) => l.length > 12 && l.length < 260);
       sig.readme = lines.filter((l) => PLAY_RE.test(l)).slice(0, 4);
+      // README 中提到的运行平台（只看含 run/play/build/support/download 等语境的句子，减少误判）
+      const ctx = lines.filter((l) => /run|play|build|support|download|release|platform|运行|支持|下载|平台/i.test(l));
+      sig.readmeTargets = README_PLAT.filter(([, re]) => ctx.some((l) => re.test(l))).map(([k]) => k);
     }
   } catch {}
   try {
@@ -88,6 +96,11 @@ for (const repo of repos) {
       signals: await signals(repo),
       assets: assetNames.slice(0, 20),
     };
+    {
+      const r = out.repos[repo], rt = r.signals?.readmeTargets || [];
+      if (!r.targets.length && rt.length) { r.targets = rt; r.targetsFrom = "readme"; }
+      else if (r.targets.length) { r.targetsFrom = "assets"; const extra = rt.filter((t) => !r.targets.includes(t)); if (extra.length) r.targetsReadmeOnly = extra; }
+    }
     console.log(`✓ ${repo} ★${info.stargazers_count} ${stable?.tag_name ?? "-"} [${out.repos[repo].targets.join(",")}]`);
   } catch (e) {
     console.warn(`! ${repo}: ${e.message}（保留上次数据）`);

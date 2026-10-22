@@ -12,7 +12,15 @@
    "status": "released",
    "repo": "HarbourMasters/Shipwright",
    "featured": true,
-   "note": "N64 反编译移植的标杆：高帧率、宽屏、随机器、大量 Mod，Windows/Linux/macOS/Switch 全平台。"
+   "note": "N64 反编译移植的标杆：高帧率、宽屏、随机器、大量 Mod，Windows/Linux/macOS/Switch 全平台。",
+   "play": {
+    "rating": "full",
+    "community": "发布四年多、版本持续更新，随机器社区长期完整游玩；评测普遍认为体验优于官方 NSO 版。",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Ship_of_Harkinian"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "2ship",
@@ -25,7 +33,15 @@
    "status": "released",
    "repo": "HarbourMasters/2ship2harkinian",
    "featured": true,
-   "note": "与时之笛同团队，功能和增强选项最全的假面版本。"
+   "note": "与时之笛同团队，功能和增强选项最全的假面版本。",
+   "play": {
+    "rating": "full",
+    "community": "2024 年起稳定发布至 4.x，随机器等玩法社区活跃，主线可完整游玩。",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Ship_of_Harkinian"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "zelda64recomp",
@@ -38,7 +54,16 @@
    "status": "released",
    "repo": "Zelda64Recomp/Zelda64Recomp",
    "featured": true,
-   "note": "N64Recomp 静态重编译代表作，支持光追级渲染器 RT64、超高帧率；项目声明不使用生成式 AI。"
+   "note": "N64Recomp 静态重编译代表作，支持光追级渲染器 RT64、超高帧率；项目声明不使用生成式 AI。",
+   "play": {
+    "rating": "full",
+    "community": "发布两年多口碑很好；Steam Deck 实测稳定 60 帧、自动存档。唯一常见吐槽是原生不支持右摇杆视角。",
+    "sources": [
+     "https://steamdeckhq.com/tips-and-guides/zelda-majoras-mask-pc-steam-deck/",
+     "https://lemmy.imagisphe.re/post/726617"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "ghostship",
@@ -51,7 +76,16 @@
    "status": "released",
    "repo": "HarbourMasters/Ghostship",
    "featured": true,
-   "note": "HarbourMasters 出品的 SM64 移植，2.0 版加入大量增强。"
+   "note": "HarbourMasters 出品的 SM64 移植，2.0 版加入大量增强。",
+   "play": {
+    "rating": "mostly",
+    "community": "整体可玩；近 30 天有数个崩溃报告，多与随机器关卡切换和音频线程有关。",
+    "sources": [
+     "https://gamingonlinux.com/2026/01/ghostship-is-a-new-super-mario-64-pc-port-from-harbourmasters",
+     "https://github.com/HarbourMasters/Ghostship/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "sm64coopdx",
@@ -92,7 +126,16 @@
    "status": "released",
    "repo": "HarbourMasters/SpaghettiKart",
    "featured": true,
-   "note": "支持自定义赛道、高帧率与宽屏。"
+   "note": "支持自定义赛道、高帧率与宽屏。",
+   "play": {
+    "rating": "mostly",
+    "community": "实测未遇到破坏性 bug，支持超宽屏与高刷；比赛中其他角色偶尔闪烁。",
+    "sources": [
+     "https://retrohandhelds.gg/you-havent-played-mario-kart-64-like-this-before/",
+     "https://github.com/HarbourMasters/SpaghettiKart/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "mk64recomp",
@@ -140,9 +183,18 @@
    "ai": "assist",
    "status": "released",
    "repo": "HarbourMasters/PaperBoat",
-   "featured": true,
+   "featured": false,
    "note": "2026 年 9 月发布 1.0，接受 AI 辅助的提交。",
-   "wiki": "Paper Mario (video game)"
+   "wiki": "Paper Mario (video game)",
+   "play": {
+    "rating": "partial",
+    "community": "1.0 刚发布，近 30 天多个剧情战斗处的崩溃报告（库巴兄弟战、开场打库巴等），建议勤存档或稍后再玩。",
+    "sources": [
+     "https://www.gamingonlinux.com/2026/09/harbour-masters-release-paperboat-their-paper-mario-64-pc-port/",
+     "https://github.com/HarbourMasters/PaperBoat/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "lighthouse",
@@ -169,7 +221,16 @@
    "repo": "BanjoRecomp/BanjoRecomp",
    "featured": true,
    "note": "N64Recomp 版，Mod 支持完善。",
-   "wiki": "Banjo-Kazooie"
+   "wiki": "Banjo-Kazooie",
+   "play": {
+    "rating": "mostly",
+    "community": "2026 年 1 月发布后反馈正面，支持高帧率与超宽屏；近期问题报告很少。",
+    "sources": [
+     "https://www.timeextension.com/news/2026/01/banjo-recompiled-adds-better-frame-rates-widescreen-support-and-more-to-rares-n64-classic-and-you-can-play-it-on-steam-deck",
+     "https://github.com/BanjoRecomp/BanjoRecomp/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "banjotooie",
@@ -207,7 +268,16 @@
    "status": "released",
    "repo": "Rainchus/Donkey-Kong-64-Recompiled",
    "featured": true,
-   "note": "2026 年 9 月更新，原生 PC 运行大金刚 64。"
+   "note": "2026 年 9 月更新，原生 PC 运行大金刚 64。",
+   "play": {
+    "rating": "mostly",
+    "community": "8 月底正式发布，评论区反馈运行良好；近 30 天仅一个内存溢出崩溃报告。",
+    "sources": [
+     "https://www.timeextension.com/news/2026/08/play-donkey-kong-64-like-never-before-in-this-promising-native-pc-port-made-without-the-use-of-genai",
+     "https://github.com/Rainchus/Donkey-Kong-64-Recompiled/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "dkr",
@@ -356,9 +426,17 @@
    "ai": "ai",
    "status": "beta",
    "repo": "SunJaycy/GoldenEye-Recomp",
-   "featured": true,
+   "featured": false,
    "note": "取消发售的 360 重制版被重编译为原生 PC 程序，作者公开使用了 AI。",
-   "wiki": "GoldenEye 007 (1997 video game)"
+   "wiki": "GoldenEye 007 (1997 video game)",
+   "play": {
+    "rating": "partial",
+    "community": "作者标注为开发中，AMD 显卡可能崩溃或无法启动，暂无完整游玩反馈。",
+    "sources": [
+     "https://github.com/SunJaycy/GoldenEye-Recomp"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "jfg",
@@ -383,7 +461,15 @@
    "status": "released",
    "note": "静态重编译，原生支持 Windows/Linux/macOS。",
    "repo": "JackandBeans/Snap64Recomp",
-   "featured": true
+   "featured": true,
+   "play": {
+    "rating": "mostly",
+    "community": "版本迭代很快（1.1.x）；近 30 天有改设置时崩溃等报告，Linux 版仍为实验性。",
+    "sources": [
+     "https://github.com/JackandBeans/Snap64Recomp/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "battleship",
@@ -421,7 +507,16 @@
    "status": "released",
    "repo": "TwilitRealm/dusklight",
    "featured": true,
-   "note": "GameCube 塞尔达首个原生 PC 移植。"
+   "note": "GameCube 塞尔达首个原生 PC 移植。",
+   "play": {
+    "rating": "full",
+    "community": "RPGFan 评测用 1.1–1.3 版完整通关，全程无崩溃，评分 90；近期少量报告集中在传送和 Mod 相关的崩溃。",
+    "sources": [
+     "https://www.rpgfan.com/review/dusklight/",
+     "https://github.com/TwilitRealm/dusklight/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "windwaker",
@@ -447,7 +542,7 @@
    "note": "作者披露使用 Claude Code 制作。",
    "wiki": "Animal Crossing (video game)",
    "repo": "flyngmt/ACGC-PC-Port",
-   "featured": true
+   "featured": false
   },
   {
    "id": "smg-nebula",
@@ -471,8 +566,17 @@
    "ai": "ai",
    "status": "beta",
    "repo": "patchzyy/Wiicompiled",
-   "featured": true,
-   "note": "首个 Wii 静态重编译，支持 4K/不锁帧/Retro Rewind 200+ 赛道；因使用 AI 引发社区争议，作者目前仍推荐 Dolphin。"
+   "featured": false,
+   "note": "首个 Wii 静态重编译，支持 4K/不锁帧/Retro Rewind 200+ 赛道；因使用 AI 引发社区争议，作者目前仍推荐 Dolphin。",
+   "play": {
+    "rating": "partial",
+    "community": "作者目前仍推荐用 Dolphin 模拟器游玩；近期有 D3D12 路径和特定赛道（天空花园）的崩溃报告。",
+    "sources": [
+     "https://www.notebookcheck.net/Mario-Kart-Wii-gets-native-PC-port-with-60-FPS-and-online-play-even-as-fans-decry-AI-use.1346163.0.html",
+     "https://github.com/patchzyy/Wiicompiled/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "las",
@@ -484,9 +588,18 @@
    "ai": "ai",
    "status": "beta",
    "repo": "peiikai/LASRecomp",
-   "featured": true,
+   "featured": false,
    "note": "首批 AI 制作的 Switch→PC 移植，几乎全部由 Claude 完成；公开 Beta，作者称存在若干严重已知问题。",
-   "wiki": "The Legend of Zelda: Link's Awakening (2019 video game)"
+   "wiki": "The Legend of Zelda: Link's Awakening (2019 video game)",
+   "play": {
+    "rating": "partial",
+    "community": "作者称测试版存在若干严重已知问题；玩家报告在固定地点（如丹佩小屋）崩溃。",
+    "sources": [
+     "https://www.techspot.com/news/114228-nintendo-switch-games-latest-targets-ai-built-pc.html",
+     "https://github.com/peiikai/LASRecomp/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "sor2",
@@ -684,7 +797,15 @@
     "linux",
     "macos"
    ],
-   "wiki": "Jak and Daxter: The Precursor Legacy"
+   "wiki": "Jak and Daxter: The Precursor Legacy",
+   "play": {
+    "rating": "full",
+    "community": "初代已可完整通关；Jak 2、Jak 3 仍为测试版，存在音频与画面问题。",
+    "sources": [
+     "https://www.timeextension.com/news/2026/04/all-three-mainline-jak-and-daxter-ps2-games-now-have-native-pc-ports"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "fatalframe",
@@ -746,7 +867,16 @@
    "status": "released",
    "repo": "hedge-dev/UnleashedRecomp",
    "featured": true,
-   "note": "Xbox 360 静态重编译开山之作，画质与帧率远超原版。"
+   "note": "Xbox 360 静态重编译开山之作，画质与帧率远超原版。",
+   "play": {
+    "rating": "full",
+    "community": "评测者完整通关（搭配推荐 Mod），60 帧且画质增强明显；仅超宽屏过场有瑕疵，近期崩溃报告很少。",
+    "sources": [
+     "https://retrorgb.com/chriss-thoughts-unleashed-recompiled.html",
+     "https://github.com/hedge-dev/UnleashedRecomp/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "renut",
@@ -886,7 +1016,15 @@
    "status": "beta",
    "note": "Xbox 版火爆狂飙 3 的静态重编译，支持 PC 与掌机。",
    "repo": "xenophobentx/takedawn",
-   "featured": true
+   "featured": true,
+   "play": {
+    "rating": "mostly",
+    "community": "更新活跃，问题多为特定模式的小 bug（撞车模式计分界面等），未见阻断主线的报告。",
+    "sources": [
+     "https://github.com/xenophobentx/takedawn/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "mp4",
@@ -989,7 +1127,15 @@
    "status": "released",
    "note": "基于反编译的 F-Zero X PC 移植，衍生出 3DS、macOS/iOS 版本。",
    "repo": "Zorkats/G-Diffuser",
-   "featured": true
+   "featured": true,
+   "play": {
+    "rating": "mostly",
+    "community": "作者称原版和扩展包内容均可从头玩到尾，社区暂无反例；近期仅安卓转译环境下的崩溃报告。",
+    "sources": [
+     "https://github.com/Zorkats/G-Diffuser/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "mischief",
@@ -1622,7 +1768,16 @@
    "status": "released",
    "note": "Xbox 360 版《滑板 3》原生重编译，支持 Windows/Linux/macOS，社区热度很高。",
    "repo": "mchughalex/skate3recomp",
-   "featured": true
+   "featured": true,
+   "play": {
+    "rating": "mostly",
+    "community": "2.0 原生渲染器大幅提升帧率；已知问题：捏人界面、Hall of Meat 与公园编辑器渲染异常，首次启动偶有卡在难度选择。",
+    "sources": [
+     "https://gamingonlinux.com/2026/07/skate-3-recomp-2-0-brings-native-rendering-to-the-pc-port-of-the-xbox-classic-skate-3",
+     "https://github.com/mchughalex/skate3recomp/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "sc4",
@@ -1822,7 +1977,16 @@
    "targets": [
     "linux"
    ],
-   "note": "把 eboot 预先转换为原生代码运行，「类似专为血源做的 Wine」；v0.2 可进游戏、读档，支持 FSR 4。仅 Linux，需自备 CUSA03173 v1.09 解密数据。"
+   "note": "把 eboot 预先转换为原生代码运行，「类似专为血源做的 Wine」；v0.2 可进游戏、读档，支持 FSR 4。仅 Linux，需自备 CUSA03173 v1.09 解密数据。",
+   "play": {
+    "rating": "mostly",
+    "community": "Linux 原生方案，可进游戏、读档、手柄与存档正常；Steam Deck 上有明显画面瑕疵，作者称尚未验证完整通关。",
+    "sources": [
+     "https://framesgames.com/bloodborne-native-pc-port-bbport/",
+     "https://portedgames.com/bloodborne-pc/"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "bb-bbhost",
@@ -1832,9 +1996,18 @@
    "project": "bbhost",
    "type": "port",
    "ai": "unknown",
-   "status": "beta",
+   "status": "released",
    "repo": "droogie/bbhost",
-   "note": "自称「最完整的血源 PC 体验」。"
+   "note": "通过社区服务器 The Hunter's Dream 实现联机合作与 PvP（仅能与同为 bbhost 的玩家联机）。",
+   "play": {
+    "rating": "mostly",
+    "community": "README 称世界、Boss 和联机均可游玩，已能通过社区服务器联机合作与 PvP，媒体称其「完全可玩」；个别显卡有设备丢失（device lost）报告。",
+    "sources": [
+     "https://www.gamingbible.com/news/platform/pc/bloodborne-native-pc-port-co-op-pvp-633958-20261008",
+     "https://github.com/droogie/bbhost/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "bb-lantern",
@@ -1868,9 +2041,19 @@
    "project": "bloodborne_pc",
    "type": "decomp",
    "ai": "ai",
-   "status": "beta",
+   "status": "released",
    "repo": "supermedo/bloodborne_pc",
-   "note": "Claude 参与的反编译移植，已发布 Windows 版本（社区关注度很高）。"
+   "note": "基于 bbport 的 Windows 分支，支持 DLSS、FSR、解锁帧率、Mod 和在线测试，是目前 Windows 上最主流的血源方案。",
+   "play": {
+    "rating": "mostly",
+    "community": "社区实际在玩的主流 Windows 版本：单个版本下载约 5 万次，三天连发五个更新修复了大部分崩溃和掉帧；支持 DLSS/FSR、Mod 和在线测试。作者仍保守地称「未验证完整通关」。",
+    "sources": [
+     "https://framesgames.com/bloodborne-native-pc-port-bbport/",
+     "https://portedgames.com/bloodborne-pc/"
+    ],
+    "checked": "2026-10-22"
+   },
+   "featured": true
   },
   {
    "id": "bb-niels",
@@ -1896,7 +2079,15 @@
    "repo": "FelipePrado0/SpartanPort",
    "featured": true,
    "note": "整理站标注为可完整通关。",
-   "wiki": "God of War III"
+   "wiki": "God of War III",
+   "play": {
+    "rating": "mostly",
+    "community": "社区报告可从头玩到尾，支持 4K/240 帧；仍有少量崩溃和贴图问题。",
+    "sources": [
+     "https://tech4gamers.com/?p=366584"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "tlg",
@@ -1908,8 +2099,16 @@
    "ai": "unknown",
    "status": "released",
    "repo": "HayatoG/tlg_pc",
-   "featured": true,
-   "note": "静态重编译，图形转 Vulkan，支持键鼠和 60 帧模式。"
+   "featured": false,
+   "note": "静态重编译，图形转 Vulkan，支持键鼠和 60 帧模式。",
+   "play": {
+    "rating": "partial",
+    "community": "可稳定 30 帧游玩并支持存档；但近 30 天有多起「游玩 5–10 分钟后崩溃」「新游戏过场后卡死」的报告。",
+    "sources": [
+     "https://github.com/HayatoG/tlg_pc/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "iss",
@@ -1982,8 +2181,16 @@
    "ai": "ai",
    "status": "beta",
    "repo": "OverkillLabs3/driveclub-recomp",
-   "featured": true,
-   "note": "已停服的 PS4 独占赛车，原生 PC 重编译。"
+   "featured": false,
+   "note": "已停服的 PS4 独占赛车，原生 PC 重编译。",
+   "play": {
+    "rating": "partial",
+    "community": "菜单、比赛、拍照模式和存档可用；近 30 天有十余条崩溃和画面错误报告。",
+    "sources": [
+     "https://github.com/OverkillLabs3/driveclub-recomp/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "driveclub-bl",
@@ -2164,9 +2371,17 @@
    "ai": "unknown",
    "status": "beta",
    "repo": "Apolinario-coder/SkyRecomp",
-   "featured": true,
+   "featured": false,
    "note": "Switch 版御天之剑 HD 的静态重编译，整理站标注可游玩。",
-   "wiki": "The Legend of Zelda: Skyward Sword"
+   "wiki": "The Legend of Zelda: Skyward Sword",
+   "play": {
+    "rating": "partial",
+    "community": "作者标注实验性，崩溃、菜单卡死和渲染差异仍在排查；近 30 天崩溃类报告较多。",
+    "sources": [
+     "https://github.com/Apolinario-coder/SkyRecomp/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "ssbu",
@@ -2226,8 +2441,16 @@
    "ai": "unknown",
    "status": "lead",
    "repo": "Coz-0/smo-recomp",
-   "featured": true,
-   "note": "早期原生 PC 移植，演示在 RTX 3050 上接近 60 帧。"
+   "featured": false,
+   "note": "早期原生 PC 移植，演示在 RTX 3050 上接近 60 帧。",
+   "play": {
+    "rating": "broken",
+    "community": "目前只有早期演示视频，尚无可正常游玩的公开版本。",
+    "sources": [
+     "https://www.dsogaming.com/videotrailer-news/first-look-at-the-pc-native-port-of-super-mario-odyssey/"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "smo-decomp",
@@ -2252,7 +2475,15 @@
    "status": "beta",
    "note": "NVN 转 Vulkan/MoltenVK，支持 macOS、安卓、Windows。",
    "repo": "BelmanteGu/SuperMarioWonderRecomp",
-   "featured": true
+   "featured": false,
+   "play": {
+    "rating": "partial",
+    "community": "Windows 版有「选完角色必崩」的报告（Linux 未复现），安卓 Mali 显卡黑屏。",
+    "sources": [
+     "https://github.com/BelmanteGu/SuperMarioWonderRecomp/issues"
+    ],
+    "checked": "2026-10-22"
+   }
   },
   {
    "id": "bayo2",
@@ -2414,7 +2645,7 @@
    "ai": "unknown",
    "status": "beta",
    "repo": "HayatoG/gr2_pc",
-   "featured": true,
+   "featured": false,
    "note": "与最后的守护者、次子同一作者。"
   },
   {

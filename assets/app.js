@@ -141,6 +141,13 @@ function links(p) {
   return out.join("");
 }
 
+function targetsNote(p) {
+  if (p.targets && p.targets.length) return p.targetsChecked ? `<span class="tgt-note" title="平台已人工核查">✓ 已核查</span>` : "";
+  const s = p.repo && repoStatus[p.repo];
+  if (s?.targetsFrom === "readme") return `<span class="tgt-note" title="下载包未标明平台，依据 README 说明">据 README</span>`;
+  return "";
+}
+
 function playBlock(p) {
   const k = playOf(p), v = PLAY[k], pl = p.play || {};
   if (k === "unverified") return `<div class="play play-unverified" title="${v.tip}"><span class="pb">${v.icon} ${v.name}</span></div>`;
@@ -178,7 +185,7 @@ function card(p, big) {
       ${playBlock(p)}
       <div class="proj">项目：<b>${esc(p.project)}</b></div>
       <p class="note">${esc(p.note)}</p>
-      <div class="targets">${tg.map((t) => `<span class="tgt tgt-${t}">${TARGETS[t].name}</span>`).join("")}</div>
+      <div class="targets">${tg.map((t) => `<span class="tgt tgt-${t}">${TARGETS[t].name}</span>`).join("")}${targetsNote(p)}</div>
       ${meta.length ? `<div class="meta">${meta.map((m) => `<span>${m}</span>`).join("")}</div>` : ""}
       <div class="links">${links(p)}</div>
     </div>

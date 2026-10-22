@@ -121,3 +121,4 @@ h1{font-size:clamp(32px,6vw,56px);font-weight:900;line-height:1.1;margin:18px 0 
 .play-broken{background:var(--unk-bg)} .play-broken .pb,.playtag.play-broken{color:#dc2626}
 .play-unverified{background:none;padding:0} .play-unverified .pb{color:var(--muted);font-weight:500;font-size:12px}
 .info .muted{color:var(--muted);font-size:13.5px;margin:0 0 6px}
+.tgt-note{font-size:11px;color:var(--muted);align-self:center;margin-left:2px}
