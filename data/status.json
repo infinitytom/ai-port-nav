@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T09:37:16.427Z",
+ "generated": "2026-10-22T09:39:08.881Z",
  "repos": {
   "HarbourMasters/Shipwright": {
    "stars": 5718,
@@ -572,6 +572,51 @@
     "GoldenEye-Recomp-Win.rar"
    ]
   },
+  "TK22-26/JetForceGemini-Recomp": {
+   "stars": 61,
+   "pushed_at": "2026-10-22T03:54:27Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.4.0",
+    "published_at": "2026-10-22T03:37:17Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "JFG-1.4.0-windows-x64.inventory.json",
+    "JFG-1.4.0-windows-x64.sha256",
+    "JFG-1.4.0-windows-x64.zip"
+   ]
+  },
+  "JackandBeans/Snap64Recomp": {
+   "stars": 119,
+   "pushed_at": "2026-10-21T17:00:20Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.1.5",
+    "published_at": "2026-10-17T21:01:57Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "Snap64Recomp-1.1.5-linux-arm64.tar.gz",
+    "Snap64Recomp-1.1.5-linux-arm64.tar.gz.sha256",
+    "Snap64Recomp-1.1.5-linux-x86_64.flatpak",
+    "Snap64Recomp-1.1.5-linux-x86_64.flatpak.sha256",
+    "Snap64Recomp-1.1.5-linux-x86_64.tar.gz",
+    "Snap64Recomp-1.1.5-linux-x86_64.tar.gz.sha256",
+    "Snap64Recomp-1.1.5-macos-universal.zip",
+    "Snap64Recomp-1.1.5-macos-universal.zip.sha256",
+    "Snap64Recomp-1.1.5-win64.zip",
+    "Snap64Recomp-1.1.5-win64.zip.sha256"
+   ]
+  },
   "doldecomp/melee": {
    "stars": 2438,
    "pushed_at": "2026-10-16T20:09:18Z",
@@ -605,6 +650,37 @@
     "Dusklight-v2.0.3-macos-x86_64.zip",
     "Dusklight-v2.0.3-win32-arm64.zip",
     "Dusklight-v2.0.3-win32-x86_64.zip"
+   ]
+  },
+  "flyngmt/ACGC-PC-Port": {
+   "stars": 1507,
+   "pushed_at": "2026-08-02T00:56:51Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.9.3-playtest",
+    "published_at": "2026-08-02T00:56:51Z",
+    "prerelease": true
+   },
+   "targets": [],
+   "assets": [
+    "ACGC-PC-Port0.9.3.zip"
+   ]
+  },
+  "keepvaibin/nebula": {
+   "stars": 297,
+   "pushed_at": "2026-10-21T06:59:59Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0.1",
+    "published_at": "2026-10-16T21:07:19Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "Nebula-Setup.exe",
+    "Nebula-Setup.exe.sig"
    ]
   },
   "patchzyy/Wiicompiled": {
@@ -994,6 +1070,88 @@
     "ac6recomp-1.0.0-beta.2.zip"
    ]
   },
+  "rensoftworks/Armored-core-ReAnswered": {
+   "stars": 3,
+   "pushed_at": "2026-04-13T03:08:24Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "YuutaTsubasa/Free-Riders-Recompiled": {
+   "stars": 97,
+   "pushed_at": "2026-10-22T09:21:07Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.10.21",
+    "published_at": "2026-10-22T07:04:05Z",
+    "prerelease": false
+   },
+   "targets": [
+    "android",
+    "ios",
+    "linux",
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "FreeRidersRecompiled-0.10.21-android-arm64-licenses.zip",
+    "FreeRidersRecompiled-0.10.21-android-arm64.apk",
+    "FreeRidersRecompiled-0.10.21-android-arm64.apk.idsig",
+    "FreeRidersRecompiled-0.10.21-android10-arm64.apk",
+    "FreeRidersRecompiled-0.10.21-android10-arm64.apk.idsig",
+    "FreeRidersRecompiled-0.10.21-ios-arm64.ipa",
+    "FreeRidersRecompiled-0.10.21-linux-x64.tar.gz",
+    "FreeRidersRecompiled-0.10.21-macos-arm64.zip",
+    "FreeRidersRecompiled-0.10.21-windows-x64.zip",
+    "SHA256SUMS.txt"
+   ]
+  },
+  "OAleex/ShaolinMonksRecomp": {
+   "stars": 170,
+   "pushed_at": "2026-10-19T00:32:38Z",
+   "archived": false,
+   "release": {
+    "tag": "0.2.0",
+    "published_at": "2026-10-19T00:32:39Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "windows"
+   ],
+   "assets": [
+    "checksums.txt",
+    "ShaolinMonksRecomp-0.2.0-Linux-x64.tar.gz",
+    "ShaolinMonksRecomp-0.2.0-Windows-x64.zip"
+   ]
+  },
+  "xenophobentx/takedawn": {
+   "stars": 328,
+   "pushed_at": "2026-10-17T17:15:18Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.2.0",
+    "published_at": "2026-10-17T17:08:22Z",
+    "prerelease": false
+   },
+   "targets": [
+    "android",
+    "linux",
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "BUILDINFO",
+    "SHA256SUMS",
+    "Takedawn-0.2.0-android-arm64.apk",
+    "Takedawn-0.2.0-linux-x86_64.AppImage",
+    "Takedawn-0.2.0-macos-arm64.dmg",
+    "takedawn-0.2.0-source.tar.gz",
+    "Takedawn-0.2.0-windows-x64-setup.exe",
+    "xboxrecomp-takedawn-0.2.0-source.tar.gz"
+   ]
+  },
   "mariopartyrd/marioparty4": {
    "stars": 877,
    "pushed_at": "2026-10-15T20:59:34Z",
@@ -1035,6 +1193,852 @@
     "tmc-multi-macos-x86_64-v0.9.6.tar.gz",
     "tmc-multi-windows-arm64-v0.9.6.tar.gz",
     "tmc-multi-windows-x86_64-v0.9.6.tar.gz"
+   ]
+  },
+  "jkdansereau/goldeneye-pc-port": {
+   "stars": 284,
+   "pushed_at": "2026-10-21T01:32:04Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.5.0",
+    "published_at": "2026-10-07T15:42:22Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "windows"
+   ],
+   "assets": [
+    "goldeneye-pc-port-0.5.0-linux-x86_64.tar.gz",
+    "goldeneye-pc-port-0.5.0-linux-x86_64.tar.gz.sha256",
+    "goldeneye-pc-port-0.5.0-win64.zip",
+    "goldeneye-pc-port-0.5.0-win64.zip.sha256"
+   ]
+  },
+  "murkantor/Project-Midas": {
+   "stars": 321,
+   "pushed_at": "2026-10-22T02:15:13Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0.1",
+    "published_at": "2026-10-18T02:31:54Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "windows"
+   ],
+   "assets": [
+    "ProjectMidas-v1.0.1-linux.7z",
+    "ProjectMidas-v1.0.1-steamdeck.7z",
+    "ProjectMidas-v1.0.1-windows.7z"
+   ]
+  },
+  "Zorkats/G-Diffuser": {
+   "stars": 292,
+   "pushed_at": "2026-10-22T03:38:45Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.1.0",
+    "published_at": "2026-08-30T01:46:09Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "G-Diffuser-v1.1.0-nightly.20261017.bf1f367-linux-arm64.tar.gz",
+    "G-Diffuser-v1.1.0-nightly.20261017.bf1f367-linux-x64.tar.gz",
+    "G-Diffuser-v1.1.0-nightly.20261017.bf1f367-macos-arm64.tar.gz",
+    "G-Diffuser-v1.1.0-nightly.20261017.bf1f367-windows-x64.zip"
+   ]
+  },
+  "MikeSemicolonD/RogueSquadron64Recomp": {
+   "stars": 15,
+   "pushed_at": "2026-10-22T01:02:13Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "mstan/PokemonRedAndBlueRecomp": {
+   "stars": 10,
+   "pushed_at": "2026-07-23T06:52:37Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.1.1",
+    "published_at": "2026-05-07T04:50:52Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "PokemonRedAndBlue-v0.1.1-windows-x64.zip"
+   ]
+  },
+  "mstan/TetrisGBRecomp": {
+   "stars": 7,
+   "pushed_at": "2026-08-17T21:25:13Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.0.3",
+    "published_at": "2026-08-17T21:25:13Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "TetrisGBRecomp-v0.0.3-windows-x64.zip"
+   ]
+  },
+  "mstan/EmeraldRecomp": {
+   "stars": 38,
+   "pushed_at": "2026-10-19T22:11:06Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.1.2",
+    "published_at": "2026-10-18T20:24:48Z",
+    "prerelease": false
+   },
+   "targets": [
+    "android",
+    "linux",
+    "windows"
+   ],
+   "assets": [
+    "EmeraldRecomp-android-arm64-v0.1.2.apk",
+    "EmeraldRecomp-linux-x86_64-v0.1.2.AppImage",
+    "EmeraldRecomp-windows-x64-v0.1.2.zip",
+    "SHA256SUMS.txt"
+   ]
+  },
+  "mstan/FireRedLeafGreenRecomp": {
+   "stars": 28,
+   "pushed_at": "2026-10-19T22:11:31Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.0.4",
+    "published_at": "2026-10-18T20:25:05Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "FireRedRecomp-windows-x64-v0.0.4.zip",
+    "LeafGreenRecomp-windows-x64-v0.0.4.zip",
+    "SHA256SUMS.txt"
+   ]
+  },
+  "mstan/MarioKartSuperCircuitRecomp": {
+   "stars": 71,
+   "pushed_at": "2026-10-19T22:59:29Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.1.8",
+    "published_at": "2026-10-19T22:59:53Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "windows"
+   ],
+   "assets": [
+    "4x-internal-resolution.png",
+    "MarioKartSuperCircuitRecomp-linux-x86_64-v0.1.8.AppImage",
+    "MarioKartSuperCircuitRecomp-windows-x64-v0.1.8.zip",
+    "SHA256SUMS.txt"
+   ]
+  },
+  "moozilla/boktai3-decomp": {
+   "stars": 1,
+   "pushed_at": "2026-10-22T09:13:21Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "mstan/MetroidNESRecomp": {
+   "stars": 23,
+   "pushed_at": "2026-10-19T19:28:38Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.2.3",
+    "published_at": "2026-10-19T18:26:38Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "MetroidNESRecomp-USA-v0.2.3-windows-x64.zip",
+    "SHA256SUMS.txt"
+   ]
+  },
+  "mstan/Mother1NESRecomp": {
+   "stars": 2,
+   "pushed_at": "2026-09-09T21:13:32Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "mstan/Megaman3NESRecomp": {
+   "stars": 11,
+   "pushed_at": "2026-10-19T19:26:10Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.1.3",
+    "published_at": "2026-10-19T18:24:26Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "MegaMan3Recomp-USA-v0.1.3-windows-x64.zip",
+    "SHA256SUMS.txt"
+   ]
+  },
+  "elliotttate/DKC2Recomp": {
+   "stars": 174,
+   "pushed_at": "2026-09-13T22:12:57Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.0.8",
+    "published_at": "2026-09-13T22:13:01Z",
+    "prerelease": false
+   },
+   "targets": [
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "DKC2Recomp-v0.0.6-macOS-arm64.zip",
+    "DKC2Recomp-v0.0.6-macOS-arm64.zip.sha256",
+    "DKC2Recomp-v0.0.8-Windows-x64.zip",
+    "DKC2Recomp-v0.0.8-Windows-x64.zip.sha256"
+   ]
+  },
+  "mstan/MegaManXSNESRecomp": {
+   "stars": 200,
+   "pushed_at": "2026-10-22T04:13:24Z",
+   "archived": false,
+   "release": {
+    "tag": "v2.3.1",
+    "published_at": "2026-10-22T01:15:09Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "windows"
+   ],
+   "assets": [
+    "MegaManXSNESRecomp-linux-2.3.1-x86_64.AppImage",
+    "MegaManXSNESRecomp-windows-2.3.1.zip"
+   ]
+  },
+  "mstan/StarFoxSNESRecomp": {
+   "stars": 30,
+   "pushed_at": "2026-10-18T20:44:05Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.3.2",
+    "published_at": "2026-10-18T20:44:05Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "SHA256SUMS.txt",
+    "StarFoxSNESRecomp-windows-x64-v0.3.2.zip"
+   ]
+  },
+  "mrOt4/babel-recomp": {
+   "stars": 1,
+   "pushed_at": "2026-10-16T20:10:06Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0",
+    "published_at": "2026-10-16T19:44:03Z",
+    "prerelease": false
+   },
+   "targets": [
+    "android",
+    "linux",
+    "macos",
+    "switch",
+    "windows"
+   ],
+   "assets": [
+    "babel-recomp-1.0-3ds.zip",
+    "babel-recomp-1.0-android-arm64.apk",
+    "babel-recomp-1.0-linux-x86_64.zip",
+    "babel-recomp-1.0-macos-arm64.zip",
+    "babel-recomp-1.0-switch.zip",
+    "babel-recomp-1.0-vita.vpk",
+    "babel-recomp-1.0-windows-x86_64.zip"
+   ]
+  },
+  "mstan/SonicTheHedgehogRecomp": {
+   "stars": 18,
+   "pushed_at": "2026-10-18T14:30:29Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.7.1",
+    "published_at": "2026-10-18T14:30:29Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "SHA256SUMS.txt",
+    "SonicTheHedgehogRecomp-windows-x64-v0.7.1.zip"
+   ]
+  },
+  "mstan/Sonic3AndKnucklesRecomp": {
+   "stars": 18,
+   "pushed_at": "2026-10-22T03:52:00Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.5.3",
+    "published_at": "2026-10-18T14:30:37Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "SHA256SUMS.txt",
+    "Sonic3KRecomp-windows-x64-v0.5.3.zip",
+    "Sonic3Recomp-windows-x64-v0.5.3.zip",
+    "SonicAndKnucklesRecomp-windows-x64-v0.5.3.zip"
+   ]
+  },
+  "mstan/ApeEscapeRecomp": {
+   "stars": 91,
+   "pushed_at": "2026-10-08T23:09:30Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.5.2",
+    "published_at": "2026-10-08T23:09:56Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "windows"
+   ],
+   "assets": [
+    "ApeEscapeRecomp-v0.5.2-linux-x86_64.AppImage",
+    "ApeEscapeRecomp-v0.5.2-linux-x86_64.AppImage.sha256",
+    "ApeEscapeRecomp-v0.5.2-windows-x64.zip",
+    "ApeEscapeRecomp-v0.5.2-windows-x64.zip.sha256"
+   ]
+  },
+  "mstan/MegaManX4Recomp": {
+   "stars": 105,
+   "pushed_at": "2026-10-22T08:07:36Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0.1",
+    "published_at": "2026-10-22T00:19:18Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "MegaManX4Recomp-v1.0.1-windows-x64.zip",
+    "SHA256SUMS.txt"
+   ]
+  },
+  "TechnicallyComputers/Legend-of-Mana-Recomp": {
+   "stars": 4,
+   "pushed_at": "2026-10-10T07:57:19Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.1.3",
+    "published_at": "2026-10-01T06:26:36Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "legendofmana-0.1.3-linux-x64.zip",
+    "legendofmana-0.1.3-macos-arm64.zip",
+    "legendofmana-0.1.3-macos-x64.zip",
+    "legendofmana-0.1.3-windows-x64.zip"
+   ]
+  },
+  "mstan/TombaRecomp": {
+   "stars": 73,
+   "pushed_at": "2026-10-22T06:24:06Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.21.0-alpha",
+    "published_at": "2026-10-22T03:47:56Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "TombaRecomp-v0.21.0-alpha-USA-windows-x64.zip",
+    "TombaRecomp-v0.21.0-alpha-USA-windows-x64.zip.sha256",
+    "TombiRecomp-v0.21.0-alpha-Europe-windows-x64.zip",
+    "TombiRecomp-v0.21.0-alpha-Europe-windows-x64.zip.sha256"
+   ]
+  },
+  "Madxbio97/SF-pc-port": {
+   "stars": 129,
+   "pushed_at": "2026-08-13T18:47:33Z",
+   "archived": false,
+   "release": {
+    "tag": "0.2.0-beta.2",
+    "published_at": "2026-08-13T18:47:33Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "SyphonFilterPC-0.1.0-public-test.16-win64.zip"
+   ]
+  },
+  "GabrielBigardi/HarvestMoonBTN-Recomp": {
+   "stars": 0,
+   "pushed_at": "2026-10-20T01:10:05Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "PotionDweller/Azure-Dreams-HD-Recompilation": {
+   "stars": 2,
+   "pushed_at": "2026-10-19T08:56:22Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.9.1",
+    "published_at": "2026-10-19T08:56:22Z",
+    "prerelease": false
+   },
+   "targets": [],
+   "assets": [
+    "AzureDreams-HD-Recompiled-0.9.1.zip"
+   ]
+  },
+  "Voicedrew11/verdite2": {
+   "stars": 54,
+   "pushed_at": "2026-10-17T19:38:09Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.5.1",
+    "published_at": "2026-10-17T19:38:03Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows",
+    "linux"
+   ],
+   "assets": [
+    "Verdite2-0.5.1-win-x64-setup.exe",
+    "Verdite2-0.5.1-win-x64.zip",
+    "Verdite2-0.5.1-x86_64.AppImage"
+   ]
+  },
+  "SomeoneIsWorking/psx-vagrant-story": {
+   "stars": 3,
+   "pushed_at": "2026-10-21T16:08:08Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "HenryKun55/celosia": {
+   "stars": 30,
+   "pushed_at": "2026-10-22T03:48:22Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "drakolordx7/KillzoneRecomp": {
+   "stars": 89,
+   "pushed_at": "2026-10-22T04:00:11Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.1.2-alpha",
+    "published_at": "2026-10-22T03:24:07Z",
+    "prerelease": true
+   },
+   "targets": [],
+   "assets": [
+    "Killzone-PC-v0.1.2-alpha.zip"
+   ]
+  },
+  "menaman123/TwinsanityEvolved": {
+   "stars": 4,
+   "pushed_at": "2026-10-21T02:26:24Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.1.8",
+    "published_at": "2026-10-21T02:28:53Z",
+    "prerelease": false
+   },
+   "targets": [
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "SHA256SUMS",
+    "twinsanityevolved-launcher-macos-arm64.dmg",
+    "twinsanityevolved-launcher-macos-arm64.dmg.sha256",
+    "twinsanityevolved-launcher-windows-x64.zip",
+    "twinsanityevolved-launcher-windows-x64.zip.sha256",
+    "twinsanityevolved-v0.1.8-macos-arm64.zip",
+    "twinsanityevolved-v0.1.8-macos-x86_64.zip",
+    "twinsanityevolved-v0.1.8-windows-x64.zip"
+   ]
+  },
+  "andersfischernielsen/ssx3-decomp": {
+   "stars": 22,
+   "pushed_at": "2026-10-22T09:27:17Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "LasVola/godhand-recomp": {
+   "stars": 5,
+   "pushed_at": "2026-10-20T10:53:33Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "WadeWinningWilson/dmc3-decomp": {
+   "stars": 3,
+   "pushed_at": "2026-10-19T00:08:49Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "lombyte-project/Lombyte": {
+   "stars": 47,
+   "pushed_at": "2026-10-22T06:03:30Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "danielgomesvieira2000/burnout3-pc": {
+   "stars": 157,
+   "pushed_at": "2026-10-21T20:19:17Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.6.1-alpha",
+    "published_at": "2026-10-21T05:04:11Z",
+    "prerelease": true
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "Burnout3-PC-0.6.1-alpha-windows-x64.zip"
+   ]
+  },
+  "Patt92/recvx-native": {
+   "stars": 0,
+   "pushed_at": "2026-10-21T21:41:21Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "Armandpro12/chibi-robo-pc": {
+   "stars": 1,
+   "pushed_at": "2026-10-22T07:57:40Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.1.0",
+    "published_at": "2026-10-20T06:28:18Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "chibi-robo-pc-setup-ab94655939f7.exe",
+    "payload-manifest.txt",
+    "SHA256SUMS.txt"
+   ]
+  },
+  "ogdanimal/SkiesOfArcadiaLegends-Recomp": {
+   "stars": 81,
+   "pushed_at": "2026-10-22T03:09:16Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.81.0-beta",
+    "published_at": "2026-10-22T03:34:19Z",
+    "prerelease": true
+   },
+   "targets": [
+    "android",
+    "linux",
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "SHA256SUMS.txt",
+    "SkiesOfArcadiaLegends-v0.81.0-beta-android.apk",
+    "SkiesOfArcadiaLegends-v0.81.0-beta-linux.tar.gz",
+    "SkiesOfArcadiaLegends-v0.81.0-beta-macos.zip",
+    "SkiesOfArcadiaLegends-v0.81.0-beta-windows.zip",
+    "SkiesOfArcadiaLegends-v0.81.0-beta-x86_64.AppImage"
+   ]
+  },
+  "ZeldaWWHDRecomp/ZeldaWWHDRecomp": {
+   "stars": 935,
+   "pushed_at": "2026-10-22T09:17:18Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.4.0",
+    "published_at": "2026-10-21T16:35:19Z",
+    "prerelease": false
+   },
+   "targets": [
+    "android",
+    "linux",
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "SHA256SUMS.txt",
+    "WindWakerHD-v0.4.0-devel.ceb91938-android-arm64.apk",
+    "WindWakerHD-v0.4.0-devel.ceb91938-android-x86_64.apk",
+    "WindWakerHD-v0.4.0-devel.ceb91938-linux-aarch64.AppImage",
+    "WindWakerHD-v0.4.0-devel.ceb91938-linux-aarch64.zip",
+    "WindWakerHD-v0.4.0-devel.ceb91938-linux-x86_64.AppImage",
+    "WindWakerHD-v0.4.0-devel.ceb91938-linux-x86_64.zip",
+    "WindWakerHD-v0.4.0-devel.ceb91938-macos-arm64.zip",
+    "WindWakerHD-v0.4.0-devel.ceb91938-windows-arm64.zip",
+    "WindWakerHD-v0.4.0-devel.ceb91938-windows-x86_64.zip"
+   ]
+  },
+  "Guuzzeji/sneaky-whopper-recomp": {
+   "stars": 0,
+   "pushed_at": "2026-10-19T00:55:55Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "mchughalex/skate3recomp": {
+   "stars": 1703,
+   "pushed_at": "2026-07-24T21:18:52Z",
+   "archived": false,
+   "release": {
+    "tag": "v2.0.2",
+    "published_at": "2026-07-24T21:21:06Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "Skate3Recomp-Linux.zip",
+    "Skate3Recomp-macOS.zip",
+    "Skate3Recomp-Windows.zip"
+   ]
+  },
+  "FluffyQuack/rexglue-SoulCaliburIV": {
+   "stars": 27,
+   "pushed_at": "2026-07-07T15:11:50Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.9.1",
+    "published_at": "2026-07-07T15:11:50Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "windows"
+   ],
+   "assets": [
+    "rexglue-sdk-0.9.1-linux-amd64.zip",
+    "rexglue-sdk-0.9.1-win-amd64.zip",
+    "SCIV-Recomp.zip"
+   ]
+  },
+  "Unowa001/crackdown-recomp": {
+   "stars": 69,
+   "pushed_at": "2026-10-21T05:35:56Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.2.1",
+    "published_at": "2026-10-21T05:35:56Z",
+    "prerelease": false
+   },
+   "targets": [],
+   "assets": [
+    "crackdown.apworld",
+    "Crackdown.yaml",
+    "CrackdownRecomp-1.2.1.zip",
+    "CrackdownRecomp-1.2.1.zip.sha256"
+   ]
+  },
+  "mstan/supermario64dsrecomp": {
+   "stars": 14,
+   "pushed_at": "2026-09-09T20:55:24Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.0.3",
+    "published_at": "2026-08-15T05:43:10Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "SuperMario64DSRecomp-windows-x64-v0.0.3.zip"
+   ]
+  },
+  "mstan/MetroidPrimeHuntersRecomp": {
+   "stars": 265,
+   "pushed_at": "2026-10-19T02:33:51Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.7.3-alpha",
+    "published_at": "2026-09-10T02:14:59Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "MetroidPrimeHuntersRecomp-v0.7.7-alpha-source.zip",
+    "MetroidPrimeHuntersRecomp-windows-x64-v0.7.7.zip",
+    "SHA256SUMS.txt"
+   ]
+  },
+  "CallanCampos/Frigate": {
+   "stars": 2,
+   "pushed_at": "2026-10-21T16:47:49Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "clockwork-recompdev/clockwork": {
+   "stars": 9,
+   "pushed_at": "2026-10-20T01:15:41Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.4.1",
+    "published_at": "2026-10-20T01:31:21Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "clockwork-linux-x86_64.tar.gz",
+    "clockwork-macos-arm64.tar.gz",
+    "clockwork-windows-x86_64.zip"
+   ]
+  },
+  "AlmazProud/metal-slug-5-recomp": {
+   "stars": 0,
+   "pushed_at": "2026-10-20T01:44:14Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0.2",
+    "published_at": "2026-10-20T01:44:15Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "metal-slug-5-recomp-v1.0.2-win64.zip"
+   ]
+  },
+  "blakebratcher/ntm-decomp": {
+   "stars": 0,
+   "pushed_at": "2026-10-19T19:49:56Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "mstan/SonicTheHedgehog2Recomp": {
+   "stars": 19,
+   "pushed_at": "2026-10-18T14:31:39Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.8.3",
+    "published_at": "2026-10-18T14:31:39Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "SHA256SUMS.txt",
+    "SonicTheHedgehog2Recomp-windows-x64-v0.8.3.zip"
+   ]
+  },
+  "elliotttate/DKC3Recomp": {
+   "stars": 134,
+   "pushed_at": "2026-09-13T04:22:22Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.0.6",
+    "published_at": "2026-09-13T04:22:33Z",
+    "prerelease": false
+   },
+   "targets": [
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "DKC3Recomp-v0.0.4-macOS-arm64.zip",
+    "DKC3Recomp-v0.0.4-macOS-arm64.zip.sha256",
+    "DKC3Recomp-v0.0.6-windows-x64.zip",
+    "DKC3Recomp-v0.0.6-windows-x64.zip.sha256"
+   ]
+  },
+  "Voicedrew11/verdite3": {
+   "stars": 26,
+   "pushed_at": "2026-10-18T22:37:12Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.2.0",
+    "published_at": "2026-10-18T22:42:32Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows",
+    "linux"
+   ],
+   "assets": [
+    "Verdite3-0.2.0-win-x64-setup.exe",
+    "Verdite3-0.2.0-win-x64.zip",
+    "Verdite3-0.2.0-x86_64.AppImage"
    ]
   }
  }

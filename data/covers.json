@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T09:37:45.561Z",
+ "generated": "2026-10-22T09:40:16.358Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1087,6 +1087,22 @@
    "h": 413,
    "page": "https://en.wikipedia.org/wiki/Wipeout_Pure",
    "title": "Wipeout Pure",
+   "how": "title"
+  },
+  "sonic2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 267,
+   "h": 374,
+   "page": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2",
+   "title": "Sonic the Hedgehog 2",
+   "how": "title"
+  },
+  "dkc3": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/cc/Dkc3_snes_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 330,
+   "h": 230,
+   "page": "https://en.wikipedia.org/wiki/Donkey_Kong_Country_3",
+   "title": "Donkey Kong Country 3",
    "how": "title"
   }
  }
