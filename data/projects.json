@@ -75,7 +75,10 @@
    "ai": "unknown",
    "status": "released",
    "repo": "MorsGames/sm64plus",
-   "note": "开箱即用的增强版，手感与镜头改进。"
+   "note": "开箱即用的增强版，手感与镜头改进。",
+   "targets": [
+    "windows"
+   ]
   },
   {
    "id": "spaghettikart",
@@ -295,7 +298,10 @@
    "ai": "none",
    "status": "beta",
    "repo": "Rainchus/Quest64-Recomp",
-   "note": ""
+   "note": "",
+   "targets": [
+    "windows"
+   ]
   },
   {
    "id": "sbk2",
@@ -494,7 +500,10 @@
    "ai": "none",
    "status": "released",
    "repo": "snesrev/zelda3",
-   "note": "支持宽屏与增强，SNES 反编译移植的经典。"
+   "note": "支持宽屏与增强，SNES 反编译移植的经典。",
+   "targets": [
+    "windows"
+   ]
   },
   {
    "id": "smetroid",
@@ -506,7 +515,10 @@
    "ai": "none",
    "status": "released",
    "repo": "RadzPrower/Super-Metroid-Launcher",
-   "note": ""
+   "note": "",
+   "targets": [
+    "windows"
+   ]
   },
   {
    "id": "smw",
@@ -583,7 +595,10 @@
    "ai": "none",
    "status": "released",
    "repo": "wipeout-phantom-edition/wipeout-phantom-edition",
-   "note": ""
+   "note": "",
+   "targets": [
+    "windows"
+   ]
   },
   {
    "id": "silenthill",
@@ -770,7 +785,10 @@
    "ai": "none",
    "status": "beta",
    "repo": "MaxDeadBear/Re-Cherry",
-   "note": ""
+   "note": "",
+   "targets": [
+    "windows"
+   ]
   },
   {
    "id": "naughtybear",
@@ -794,7 +812,10 @@
    "ai": "unknown",
    "status": "wip",
    "repo": "sal063/AC6_recomp",
-   "note": ""
+   "note": "",
+   "targets": [
+    "windows"
+   ]
   },
   {
    "id": "acfa",
