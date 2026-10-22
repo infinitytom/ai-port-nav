@@ -38,9 +38,11 @@
       <select id="fType" aria-label="类型"><option value="">全部类型</option></select>
       <select id="fAI" aria-label="AI 参与"><option value="">AI 参与：全部</option></select>
       <select id="fStatus" aria-label="状态"><option value="">全部状态</option></select>
+      <select id="fPlay" aria-label="可玩性"><option value="">可玩性：全部</option></select>
       <select id="sort" aria-label="排序">
         <option value="rec">排序：推荐优先</option>
         <option value="recent">最近更新</option>
+        <option value="play">可玩性</option>
         <option value="stars">GitHub 星数</option>
         <option value="name">名称</option>
       </select>
@@ -62,7 +64,15 @@
       </dl>
     </div>
     <div>
-      <h3>AI 参与度怎么标</h3>
+      <h3>可玩性怎么核查</h3>
+      <p class="muted">不只看作者自述，而是结合社区实际体验（Reddit、论坛、视频、项目 Issue 等）给出结论，并附来源与核查日期；尚未核查的标「未核实」。</p>
+      <dl>
+        <dt><span class="playtag play-full">✓ 可通关</span></dt><dd>社区已有完整通关的反馈。</dd>
+        <dt><span class="playtag play-mostly">◕ 基本可玩</span></dt><dd>主线能玩，存在少量问题。</dd>
+        <dt><span class="playtag play-partial">◑ 部分可玩</span></dt><dd>能进游戏，但崩溃多或内容不全。</dd>
+        <dt><span class="playtag play-broken">✕ 暂不可玩</span></dt><dd>目前无法正常游玩。</dd>
+      </dl>
+      <h3 style="margin-top:18px">AI 参与度怎么标</h3>
       <dl>
         <dt><span class="ai ai-ai">AI 主导</span></dt><dd>作者声明或提交记录显示主要由 AI 编写。进度飞快，但稳定性和长期维护需自行判断。</dd>
         <dt><span class="ai ai-assist">允许辅助</span></dt><dd>项目接受 AI 辅助的提交，核心由人工把关。</dd>

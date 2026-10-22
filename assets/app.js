@@ -5,6 +5,16 @@ const TYPE = { decomp: "反编译移植", recomp: "静态重编译", port: "原�
 const AI = { ai: "AI 主导", assist: "允许辅助", none: "纯人工", unknown: "未声明" };
 const STATUS = { released: "已发布 · 可玩", beta: "测试版", wip: "开发中", decomp: "仅反编译", lead: "线索 · 跟进中" };
 const STATUS_RANK = { released: 0, beta: 1, wip: 2, decomp: 3, lead: 4 };
+// 可玩性（结合社区实际体验核查）
+const PLAY = {
+  full:       { name: "可通关", icon: "✓", tip: "社区已有完整通关反馈" },
+  mostly:     { name: "基本可玩", icon: "◕", tip: "主线可玩，有少量问题" },
+  partial:    { name: "部分可玩", icon: "◑", tip: "能进游戏，但问题较多或内容不全" },
+  broken:     { name: "暂不可玩", icon: "✕", tip: "无法正常游玩" },
+  unverified: { name: "未核实", icon: "?", tip: "尚未结合社区反馈核查" },
+};
+const PLAY_RANK = { full: 0, mostly: 1, partial: 2, unverified: 3, broken: 4 };
+const playOf = (p) => (p.play && PLAY[p.play.rating] ? p.play.rating : "unverified");
 const PLAT_ORDER = ["NES","SNES","Genesis","N64","GameCube","Wii","Wii U","Switch","GB","GBC","GBA","DS","3DS","PS1","PS2","PSP","PS3","PS4","PS5","PS Vita","Xbox","Xbox 360","Neo Geo","Arcade","PC"];
 const TARGETS = {
   windows: { name: "Windows", short: "Win" },
@@ -37,7 +47,7 @@ const PALETTE = {
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
-const state = { q: "", target: "", platform: "", type: "", ai: "", status: "", sort: "rec" };
+const state = { q: "", target: "", platform: "", type: "", ai: "", status: "", play: "", sort: "rec" };
 let projects = [], repoStatus = {}, covers = {};
 
 // ---------- 主题 ----------
@@ -131,6 +141,19 @@ function links(p) {
   return out.join("");
 }
 
+function playBlock(p) {
+  const k = playOf(p), v = PLAY[k], pl = p.play || {};
+  if (k === "unverified") return `<div class="play play-unverified" title="${v.tip}"><span class="pb">${v.icon} ${v.name}</span></div>`;
+  const src = (pl.sources || []).slice(0, 3).map((u, i) => {
+    let host = ""; try { host = new URL(u).hostname.replace(/^www\./, ""); } catch (e) {}
+    return `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host || "来源" + (i + 1))}</a>`;
+  }).join(" · ");
+  return `<div class="play play-${k}" title="${v.tip}">
+    <span class="pb">${v.icon} ${v.name}</span>${pl.community ? `<span class="pc">${esc(pl.community)}</span>` : ""}
+    ${src || pl.checked ? `<span class="ps">${src ? "来源：" + src : ""}${pl.checked ? `${src ? " · " : ""}核查于 ${esc(pl.checked)}` : ""}</span>` : ""}
+  </div>`;
+}
+
 function card(p, big) {
   const s = p.repo && repoStatus[p.repo];
   const meta = [];
@@ -152,6 +175,7 @@ function card(p, big) {
         <span class="ai ai-${p.ai}">${AI[p.ai]}</span>
         <span class="tag st-${p.status}">${STATUS[p.status]}</span>
       </div>
+      ${playBlock(p)}
       <div class="proj">项目：<b>${esc(p.project)}</b></div>
       <p class="note">${esc(p.note)}</p>
       <div class="targets">${tg.map((t) => `<span class="tgt tgt-${t}">${TARGETS[t].name}</span>`).join("")}</div>
@@ -169,11 +193,13 @@ function matches(p, skip) {
     (!state.type || p.type === state.type) &&
     (!state.ai || p.ai === state.ai) &&
     (!state.status || p.status === state.status) &&
+    (!state.play || playOf(p) === state.play) &&
     (!q || [p.game, p.game_en, p.project, p.platform, p.note].join(" ").toLowerCase().includes(q));
 }
 function sorted(list) {
   const by = {
-    rec: (a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || STATUS_RANK[a.status] - STATUS_RANK[b.status] || stars(b) - stars(a),
+    rec: (a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || PLAY_RANK[playOf(a)] - PLAY_RANK[playOf(b)] || STATUS_RANK[a.status] - STATUS_RANK[b.status] || stars(b) - stars(a),
+    play: (a, b) => PLAY_RANK[playOf(a)] - PLAY_RANK[playOf(b)] || stars(b) - stars(a),
     recent: (a, b) => lastActive(b) - lastActive(a),
     stars: (a, b) => stars(b) - stars(a),
     name: (a, b) => a.game.localeCompare(b.game, "zh-CN"),
@@ -236,6 +262,7 @@ async function init() {
   fillSelect($("#fType"), TYPE, "type");
   fillSelect($("#fAI"), AI, "ai");
   fillSelect($("#fStatus"), STATUS, "status");
+  fillSelect($("#fPlay"), Object.fromEntries(Object.entries(PLAY).map(([k, v]) => [k, v.name])), "play");
   $("#sort").onchange = (e) => { state.sort = e.target.value; render(); };
   $("#q").oninput = (e) => { state.q = e.target.value; render(); };
   $("#submitLink").href = `https://github.com/${SITE_REPO}/issues/new?template=submit.yml`;

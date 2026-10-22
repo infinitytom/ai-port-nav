@@ -108,3 +108,16 @@ h1{font-size:clamp(32px,6vw,56px);font-weight:900;line-height:1.1;margin:18px 0 
 .cover.real .cv-text{left:calc(30% + 26px)}
 .cover.real .cv-text h3{font-size:19px}
 .cover.real.big .cv-text h3{font-size:20px}
+
+/* 可玩性 */
+.play{display:flex;flex-direction:column;gap:3px;padding:8px 10px;border-radius:10px;background:var(--unk-bg);font-size:12.5px;line-height:1.5}
+.play .pb,.playtag{font-weight:700;font-size:13px}
+.play .pc{color:var(--ink)}
+.play .ps{color:var(--muted);font-size:11.5px}
+.play .ps a{color:inherit}
+.play-full{background:var(--none-bg)} .play-full .pb,.playtag.play-full{color:var(--none)}
+.play-mostly{background:var(--assist-bg)} .play-mostly .pb,.playtag.play-mostly{color:var(--assist)}
+.play-partial{background:var(--ai-bg)} .play-partial .pb,.playtag.play-partial{color:var(--ai)}
+.play-broken{background:var(--unk-bg)} .play-broken .pb,.playtag.play-broken{color:#dc2626}
+.play-unverified{background:none;padding:0} .play-unverified .pb{color:var(--muted);font-weight:500;font-size:12px}
+.info .muted{color:var(--muted);font-size:13.5px;margin:0 0 6px}

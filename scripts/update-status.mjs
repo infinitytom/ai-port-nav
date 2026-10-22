@@ -38,6 +38,34 @@ async function gh(path) {
   return r.json();
 }
 
+
+// ---------- 可玩性信号：README 关键句 + 近期问题反馈 ----------
+const PLAY_RE = /(fully playable|completable|beatable|playable from start to finish|100% playable|can be (completed|beaten)|playable|not (yet )?playable|work in progress|wip|early (alpha|access|stage)|alpha|beta|experimental|known issues|softlock|crash(es)?|可通关|可游玩|不可玩|开发中)/i;
+const BUG_RE = /crash|freez|hang|black screen|softlock|soft-lock|stuck|won'?t (start|boot|launch)|doesn'?t (start|boot|launch)|segfault|access violation|闪退|卡死|黑屏|无法启动/i;
+async function signals(repo) {
+  const sig = {};
+  try {
+    const r = await fetch(`https://api.github.com/repos/${repo}/readme`, { headers: { ...headers, Accept: "application/vnd.github.raw" } });
+    if (r.ok) {
+      const text = (await r.text()).replace(/<[^>]+>/g, " ").replace(/[#*_`>|\[\]]/g, " ");
+      const lines = text.split(/(?<=[.!?。！？])\s+|\n+/).map((l) => l.trim()).filter((l) => l.length > 12 && l.length < 260);
+      sig.readme = lines.filter((l) => PLAY_RE.test(l)).slice(0, 4);
+    }
+  } catch {}
+  try {
+    const iss = (await gh(`repos/${repo}/issues?state=all&per_page=50&sort=created&direction=desc`)) || [];
+    const real = iss.filter((i) => !i.pull_request);
+    const since = Date.now() - 30 * 864e5;
+    const recent = real.filter((i) => new Date(i.created_at) > since);
+    const bugs = recent.filter((i) => BUG_RE.test(i.title));
+    sig.issues30d = recent.length;
+    sig.bugs30d = bugs.length;
+    sig.open = real.filter((i) => i.state === "open").length;
+    sig.bugTitles = bugs.slice(0, 5).map((i) => i.title.slice(0, 120));
+  } catch {}
+  return sig;
+}
+
 const out = { generated: new Date().toISOString(), repos: {} };
 let prev = {};
 try { prev = JSON.parse(await readFile("data/status.json", "utf8")).repos || {}; } catch {}
@@ -57,6 +85,7 @@ for (const repo of repos) {
       archived: info.archived,
       release: stable ? { tag: stable.tag_name, published_at: stable.published_at, prerelease: stable.prerelease } : null,
       targets: detectTargets(assetNames),
+      signals: await signals(repo),
       assets: assetNames.slice(0, 20),
     };
     console.log(`✓ ${repo} ★${info.stargazers_count} ${stable?.tag_name ?? "-"} [${out.repos[repo].targets.join(",")}]`);
