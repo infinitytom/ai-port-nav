@@ -131,7 +131,7 @@ h1{font-size:clamp(32px,6vw,56px);font-weight:900;line-height:1.1;margin:18px 0 
 .sdlg::backdrop{background:rgba(0,0,0,.55);backdrop-filter:blur(3px)}
 .sdlg h3{margin:0 0 8px;font-size:19px}
 .sdlg p{margin:0 0 16px;color:var(--muted);font-size:13.5px}
-.sdlg img{display:block;margin:0 auto 10px;width:240px;max-width:100%;height:auto;border-radius:12px;background:#fff;padding:8px}
+.sdlg img{display:block;margin:0 auto 10px;width:260px;max-width:100%;height:auto;border-radius:14px;background:#fff}
 .sdlg small{color:var(--muted);font-size:12px}
 .sdlg form{position:absolute;top:8px;right:10px;margin:0}
 .sclose{background:none;border:0;color:var(--muted);font-size:24px;line-height:1;cursor:pointer}
