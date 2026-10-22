@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T09:39:08.881Z",
+ "generated": "2026-10-22T09:41:36.686Z",
  "repos": {
   "HarbourMasters/Shipwright": {
    "stars": 5718,
@@ -704,7 +704,7 @@
    ]
   },
   "peiikai/LASRecomp": {
-   "stars": 1594,
+   "stars": 1595,
    "pushed_at": "2026-10-22T09:32:31Z",
    "archived": false,
    "release": {
@@ -1356,7 +1356,7 @@
   },
   "moozilla/boktai3-decomp": {
    "stars": 1,
-   "pushed_at": "2026-10-22T09:13:21Z",
+   "pushed_at": "2026-10-22T09:40:55Z",
    "archived": false,
    "release": null,
    "targets": [],
@@ -1808,7 +1808,7 @@
    ]
   },
   "ZeldaWWHDRecomp/ZeldaWWHDRecomp": {
-   "stars": 935,
+   "stars": 936,
    "pushed_at": "2026-10-22T09:17:18Z",
    "archived": false,
    "release": {

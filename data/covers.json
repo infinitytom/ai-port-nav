@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T09:40:16.358Z",
+ "generated": "2026-10-22T09:42:36.971Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -111,6 +111,14 @@
    "h": 223,
    "page": "https://en.wikipedia.org/wiki/Banjo-Tooie",
    "title": "Banjo-Tooie",
+   "how": "title"
+  },
+  "perfectdark": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 379,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/Perfect_Dark",
+   "title": "Perfect Dark",
    "how": "title"
   },
   "dk64": {
@@ -815,6 +823,14 @@
    "h": 316,
    "page": "https://en.wikipedia.org/wiki/Syphon_Filter_(video_game)",
    "title": "Syphon Filter (video game)",
+   "how": "title"
+  },
+  "spyro": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/53/Spyro_the_Dragon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 319,
+   "h": 313,
+   "page": "https://en.wikipedia.org/wiki/Spyro_the_Dragon",
+   "title": "Spyro the Dragon",
    "how": "title"
   },
   "hmbtn": {
