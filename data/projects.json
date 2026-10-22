@@ -479,7 +479,10 @@
    "ai": "none",
    "status": "released",
    "url": "https://sor2newera.com/",
-   "note": ""
+   "note": "",
+   "targets": [
+    "windows"
+   ]
   },
   {
    "id": "zelda3",
@@ -527,7 +530,12 @@
    "ai": "none",
    "status": "released",
    "url": "https://zquestclassic.com/",
-   "note": "引擎重写而非反编译，自带大量社区自制任务。"
+   "note": "引擎重写而非反编译，自带大量社区自制任务。",
+   "targets": [
+    "windows",
+    "linux",
+    "macos"
+   ]
   },
   {
    "id": "psydoom",
@@ -636,7 +644,12 @@
    "status": "released",
    "url": "https://opengoal.dev/",
    "featured": true,
-   "note": "PS2 反编译移植天花板，三部曲全部可玩，有官方启动器。"
+   "note": "PS2 反编译移植天花板，三部曲全部可玩，有官方启动器。",
+   "targets": [
+    "windows",
+    "linux",
+    "macos"
+   ]
   },
   {
    "id": "fatalframe",

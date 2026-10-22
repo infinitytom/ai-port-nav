@@ -31,6 +31,8 @@
 
   <section>
     <h2 class="sec">全部项目 <small id="count"></small></h2>
+    <div class="tabs-label">想在哪里玩？</div>
+    <div class="tabs" id="targets" role="tablist" aria-label="移植目标平台"></div>
     <div class="toolbar">
       <input id="q" type="search" placeholder="搜索游戏名 / 英文名 / 项目名…" autocomplete="off">
       <select id="fType" aria-label="类型"><option value="">全部类型</option></select>
@@ -71,7 +73,8 @@
       <ul>
         <li>只收录<b>需要玩家自备正版游戏文件</b>的项目；打包分发版权素材、「打开即玩」的不收录。</li>
         <li>本站不提供任何 ROM / ISO / 游戏文件下载。</li>
-        <li>星数、更新时间、最新版本每周由 GitHub Actions 自动抓取。</li>
+        <li>星数、更新时间、最新版本、支持的平台每周由 GitHub Actions 自动抓取（平台根据 Release 文件名识别）。</li>
+        <li>封面为按原平台配色自动生成的抽象图案，不使用官方包装或角色美术。</li>
         <li>标「待核实」的链接会跳转到 GitHub 搜索，欢迎提交正确地址。</li>
       </ul>
       <p><a id="submitLink" class="btn" href="#" target="_blank" rel="noopener">＋ 推荐一个项目</a></p>
