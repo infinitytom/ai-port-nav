@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T09:42:36.971Z",
+ "generated": "2026-10-22T10:26:51.182Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1119,6 +1119,198 @@
    "h": 230,
    "page": "https://en.wikipedia.org/wiki/Donkey_Kong_Country_3",
    "title": "Donkey Kong Country 3",
+   "how": "title"
+  },
+  "bb-bbport": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 288,
+   "h": 345,
+   "page": "https://en.wikipedia.org/wiki/Bloodborne",
+   "title": "Bloodborne",
+   "how": "title"
+  },
+  "bb-bbhost": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 288,
+   "h": 345,
+   "page": "https://en.wikipedia.org/wiki/Bloodborne",
+   "title": "Bloodborne",
+   "how": "title"
+  },
+  "bb-lantern": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 288,
+   "h": 345,
+   "page": "https://en.wikipedia.org/wiki/Bloodborne",
+   "title": "Bloodborne",
+   "how": "title"
+  },
+  "bb-paleblood": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 288,
+   "h": 345,
+   "page": "https://en.wikipedia.org/wiki/Bloodborne",
+   "title": "Bloodborne",
+   "how": "title"
+  },
+  "bb-supermedo": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 288,
+   "h": 345,
+   "page": "https://en.wikipedia.org/wiki/Bloodborne",
+   "title": "Bloodborne",
+   "how": "title"
+  },
+  "bb-niels": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 288,
+   "h": 345,
+   "page": "https://en.wikipedia.org/wiki/Bloodborne",
+   "title": "Bloodborne",
+   "how": "title"
+  },
+  "gow3r": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/8b/God_of_War_III_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 294,
+   "h": 337,
+   "page": "https://en.wikipedia.org/wiki/God_of_War_III",
+   "title": "God of War III",
+   "how": "title"
+  },
+  "tlg": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/2/25/The_Last_Guardian_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 300,
+   "h": 330,
+   "page": "https://en.wikipedia.org/wiki/The_Last_Guardian",
+   "title": "The Last Guardian",
+   "how": "title"
+  },
+  "iss": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/34/Infamous_second_son_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 304,
+   "h": 328,
+   "page": "https://en.wikipedia.org/wiki/Infamous_Second_Son",
+   "title": "Infamous Second Son",
+   "how": "title"
+  },
+  "uncharted-sm": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/c9/Nathan_Drake_Collection_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 294,
+   "h": 339,
+   "page": "https://en.wikipedia.org/wiki/Uncharted:_The_Nathan_Drake_Collection",
+   "title": "Uncharted: The Nathan Drake Collection",
+   "how": "title"
+  },
+  "uncharted-bc": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/c9/Nathan_Drake_Collection_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 294,
+   "h": 339,
+   "page": "https://en.wikipedia.org/wiki/Uncharted:_The_Nathan_Drake_Collection",
+   "title": "Uncharted: The Nathan Drake Collection",
+   "how": "title"
+  },
+  "sotc-ps4": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a4/ShadowOfTheColossus2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 320,
+   "h": 320,
+   "page": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus_(2018_video_game)",
+   "title": "Shadow of the Colossus (2018 video game)",
+   "how": "title"
+  },
+  "ctrnf": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/36/Crash_Team_Racing_Nitro-Fueled_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 264,
+   "h": 378,
+   "page": "https://en.wikipedia.org/wiki/Crash_Team_Racing_Nitro-Fueled",
+   "title": "Crash Team Racing Nitro-Fueled",
+   "how": "title"
+  },
+  "driveclub": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/6f/Driveclub_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 299,
+   "h": 333,
+   "page": "https://en.wikipedia.org/wiki/Driveclub",
+   "title": "Driveclub",
+   "how": "title"
+  },
+  "driveclub-bl": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/6f/Driveclub_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 299,
+   "h": 333,
+   "page": "https://en.wikipedia.org/wiki/Driveclub",
+   "title": "Driveclub",
+   "how": "title"
+  },
+  "gtsport": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/96/GT_Sport_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 270,
+   "h": 360,
+   "page": "https://en.wikipedia.org/wiki/Gran_Turismo_Sport",
+   "title": "Gran Turismo Sport",
+   "how": "title"
+  },
+  "pt": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a8/P.T._cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 416,
+   "h": 240,
+   "page": "https://en.wikipedia.org/wiki/P.T._(video_game)",
+   "title": "P.T. (video game)",
+   "how": "title"
+  },
+  "drakengard3": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/8a/Drakengard_3_boxart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Drakengard_3",
+   "title": "Drakengard 3",
+   "how": "title"
+  },
+  "simpsons-arcade": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_Simpsons_Arcade_Game.jpg/500px-The_Simpsons_Arcade_Game.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "w": 480,
+   "h": 640,
+   "page": "https://en.wikipedia.org/wiki/The_Simpsons_(video_game)",
+   "title": "The Simpsons (video game)",
+   "how": "title"
+  },
+  "gh3": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/93/Guitar-hero-iii-cover-image.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 255,
+   "h": 380,
+   "page": "https://en.wikipedia.org/wiki/Guitar_Hero_III:_Legends_of_Rock",
+   "title": "Guitar Hero III: Legends of Rock",
+   "how": "title"
+  },
+  "ico-ps3": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/40/Ico_cover_-_EU%2BJP.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 264,
+   "h": 376,
+   "page": "https://en.wikipedia.org/wiki/Ico",
+   "title": "Ico",
+   "how": "title"
+  },
+  "wkc2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/cc/White_Knight_Chronicles_2.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 288,
+   "page": "https://en.wikipedia.org/wiki/White_Knight_Chronicles_II",
+   "title": "White Knight Chronicles II",
+   "how": "title"
+  },
+  "burnout3-ps5": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/93/Burnout_3_-_Takedown_Coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 275,
+   "h": 330,
+   "page": "https://en.wikipedia.org/wiki/Burnout_3:_Takedown",
+   "title": "Burnout 3: Takedown",
+   "how": "title"
+  },
+  "svr08-ps5": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/b4/SmackDown%21vsRAW2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 282,
+   "h": 354,
+   "page": "https://en.wikipedia.org/wiki/WWE_SmackDown_vs._Raw_2008",
+   "title": "WWE SmackDown vs. Raw 2008",
    "how": "title"
   }
  }
