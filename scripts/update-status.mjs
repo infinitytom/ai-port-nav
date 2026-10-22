@@ -15,6 +15,8 @@ const TARGET_RULES = [
   ["android", /android|\.apk$/i],
   ["switch", /switch|\.nro$|\.nsp$|[-_.]nx[-_.]/i],
   ["ios", /\bios\b|\.ipa$|iphone/i],
+  ["ps5", /ps5|prospero/i],
+  ["vita", /vita|\.vpk$/i],
   ["web", /wasm|web(assembly)?[-_.]|browser/i],
 ];
 const SKIP = /source|src|symbols|\.pdb$|debug-?info|checksum|sha256|\.sig$/i;
