@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T10:35:39.345Z",
+ "generated": "2026-10-22T10:54:32.559Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1319,6 +1319,158 @@
    "h": 354,
    "page": "https://en.wikipedia.org/wiki/WWE_SmackDown_vs._Raw_2008",
    "title": "WWE SmackDown vs. Raw 2008",
+   "how": "title"
+  },
+  "skyrecomp": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 258,
+   "h": 387,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Skyward_Sword",
+   "title": "The Legend of Zelda: Skyward Sword",
+   "how": "title"
+  },
+  "ssbu": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 254,
+   "h": 392,
+   "page": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate",
+   "title": "Super Smash Bros. Ultimate",
+   "how": "title"
+  },
+  "ssbu-ws": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/50/Super_Smash_Bros._Ultimate.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 254,
+   "h": 392,
+   "page": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Ultimate",
+   "title": "Super Smash Bros. Ultimate",
+   "how": "title"
+  },
+  "eow": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/1e/The_Legend_of_Zelda_%E2%80%93_Echoes_of_Wisdom.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Echoes_of_Wisdom",
+   "title": "The Legend of Zelda: Echoes of Wisdom",
+   "how": "title"
+  },
+  "astralchain": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/67/Astral_Chain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 300,
+   "h": 300,
+   "page": "https://en.wikipedia.org/wiki/Astral_Chain",
+   "title": "Astral Chain",
+   "how": "title"
+  },
+  "smo-recomp": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 300,
+   "h": 300,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_Odyssey",
+   "title": "Super Mario Odyssey",
+   "how": "title"
+  },
+  "smo-decomp": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 300,
+   "h": 300,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_Odyssey",
+   "title": "Super Mario Odyssey",
+   "how": "title"
+  },
+  "smbw": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a3/Mariowonder.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 298,
+   "h": 296,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_Bros._Wonder",
+   "title": "Super Mario Bros. Wonder",
+   "how": "title"
+  },
+  "bayo2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/b1/Bayonetta_2_box_artwork.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 265,
+   "h": 374,
+   "page": "https://en.wikipedia.org/wiki/Bayonetta_2",
+   "title": "Bayonetta 2",
+   "how": "title"
+  },
+  "mk8d": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 353,
+   "page": "https://en.wikipedia.org/wiki/Mario_Kart_8",
+   "title": "Mario Kart 8",
+   "how": "title"
+  },
+  "smm2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/c7/Super_Mario_Maker_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 300,
+   "h": 300,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_Maker_2",
+   "title": "Super Mario Maker 2",
+   "how": "title"
+  },
+  "yw4": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/87/Yokai_Watch_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 267,
+   "h": 374,
+   "page": "https://en.wikipedia.org/wiki/Yo-kai_Watch_4",
+   "title": "Yo-kai Watch 4",
+   "how": "title"
+  },
+  "oot3d": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/30/The_Legend_of_Zelda_Ocarina_of_Time_3D_box_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 243,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time_3D",
+   "title": "The Legend of Zelda: Ocarina of Time 3D",
+   "how": "title"
+  },
+  "mhp3hd": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/ae/Monster_Hunter_Portable_3rd.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 248,
+   "h": 400,
+   "page": "https://en.wikipedia.org/wiki/Monster_Hunter_Portable_3rd",
+   "title": "Monster Hunter Portable 3rd",
+   "how": "title"
+  },
+  "flow": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/cf/Flow_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 400,
+   "h": 222,
+   "page": "https://en.wikipedia.org/wiki/Flow_(video_game)",
+   "title": "Flow (video game)",
+   "how": "title"
+  },
+  "dcpro": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/cd/Dragons_Crown.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 293,
+   "h": 341,
+   "page": "https://en.wikipedia.org/wiki/Dragon%27s_Crown",
+   "title": "Dragon's Crown",
+   "how": "title"
+  },
+  "medievil19": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/f/fc/MediEvil_Box_art_cropped.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/MediEvil_(2019_video_game)",
+   "title": "MediEvil (2019 video game)",
+   "how": "title"
+  },
+  "gr2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/94/Gravity_Rush_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 250,
+   "page": "https://en.wikipedia.org/wiki/Gravity_Rush_2",
+   "title": "Gravity Rush 2",
+   "how": "title"
+  },
+  "unicorn": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a1/Unicorn_Overlord_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 280,
+   "h": 280,
+   "page": "https://en.wikipedia.org/wiki/Unicorn_Overlord",
+   "title": "Unicorn Overlord",
    "how": "title"
   }
  }

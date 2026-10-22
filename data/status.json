@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T10:34:19.015Z",
+ "generated": "2026-10-22T10:53:15.032Z",
  "repos": {
   "HarbourMasters/Shipwright": {
    "stars": 5716,
@@ -230,7 +230,7 @@
    ]
   },
   "HarbourMasters/Lighthouse": {
-   "stars": 517,
+   "stars": 518,
    "pushed_at": "2026-10-22T00:19:34Z",
    "archived": false,
    "release": {
@@ -388,7 +388,7 @@
    ]
   },
   "RevoSucks/BM64Recomp": {
-   "stars": 306,
+   "stars": 307,
    "pushed_at": "2026-03-25T20:52:36Z",
    "archived": false,
    "release": {
@@ -626,7 +626,7 @@
    "assets": []
   },
   "TwilitRealm/dusklight": {
-   "stars": 6015,
+   "stars": 6016,
    "pushed_at": "2026-10-20T11:30:29Z",
    "archived": false,
    "release": {
@@ -685,7 +685,7 @@
   },
   "patchzyy/Wiicompiled": {
    "stars": 1237,
-   "pushed_at": "2026-10-21T23:05:43Z",
+   "pushed_at": "2026-10-22T10:48:11Z",
    "archived": false,
    "release": {
     "tag": "v0.2.36",
@@ -1057,7 +1057,7 @@
    ]
   },
   "sal063/AC6_recomp": {
-   "stars": 547,
+   "stars": 548,
    "pushed_at": "2026-08-22T15:52:26Z",
    "archived": false,
    "release": {
@@ -1356,7 +1356,7 @@
   },
   "moozilla/boktai3-decomp": {
    "stars": 1,
-   "pushed_at": "2026-10-22T10:30:01Z",
+   "pushed_at": "2026-10-22T10:43:30Z",
    "archived": false,
    "release": null,
    "targets": [],
@@ -1712,7 +1712,7 @@
   },
   "andersfischernielsen/ssx3-decomp": {
    "stars": 22,
-   "pushed_at": "2026-10-22T09:27:17Z",
+   "pushed_at": "2026-10-22T10:43:48Z",
    "archived": false,
    "release": null,
    "targets": [],
@@ -1809,7 +1809,7 @@
    ]
   },
   "ZeldaWWHDRecomp/ZeldaWWHDRecomp": {
-   "stars": 937,
+   "stars": 940,
    "pushed_at": "2026-10-22T10:18:32Z",
    "archived": false,
    "release": {
@@ -2043,7 +2043,7 @@
    ]
   },
   "deadinside28/bloodborne_pc": {
-   "stars": 3494,
+   "stars": 3495,
    "pushed_at": "2026-10-19T06:31:22Z",
    "archived": false,
    "release": {
@@ -2074,7 +2074,7 @@
    ]
   },
   "Awakenchan/LanternEngine": {
-   "stars": 792,
+   "stars": 793,
    "pushed_at": "2026-10-22T09:28:38Z",
    "archived": false,
    "release": {
@@ -2095,7 +2095,7 @@
    ]
   },
   "Yharnam-Hunters/Paleblood": {
-   "stars": 130,
+   "stars": 131,
    "pushed_at": "2026-10-20T11:18:53Z",
    "archived": false,
    "release": null,
@@ -2167,7 +2167,7 @@
    ]
   },
   "HayatoG/iss_pc": {
-   "stars": 779,
+   "stars": 780,
    "pushed_at": "2026-10-22T10:15:16Z",
    "archived": false,
    "release": {
@@ -2186,7 +2186,7 @@
    ]
   },
   "Supermedo/uncharted_pc": {
-   "stars": 1811,
+   "stars": 1812,
    "pushed_at": "2026-10-17T23:37:21Z",
    "archived": false,
    "release": {
@@ -2202,7 +2202,7 @@
    ]
   },
   "bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port": {
-   "stars": 433,
+   "stars": 434,
    "pushed_at": "2026-10-21T16:49:51Z",
    "archived": false,
    "release": {
@@ -2232,7 +2232,7 @@
    ]
   },
   "GetLostIn/CTR-NitroFueled-PC": {
-   "stars": 585,
+   "stars": 586,
    "pushed_at": "2026-10-19T04:57:14Z",
    "archived": false,
    "release": {
@@ -2313,7 +2313,7 @@
    ]
   },
   "boykopovar/AnyPS5": {
-   "stars": 46585,
+   "stars": 46592,
    "pushed_at": "2026-10-22T10:05:26Z",
    "archived": false,
    "release": {
@@ -2361,7 +2361,7 @@
    ]
   },
   "soyjxck/dod3-recomp": {
-   "stars": 107,
+   "stars": 108,
    "pushed_at": "2026-10-22T08:24:46Z",
    "archived": false,
    "release": {
@@ -2430,6 +2430,206 @@
    "targets": [],
    "assets": [
     "PPSA92008.zip"
+   ]
+  },
+  "Apolinario-coder/SkyRecomp": {
+   "stars": 377,
+   "pushed_at": "2026-10-22T04:04:44Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0.6",
+    "published_at": "2026-10-22T02:31:03Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "Sky.Recomp-v1.0.6-linux-x86_64.AppImage",
+    "SkyRecomp-v1.0.6-Linux.tar.gz",
+    "SkyRecomp-v1.0.6-Linux.zip",
+    "SkyRecomp-v1.0.6-macOS.dmg",
+    "SkyRecomp-v1.0.6-macOS.zip",
+    "SkyRecomp-v1.0.6-Windows.zip"
+   ]
+  },
+  "Denkishi/ssbu-recomp": {
+   "stars": 376,
+   "pushed_at": "2026-10-21T18:31:37Z",
+   "archived": false,
+   "release": {
+    "tag": "runtime-daa0938",
+    "published_at": "2026-10-21T15:36:48Z",
+    "prerelease": true
+   },
+   "targets": [],
+   "assets": [
+    "ssbu-runtime-daa0938053.zip"
+   ]
+  },
+  "Nycolazs/EoWRecomp": {
+   "stars": 17,
+   "pushed_at": "2026-10-21T10:01:17Z",
+   "archived": false,
+   "release": {
+    "tag": "alpha_1",
+    "published_at": "2026-10-21T10:01:18Z",
+    "prerelease": true
+   },
+   "targets": [
+    "android",
+    "macos"
+   ],
+   "assets": [
+    "EoWRecomp-alpha_1-Android-arm64.apk",
+    "EoWRecomp-alpha_1-macOS-arm64.zip",
+    "SHA256SUMS.txt"
+   ]
+  },
+  "Coz-0/smo-recomp": {
+   "stars": 12,
+   "pushed_at": "2026-10-18T22:34:39Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "MonsterDruide1/OdysseyDecomp": {
+   "stars": 480,
+   "pushed_at": "2026-10-12T00:46:01Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "GRAnimated/MinecraftLCE": {
+   "stars": 622,
+   "pushed_at": "2026-10-03T09:29:52Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "BlackLineInteractive/nWiiURecomp": {
+   "stars": 21,
+   "pushed_at": "2026-08-05T16:01:55Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "coccofresco/TriAevum": {
+   "stars": 544,
+   "pushed_at": "2026-10-18T08:50:16Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.8.0-beta.1.1",
+    "published_at": "2026-10-18T08:50:58Z",
+    "prerelease": true
+   },
+   "targets": [
+    "linux",
+    "windows"
+   ],
+   "assets": [
+    "SHA256SUMS.txt",
+    "TriAevum-v0.8.0-beta.1.1-Linux-x86_64.AppImage",
+    "TriAevum-v0.8.0-beta.1.1-Linux-x86_64.flatpak",
+    "TriAevum-v0.8.0-beta.1.1-Windows-x64.zip"
+   ]
+  },
+  "soyjxck/vitarecomp": {
+   "stars": 0,
+   "pushed_at": "2026-10-13T09:29:37Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "sp00nznet/flow": {
+   "stars": 17,
+   "pushed_at": "2026-10-14T07:16:19Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "saulob/dragons-crown-pro-pc": {
+   "stars": 177,
+   "pushed_at": "2026-10-21T00:55:39Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.7.0",
+    "published_at": "2026-10-21T01:17:32Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows",
+    "linux"
+   ],
+   "assets": [
+    "DragonsCrownProPC-v0.7.0-windows-x64.zip",
+    "DragonsCrownProPC-v0.7.0-windows-x64.zip.sha256",
+    "DragonsCrownProPC-v0.7.0-x86_64.AppImage",
+    "DragonsCrownProPC-v0.7.0-x86_64.AppImage.sha256"
+   ]
+  },
+  "bc160201983/medievil_2019_pc_port": {
+   "stars": 137,
+   "pushed_at": "2026-10-20T06:08:41Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.3.5",
+    "published_at": "2026-10-19T09:23:50Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows"
+   ],
+   "assets": [
+    "medievil-windows.zip"
+   ]
+  },
+  "HayatoG/gr2_pc": {
+   "stars": 78,
+   "pushed_at": "2026-10-21T22:36:13Z",
+   "archived": false,
+   "release": {
+    "tag": "v2026.10.21-7d90fed",
+    "published_at": "2026-10-21T22:36:14Z",
+    "prerelease": false
+   },
+   "targets": [
+    "linux",
+    "windows"
+   ],
+   "assets": [
+    "gr2-linux-x86_64.tar.gz",
+    "gr2-windows-x86_64.zip"
+   ]
+  },
+  "hachi23/unicorn_overlord_pc": {
+   "stars": 103,
+   "pushed_at": "2026-10-20T09:41:53Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.2.0",
+    "published_at": "2026-10-20T07:45:47Z",
+    "prerelease": false
+   },
+   "targets": [
+    "windows",
+    "linux"
+   ],
+   "assets": [
+    "SHA256SUMS",
+    "unicorn-linux-symbols-88404b6e8e74.tar.gz",
+    "Unicorn-Overlord-PC-windows.zip",
+    "Unicorn-Overlord-x86_64.AppImage",
+    "unicorn-source-88404b6e8e74.tar.gz",
+    "unicorn-windows-symbols-88404b6e8e74.tar.gz"
    ]
   }
  }
