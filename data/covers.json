@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T10:29:42.964Z",
+ "generated": "2026-10-22T10:35:39.345Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1306,6 +1306,14 @@
    "how": "title"
   },
   "svr08-ps5": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/b4/SmackDown%21vsRAW2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 282,
+   "h": 354,
+   "page": "https://en.wikipedia.org/wiki/WWE_SmackDown_vs._Raw_2008",
+   "title": "WWE SmackDown vs. Raw 2008",
+   "how": "title"
+  },
+  "svr08": {
    "src": "https://upload.wikimedia.org/wikipedia/en/b/b4/SmackDown%21vsRAW2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "w": 282,
    "h": 354,

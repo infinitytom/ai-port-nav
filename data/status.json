@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T10:28:32.907Z",
+ "generated": "2026-10-22T10:34:19.015Z",
  "repos": {
   "HarbourMasters/Shipwright": {
    "stars": 5716,
@@ -42,7 +42,7 @@
    ]
   },
   "Zelda64Recomp/Zelda64Recomp": {
-   "stars": 7498,
+   "stars": 7499,
    "pushed_at": "2026-09-25T18:57:57Z",
    "archived": false,
    "release": {
@@ -1356,7 +1356,7 @@
   },
   "moozilla/boktai3-decomp": {
    "stars": 1,
-   "pushed_at": "2026-10-22T10:26:49Z",
+   "pushed_at": "2026-10-22T10:30:01Z",
    "archived": false,
    "release": null,
    "targets": [],
@@ -1809,7 +1809,7 @@
    ]
   },
   "ZeldaWWHDRecomp/ZeldaWWHDRecomp": {
-   "stars": 936,
+   "stars": 937,
    "pushed_at": "2026-10-22T10:18:32Z",
    "archived": false,
    "release": {
@@ -2103,7 +2103,7 @@
    "assets": []
   },
   "supermedo/bloodborne_pc": {
-   "stars": 4276,
+   "stars": 4277,
    "pushed_at": "2026-10-21T21:09:46Z",
    "archived": false,
    "release": {
@@ -2288,7 +2288,7 @@
    ]
   },
   "LoreanXavier/pt-pc": {
-   "stars": 2093,
+   "stars": 2094,
    "pushed_at": "2026-10-19T18:16:56Z",
    "archived": false,
    "release": {
@@ -2313,7 +2313,7 @@
    ]
   },
   "boykopovar/AnyPS5": {
-   "stars": 46582,
+   "stars": 46585,
    "pushed_at": "2026-10-22T10:05:26Z",
    "archived": false,
    "release": {
@@ -2360,6 +2360,48 @@
     "SHA256SUMS.txt"
    ]
   },
+  "soyjxck/dod3-recomp": {
+   "stars": 107,
+   "pushed_at": "2026-10-22T08:24:46Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.3.0-alpha",
+    "published_at": "2026-10-20T01:06:37Z",
+    "prerelease": true
+   },
+   "targets": [
+    "macos",
+    "windows"
+   ],
+   "assets": [
+    "dod3-recomp-v0.3.0-alpha-macos-arm64.zip",
+    "dod3-recomp-v0.3.0-alpha-win64.zip"
+   ]
+  },
+  "sp00nznet/simpsonsarcade-ps3": {
+   "stars": 10,
+   "pushed_at": "2026-10-14T08:36:06Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "sp00nznet/gh3": {
+   "stars": 2,
+   "pushed_at": "2026-09-28T21:03:06Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
+  "WK2D/White-Knight-Chronicles-2-Recomp": {
+   "stars": 14,
+   "pushed_at": "2026-10-22T09:26:30Z",
+   "archived": false,
+   "release": null,
+   "targets": [],
+   "assets": []
+  },
   "griches/PS5_Burnout3": {
    "stars": 9,
    "pushed_at": "2026-10-22T05:44:39Z",
@@ -2374,6 +2416,20 @@
    ],
    "assets": [
     "Burnout3-PS5-0.2.2.zip"
+   ]
+  },
+  "elripalda/SvR2008-Recomp-PS5": {
+   "stars": 1,
+   "pushed_at": "2026-10-18T18:41:00Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0",
+    "published_at": "2026-10-18T18:41:00Z",
+    "prerelease": false
+   },
+   "targets": [],
+   "assets": [
+    "PPSA92008.zip"
    ]
   }
  }
