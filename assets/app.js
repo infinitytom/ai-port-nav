@@ -76,7 +76,7 @@ function cover(p, big) {
   const [a, b, c] = pal;
   const pat = PATTERNS[Math.floor(r() * PATTERNS.length)](r, pal);
   const tg = targetsOf(p).filter((t) => t !== "unknown");
-  const arrow = tg.length ? tg.map((t) => TARGETS[t].short).join(" · ") : "PC";
+  const arrow = tg.length ? tg.slice(0, 3).map((t) => TARGETS[t].short).join(" · ") + (tg.length > 3 ? ` +${tg.length - 3}` : "") : "PC";
   const svg = `<svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
     <defs><linearGradient id="g${p.id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${a}"/><stop offset="1" stop-color="${c}"/></linearGradient>
     <linearGradient id="s${p.id}" x1="0" y1="0" x2="0" y2="1"><stop offset=".35" stop-color="${c}" stop-opacity="0"/><stop offset="1" stop-color="${c}" stop-opacity=".88"/></linearGradient></defs>
@@ -95,7 +95,8 @@ function cover(p, big) {
 function targetsOf(p) {
   const s = p.repo && repoStatus[p.repo];
   const t = (p.targets && p.targets.length ? p.targets : s?.targets) || [];
-  return t.length ? t : ["unknown"];
+  const order = Object.keys(TARGETS);
+  return t.length ? [...t].sort((a, b) => order.indexOf(a) - order.indexOf(b)) : ["unknown"];
 }
 function ago(iso) {
   if (!iso) return "";
