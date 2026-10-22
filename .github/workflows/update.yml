@@ -27,10 +27,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/update-status.mjs
+      - name: 抓取维基百科封面
+        run: node scripts/update-covers.mjs
       - name: 提交变更
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add data/status.json
+          git add data/status.json data/covers.json
           git diff --cached --quiet || git commit -m "chore: 自动更新项目状态"
-          git push
+          git pull --rebase && git push

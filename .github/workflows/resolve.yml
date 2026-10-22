@@ -1,0 +1,27 @@
+name: 搜索候选仓库（人工核对用）
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: GitHub 搜索
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/resolve-search.mjs
+      - name: 提交
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add data/candidates.json
+          git diff --cached --quiet || git commit -m "chore: 更新候选仓库"
+          git pull --rebase && git push

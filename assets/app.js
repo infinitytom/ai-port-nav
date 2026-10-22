@@ -5,7 +5,7 @@ const TYPE = { decomp: "反编译移植", recomp: "静态重编译", port: "原�
 const AI = { ai: "AI 主导", assist: "允许辅助", none: "纯人工", unknown: "未声明" };
 const STATUS = { released: "已发布 · 可玩", beta: "测试版", wip: "开发中", decomp: "仅反编译" };
 const STATUS_RANK = { released: 0, beta: 1, wip: 2, decomp: 3 };
-const PLAT_ORDER = ["NES","SNES","Genesis","N64","GameCube","Wii","Switch","GBA","DS","PS1","PS2","Xbox","Xbox 360","Arcade","PC"];
+const PLAT_ORDER = ["NES","SNES","Genesis","N64","GameCube","Wii","Wii U","Switch","GB","GBC","GBA","DS","3DS","PS1","PS2","PSP","Xbox","Xbox 360","Neo Geo","Arcade","PC"];
 const TARGETS = {
   windows: { name: "Windows", short: "Win" },
   macos:   { name: "macOS", short: "Mac" },
@@ -26,13 +26,15 @@ const PALETTE = {
   "DS": ["#475569", "#cbd5e1", "#0f172a"], "PS1": ["#57534e", "#e7e5e4", "#1c1917"],
   "PS2": ["#1e40af", "#93c5fd", "#020617"], "Xbox": ["#15803d", "#86efac", "#052e16"],
   "Xbox 360": ["#65a30d", "#d9f99d", "#14200a"], "Arcade": ["#be185d", "#fbbf24", "#1f0a16"],
-  "PC": ["#0f766e", "#99f6e4", "#042f2e"],
+  "PC": ["#0f766e", "#99f6e4", "#042f2e"], "GB": ["#4d7c0f", "#d9f99d", "#1a2e05"],
+  "GBC": ["#c026d3", "#f5d0fe", "#2e0a33"], "Wii U": ["#0369a1", "#bae6fd", "#071a2b"], "3DS": ["#b91c1c", "#fecaca", "#210909"],
+  "Neo Geo": ["#a16207", "#fde68a", "#1c1203"], "PSP": ["#334155", "#e2e8f0", "#0b1120"],
 };
 
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
 const state = { q: "", target: "", platform: "", type: "", ai: "", status: "", sort: "rec" };
-let projects = [], repoStatus = {};
+let projects = [], repoStatus = {}, covers = {};
 
 // ---------- 主题 ----------
 (function () {
@@ -80,7 +82,10 @@ function cover(p, big) {
     <linearGradient id="s${p.id}" x1="0" y1="0" x2="0" y2="1"><stop offset=".35" stop-color="${c}" stop-opacity="0"/><stop offset="1" stop-color="${c}" stop-opacity=".88"/></linearGradient></defs>
     <rect width="320" height="180" fill="url(#g${p.id})"/>${pat}<rect width="320" height="180" fill="url(#s${p.id})"/></svg>`;
   const hue = Math.round((r() - 0.5) * 70);
-  return `<div class="cover${big ? " big" : ""}" style="--hue:${hue}deg">${svg}
+  const cv = covers[p.id];
+  const real = cv ? `<img class="cv-bg" src="${esc(cv.src)}" alt="" aria-hidden="true" loading="lazy" referrerpolicy="no-referrer">
+    <img class="cv-art" src="${esc(cv.src)}" alt="${esc(p.game)} 封面" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.cover').classList.remove('real')">` : "";
+  return `<div class="cover${big ? " big" : ""}${cv ? " real" : ""}" style="--hue:${hue}deg">${svg}${real}
     <div class="cv-top"><span>${esc(p.platform)}</span><span class="cv-arrow">→</span><span>${esc(arrow)}</span></div>
     <div class="cv-text"><h3>${esc(p.game)}</h3><div class="cv-en">${esc(p.game_en)}</div></div>
   </div>`;
@@ -200,12 +205,14 @@ function fillSelect(sel, map, key) {
 }
 
 async function init() {
-  const [data, st] = await Promise.all([
+  const [data, st, cvs] = await Promise.all([
     fetch("data/projects.json").then((r) => r.json()),
     fetch("data/status.json").then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+    fetch("data/covers.json").then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
   ]);
   projects = data.projects;
   repoStatus = st.repos || {};
+  covers = cvs.covers || {};
   $("#updated").textContent = data.updated;
   $("#fetched").textContent = st.generated ? st.generated.slice(0, 10) : "尚未抓取";
 

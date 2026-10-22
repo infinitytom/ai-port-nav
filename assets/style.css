@@ -98,3 +98,13 @@ h1{font-size:clamp(32px,6vw,56px);font-weight:900;line-height:1.1;margin:18px 0 
 .info ul{padding-left:18px;margin:0;color:var(--muted);font-size:13.5px} .info li{margin:4px 0} .info b{color:var(--ink)}
 .foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;color:var(--muted);font-size:12.5px;padding:24px 16px 40px;border-top:1px solid var(--line)}
 @media (max-width:520px){.toolbar select{flex:1 1 45%}.stats{gap:20px}.stats b{font-size:24px}}
+
+/* 真实封面 */
+.cv-bg,.cv-art{display:none}
+.cover.real svg{display:none}
+.cover.real{background:#111}
+.cover.real .cv-bg{display:block;position:absolute;inset:-20px;width:calc(100% + 40px);height:calc(100% + 40px);object-fit:cover;filter:blur(18px) saturate(1.3) brightness(.55);z-index:-1}
+.cover.real .cv-art{display:block;position:absolute;left:12px;bottom:12px;top:38px;width:30%;height:calc(100% - 50px);object-fit:cover;object-position:center top;border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.12)}
+.cover.real .cv-text{left:calc(30% + 26px)}
+.cover.real .cv-text h3{font-size:19px}
+.cover.real.big .cv-text h3{font-size:20px}

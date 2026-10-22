@@ -63,7 +63,8 @@
    "ai": "unknown",
    "status": "released",
    "repo": "coop-deluxe/sm64coopdx",
-   "note": "多人联机 SM64，可同屏/在线最多 16 人，Mod 生态丰富。"
+   "note": "多人联机 SM64，可同屏/在线最多 16 人，Mod 生态丰富。",
+   "wiki": "Super Mario 64"
   },
   {
    "id": "sm64plus",
@@ -140,7 +141,8 @@
    "status": "released",
    "repo": "HarbourMasters/PaperBoat",
    "featured": true,
-   "note": "2026 年 9 月发布 1.0，接受 AI 辅助的提交。"
+   "note": "2026 年 9 月发布 1.0，接受 AI 辅助的提交。",
+   "wiki": "Paper Mario (video game)"
   },
   {
    "id": "lighthouse",
@@ -152,7 +154,8 @@
    "ai": "assist",
    "status": "released",
    "repo": "HarbourMasters/Lighthouse",
-   "note": "HarbourMasters 版班卓熊，接受 AI 辅助提交。"
+   "note": "HarbourMasters 版班卓熊，接受 AI 辅助提交。",
+   "wiki": "Banjo-Kazooie"
   },
   {
    "id": "banjorecomp",
@@ -165,7 +168,8 @@
    "status": "released",
    "repo": "BanjoRecomp/BanjoRecomp",
    "featured": true,
-   "note": "N64Recomp 版，Mod 支持完善。"
+   "note": "N64Recomp 版，Mod 支持完善。",
+   "wiki": "Banjo-Kazooie"
   },
   {
    "id": "banjotooie",
@@ -189,7 +193,8 @@
    "ai": "none",
    "status": "beta",
    "repo": "fgsfdsfgs/perfect_dark",
-   "note": "支持鼠标键盘、高帧率，开发版持续更新。"
+   "note": "支持鼠标键盘、高帧率，开发版持续更新。",
+   "wiki": "Perfect Dark (2000 video game)"
   },
   {
    "id": "dk64",
@@ -238,7 +243,8 @@
    "ai": "none",
    "status": "released",
    "repo": "RevoSucks/BM64Recomp",
-   "note": ""
+   "note": "",
+   "wiki": "Bomberman 64 (1997 video game)"
   },
   {
    "id": "bmhero",
@@ -262,7 +268,8 @@
    "ai": "none",
    "status": "beta",
    "repo": "DinosaurPlanetRecomp/dino-recomp",
-   "note": "Rare 未发售原型（后来的星际火狐冒险）首次原生运行。"
+   "note": "Rare 未发售原型（后来的星际火狐冒险）首次原生运行。",
+   "wiki": "Dinosaur Planet (video game)"
   },
   {
    "id": "drmario64",
@@ -350,7 +357,8 @@
    "status": "beta",
    "repo": "SunJaycy/GoldenEye-Recomp",
    "featured": true,
-   "note": "取消发售的 360 重制版被重编译为原生 PC 程序，作者公开使用了 AI。"
+   "note": "取消发售的 360 重制版被重编译为原生 PC 程序，作者公开使用了 AI。",
+   "wiki": "GoldenEye 007 (1997 video game)"
   },
   {
    "id": "jfg",
@@ -386,7 +394,8 @@
    "ai": "ai",
    "status": "released",
    "search": "BattleShip smash 64 port",
-   "note": "媒体报道几乎完全由 AI 生成的可玩移植。"
+   "note": "媒体报道几乎完全由 AI 生成的可玩移植。",
+   "wiki": "Super Smash Bros. (video game)"
   },
   {
    "id": "melee",
@@ -435,7 +444,8 @@
    "ai": "ai",
    "status": "released",
    "search": "ACGC-PC-Port",
-   "note": "作者披露使用 Claude Code 制作。"
+   "note": "作者披露使用 Claude Code 制作。",
+   "wiki": "Animal Crossing (video game)"
   },
   {
    "id": "smg-nebula",
@@ -473,7 +483,8 @@
    "status": "beta",
    "repo": "peiikai/LASRecomp",
    "featured": true,
-   "note": "首批 AI 制作的 Switch→PC 移植，几乎全部由 Claude 完成；公开 Beta，作者称存在若干严重已知问题。"
+   "note": "首批 AI 制作的 Switch→PC 移植，几乎全部由 Claude 完成；公开 Beta，作者称存在若干严重已知问题。",
+   "wiki": "The Legend of Zelda: Link's Awakening (2019 video game)"
   },
   {
    "id": "sor2",
@@ -503,7 +514,8 @@
    "note": "支持宽屏与增强，SNES 反编译移植的经典。",
    "targets": [
     "windows"
-   ]
+   ],
+   "wiki": "The Legend of Zelda: A Link to the Past"
   },
   {
    "id": "smetroid",
@@ -547,7 +559,8 @@
     "windows",
     "linux",
     "macos"
-   ]
+   ],
+   "wiki": "The Legend of Zelda (video game)"
   },
   {
    "id": "psydoom",
@@ -559,7 +572,8 @@
    "ai": "none",
    "status": "beta",
    "repo": "BodbDearg/PsyDoom",
-   "note": ""
+   "note": "",
+   "wiki": "Doom (1993 video game)"
   },
   {
    "id": "redriver2",
@@ -598,7 +612,8 @@
    "note": "",
    "targets": [
     "windows"
-   ]
+   ],
+   "wiki": "Wipeout (video game)"
   },
   {
    "id": "silenthill",
@@ -610,7 +625,8 @@
    "ai": "ai",
    "status": "beta",
    "search": "silent-hill-decomp PC port",
-   "note": "自称可完整游玩，GitHub 描述注明 AI 制作。"
+   "note": "自称可完整游玩，GitHub 描述注明 AI 制作。",
+   "wiki": "Silent Hill (video game)"
   },
   {
    "id": "sotn",
@@ -634,7 +650,8 @@
    "ai": "unknown",
    "status": "beta",
    "repo": "BlackLabelHQ/MediEvilRecomp",
-   "note": ""
+   "note": "",
+   "wiki": "MediEvil (1998 video game)"
   },
   {
    "id": "rageracer",
@@ -664,7 +681,8 @@
     "windows",
     "linux",
     "macos"
-   ]
+   ],
+   "wiki": "Jak and Daxter: The Precursor Legacy"
   },
   {
    "id": "fatalframe",
@@ -676,7 +694,8 @@
    "ai": "ai",
    "status": "wip",
    "repo": "Mikompilation/MikuPan",
-   "note": ""
+   "note": "",
+   "wiki": "Fatal Frame (video game)"
   },
   {
    "id": "sa2",
@@ -815,7 +834,8 @@
    "note": "",
    "targets": [
     "windows"
-   ]
+   ],
+   "wiki": "Ace Combat 6: Fires of Liberation"
   },
   {
    "id": "acfa",
@@ -887,7 +907,8 @@
    "ai": "none",
    "status": "wip",
    "repo": "999sian/tmc",
-   "note": ""
+   "note": "",
+   "wiki": "The Legend of Zelda: The Minish Cap"
   },
   {
    "id": "projectr",
@@ -899,7 +920,8 @@
    "ai": "none",
    "status": "released",
    "url": "https://t3hd0gg.com/project-r/",
-   "note": ""
+   "note": "",
+   "wiki": "San Francisco Rush 2049"
   },
   {
    "id": "chromatron",
@@ -911,7 +933,838 @@
    "ai": "ai",
    "status": "released",
    "url": "https://quesma.com/blog/chromatron-recompiled/",
-   "note": "Claude Opus 4.6 完成的近像素级还原，有详细技术博客。"
+   "note": "Claude Opus 4.6 完成的近像素级还原，有详细技术博客。",
+   "wiki": false
+  },
+  {
+   "id": "ge-n64",
+   "game": "黄金眼 007",
+   "game_en": "GoldenEye 007",
+   "platform": "N64",
+   "project": "goldeneye-pc-port",
+   "type": "decomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "goldeneye pc port",
+   "note": "据报道 2026 年 8 月反编译完成，AI 辅助制作。",
+   "wiki": "GoldenEye 007 (1997 video game)"
+  },
+  {
+   "id": "ge-midas",
+   "game": "黄金眼 007",
+   "game_en": "GoldenEye 007",
+   "platform": "N64",
+   "project": "Project Midas",
+   "type": "decomp",
+   "ai": "unknown",
+   "status": "released",
+   "search": "Project Midas goldeneye",
+   "note": "报道称可游玩。",
+   "wiki": "GoldenEye 007 (1997 video game)"
+  },
+  {
+   "id": "smash64r",
+   "game": "任天堂明星大乱斗 64",
+   "game_en": "Super Smash Bros.",
+   "platform": "N64",
+   "project": "Super Smash Bros: Recompiled (smash64r)",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "smash64r",
+   "note": "",
+   "wiki": "Super Smash Bros. (video game)"
+  },
+  {
+   "id": "fzerox",
+   "game": "F-Zero X",
+   "game_en": "F-Zero X",
+   "platform": "N64",
+   "project": "G-Diffuser",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "G-Diffuser F-Zero X",
+   "note": ""
+  },
+  {
+   "id": "mischief",
+   "game": "奇幻小子",
+   "game_en": "Mischief Makers",
+   "platform": "N64",
+   "project": "Trouble Makers",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "Trouble Makers mischief makers recomp",
+   "note": ""
+  },
+  {
+   "id": "rogue",
+   "game": "星球大战：侠盗中队",
+   "game_en": "Star Wars: Rogue Squadron",
+   "platform": "N64",
+   "project": "Rogue Squadron PC",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "rogue squadron recomp",
+   "note": "",
+   "wiki": "Star Wars: Rogue Squadron"
+  },
+  {
+   "id": "pkmn-gen1",
+   "game": "宝可梦 红/蓝/黄",
+   "game_en": "Pokémon Red and Blue",
+   "platform": "GB",
+   "project": "Gen1 Recomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "PokemonRedAndBlueRecomp",
+   "note": "原生 PC 运行初代宝可梦。",
+   "wiki": "Pokémon Red, Blue, and Yellow"
+  },
+  {
+   "id": "tetrisgb",
+   "game": "俄罗斯方块（GB）",
+   "game_en": "Tetris (Game Boy)",
+   "platform": "GB",
+   "project": "TetrisGBRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "TetrisGBRecomp",
+   "note": "",
+   "wiki": "Tetris (Game Boy video game)"
+  },
+  {
+   "id": "shantae",
+   "game": "桑塔",
+   "game_en": "Shantae",
+   "platform": "GBC",
+   "project": "Shantae GBC Recomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "released",
+   "search": "shantae gbc recomp",
+   "note": "可复现构建的 GBC 重编译。",
+   "wiki": "Shantae (video game)"
+  },
+  {
+   "id": "ladx-hd",
+   "game": "塞尔达传说：织梦岛 DX",
+   "game_en": "The Legend of Zelda: Link's Awakening DX",
+   "platform": "GBC",
+   "project": "Zelda-LA-DX-HD-Updated",
+   "type": "port",
+   "ai": "unknown",
+   "status": "released",
+   "search": "Zelda-LA-DX-HD-Updated",
+   "note": "GBC 版织梦岛的高清原生重制。",
+   "wiki": "The Legend of Zelda: Link's Awakening"
+  },
+  {
+   "id": "emerald",
+   "game": "宝可梦 绿宝石",
+   "game_en": "Pokémon Emerald",
+   "platform": "GBA",
+   "project": "EmeraldRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "EmeraldRecomp",
+   "note": ""
+  },
+  {
+   "id": "frlg",
+   "game": "宝可梦 火红/叶绿",
+   "game_en": "Pokémon FireRed and LeafGreen",
+   "platform": "GBA",
+   "project": "FireRedLeafGreenRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "FireRedLeafGreenRecomp",
+   "note": ""
+  },
+  {
+   "id": "mkscgba",
+   "game": "马力欧赛车 Advance",
+   "game_en": "Mario Kart: Super Circuit",
+   "platform": "GBA",
+   "project": "gbarecomp: Mario Kart Super Circuit",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "Mario Kart Super Circuit recomp",
+   "note": ""
+  },
+  {
+   "id": "dbzlog2",
+   "game": "龙珠Z：悟空传说 2",
+   "game_en": "Dragon Ball Z: The Legacy of Goku II",
+   "platform": "GBA",
+   "project": "DBZ LoG2 co-op",
+   "type": "decomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "legacy of goku II decomp",
+   "note": "基于反编译加入双人合作。"
+  },
+  {
+   "id": "boktai3",
+   "game": "我们的太阳 3",
+   "game_en": "Shin Bokura no Taiyō: Gyakushū no Sabata",
+   "platform": "GBA",
+   "project": "Boktai 3 Decomp",
+   "type": "decomp",
+   "ai": "ai",
+   "status": "decomp",
+   "search": "boktai 3 decomp",
+   "note": "",
+   "wiki": "Shin Bokura no Taiyō: Gyakushū no Sabata"
+  },
+  {
+   "id": "smb-nes",
+   "game": "超级马力欧兄弟",
+   "game_en": "Super Mario Bros.",
+   "platform": "NES",
+   "project": "SuperMarioBrosRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "SuperMarioBrosRecomp",
+   "note": ""
+  },
+  {
+   "id": "metroid-nes",
+   "game": "银河战士（初代）",
+   "game_en": "Metroid",
+   "platform": "NES",
+   "project": "MetroidNESRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "MetroidNESRecomp",
+   "note": "",
+   "wiki": "Metroid (video game)"
+  },
+  {
+   "id": "mother1",
+   "game": "地球冒险",
+   "game_en": "Mother",
+   "platform": "NES",
+   "project": "Mother1NESRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "Mother1NESRecomp",
+   "note": "",
+   "wiki": "Mother (video game)"
+  },
+  {
+   "id": "mm3",
+   "game": "洛克人 3",
+   "game_en": "Mega Man 3",
+   "platform": "NES",
+   "project": "Megaman3NESRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "Megaman3NESRecomp",
+   "note": ""
+  },
+  {
+   "id": "dkc2",
+   "game": "超级大金刚 2",
+   "game_en": "Donkey Kong Country 2: Diddy's Kong Quest",
+   "platform": "SNES",
+   "project": "DKC2Recomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "DKC2Recomp",
+   "note": ""
+  },
+  {
+   "id": "mmx",
+   "game": "洛克人 X",
+   "game_en": "Mega Man X",
+   "platform": "SNES",
+   "project": "MegaManXSNESRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "MegaManXSNESRecomp",
+   "note": "",
+   "wiki": "Mega Man X (video game)"
+  },
+  {
+   "id": "starfox-snes",
+   "game": "星际火狐（SNES）",
+   "game_en": "Star Fox",
+   "platform": "SNES",
+   "project": "StarFoxSNESRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "StarFoxSNESRecomp",
+   "note": "",
+   "wiki": "Star Fox (1993 video game)"
+  },
+  {
+   "id": "smrpg",
+   "game": "超级马力欧 RPG",
+   "game_en": "Super Mario RPG",
+   "platform": "SNES",
+   "project": "SuperMarioRPGSNESRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "SuperMarioRPGSNESRecomp",
+   "note": ""
+  },
+  {
+   "id": "gaia",
+   "game": "盖亚幻想纪",
+   "game_en": "Illusion of Gaia",
+   "platform": "SNES",
+   "project": "Babel Recomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "illusion of gaia recomp",
+   "note": ""
+  },
+  {
+   "id": "sonic1",
+   "game": "索尼克",
+   "game_en": "Sonic the Hedgehog",
+   "platform": "Genesis",
+   "project": "Sonic the Hedgehog Recompiled",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "segagenesisrecomp sonic",
+   "note": "",
+   "wiki": "Sonic the Hedgehog (1991 video game)"
+  },
+  {
+   "id": "sonic3k",
+   "game": "索尼克 3 & 纳克鲁斯",
+   "game_en": "Sonic 3 & Knuckles",
+   "platform": "Genesis",
+   "project": "Sonic 3 & Knuckles Recompiled",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "Sonic 3 Knuckles Recompiled",
+   "note": ""
+  },
+  {
+   "id": "landstalker",
+   "game": "大地之剑",
+   "game_en": "Landstalker",
+   "platform": "Genesis",
+   "project": "Landstalker PC",
+   "type": "port",
+   "ai": "ai",
+   "status": "released",
+   "search": "landstalker pc port",
+   "note": ""
+  },
+  {
+   "id": "apeescape",
+   "game": "捉猴啦",
+   "game_en": "Ape Escape",
+   "platform": "PS1",
+   "project": "ApeEscapeRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "ApeEscapeRecomp",
+   "note": "",
+   "wiki": "Ape Escape (video game)"
+  },
+  {
+   "id": "mmx4",
+   "game": "洛克人 X4",
+   "game_en": "Mega Man X4",
+   "platform": "PS1",
+   "project": "MegaManX4Recomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "MegaManX4Recomp",
+   "note": ""
+  },
+  {
+   "id": "lom",
+   "game": "圣剑传说：玛娜传奇",
+   "game_en": "Legend of Mana",
+   "platform": "PS1",
+   "project": "Legend-of-Mana-Recomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "Legend-of-Mana-Recomp",
+   "note": ""
+  },
+  {
+   "id": "tomba",
+   "game": "Tomba!",
+   "game_en": "Tomba!",
+   "platform": "PS1",
+   "project": "TombaRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "released",
+   "search": "TombaRecomp",
+   "note": "由 Claude 编写的 PS1 重编译器跑通。"
+  },
+  {
+   "id": "syphon",
+   "game": "特种部队",
+   "game_en": "Syphon Filter",
+   "platform": "PS1",
+   "project": "Syphon Filter PC",
+   "type": "port",
+   "ai": "ai",
+   "status": "beta",
+   "search": "syphon filter pc",
+   "note": "",
+   "wiki": "Syphon Filter (video game)"
+  },
+  {
+   "id": "spyro",
+   "game": "小龙斯派罗",
+   "game_en": "Spyro the Dragon",
+   "platform": "PS1",
+   "project": "OpenPete",
+   "type": "port",
+   "ai": "ai",
+   "status": "beta",
+   "search": "OpenPete spyro",
+   "note": "",
+   "wiki": "Spyro the Dragon (1998 video game)"
+  },
+  {
+   "id": "hmbtn",
+   "game": "牧场物语：回归自然",
+   "game_en": "Harvest Moon: Back to Nature",
+   "platform": "PS1",
+   "project": "HM BTN Native",
+   "type": "port",
+   "ai": "ai",
+   "status": "released",
+   "search": "harvest moon back to nature native",
+   "note": "原生移植并支持 Mod。"
+  },
+  {
+   "id": "azure",
+   "game": "阿兹尔之梦",
+   "game_en": "Azure Dreams",
+   "platform": "PS1",
+   "project": "Azure Dreams HD",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "released",
+   "search": "azure dreams hd",
+   "note": ""
+  },
+  {
+   "id": "kingsfield",
+   "game": "国王密令",
+   "game_en": "King's Field",
+   "platform": "PS1",
+   "project": "King's Field PC",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "released",
+   "search": "king's field pc port",
+   "note": "",
+   "wiki": "King's Field (video game)"
+  },
+  {
+   "id": "vagrant",
+   "game": "放浪冒险谭",
+   "game_en": "Vagrant Story",
+   "platform": "PS1",
+   "project": "Vagrant Story Decomp",
+   "type": "decomp",
+   "ai": "ai",
+   "status": "decomp",
+   "search": "vagrant story decomp",
+   "note": ""
+  },
+  {
+   "id": "sotc",
+   "game": "旺达与巨像",
+   "game_en": "Shadow of the Colossus",
+   "platform": "PS2",
+   "project": "SotC Windows (PS2Recomp)",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "released",
+   "search": "shadow of the colossus ps2recomp",
+   "note": "基于 PS2Recomp 的原生 Windows 版本。"
+  },
+  {
+   "id": "killzone",
+   "game": "杀戮地带",
+   "game_en": "Killzone",
+   "platform": "PS2",
+   "project": "Killzone PC",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "released",
+   "search": "killzone ps2 recomp pc",
+   "note": "",
+   "wiki": "Killzone (video game)"
+  },
+  {
+   "id": "crashtwin",
+   "game": "古惑狼：双重煞星",
+   "game_en": "Crash Twinsanity",
+   "platform": "PS2",
+   "project": "Crash Twinsanity Windows",
+   "type": "port",
+   "ai": "ai",
+   "status": "released",
+   "search": "crash twinsanity pc port",
+   "note": ""
+  },
+  {
+   "id": "ssx3",
+   "game": "SSX 3",
+   "game_en": "SSX 3",
+   "platform": "PS2",
+   "project": "SSX 3 Rust Port",
+   "type": "port",
+   "ai": "ai",
+   "status": "released",
+   "search": "ssx3 rust",
+   "note": ""
+  },
+  {
+   "id": "godhand",
+   "game": "神之手",
+   "game_en": "God Hand",
+   "platform": "PS2",
+   "project": "God Hand Native",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "god hand recomp",
+   "note": ""
+  },
+  {
+   "id": "gow2",
+   "game": "战神 II",
+   "game_en": "God of War II",
+   "platform": "PS2",
+   "project": "GoW2 Native",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "god of war 2 recomp native",
+   "note": ""
+  },
+  {
+   "id": "dmc3",
+   "game": "鬼泣 3",
+   "game_en": "Devil May Cry 3: Dante's Awakening",
+   "platform": "PS2",
+   "project": "DMC3 Decomp",
+   "type": "decomp",
+   "ai": "ai",
+   "status": "decomp",
+   "search": "devil may cry 3 decomp",
+   "note": ""
+  },
+  {
+   "id": "ratchet",
+   "game": "瑞奇与叮当",
+   "game_en": "Ratchet & Clank",
+   "platform": "PS2",
+   "project": "Lombyte",
+   "type": "decomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "Lombyte ratchet",
+   "note": "",
+   "wiki": "Ratchet & Clank (2002 video game)"
+  },
+  {
+   "id": "burnout3ps2",
+   "game": "火爆狂飙 3：摧毁（PS2）",
+   "game_en": "Burnout 3: Takedown",
+   "platform": "PS2",
+   "project": "burnout3-pc",
+   "type": "port",
+   "ai": "unknown",
+   "status": "beta",
+   "search": "burnout3-pc",
+   "note": "Alpha 版本。"
+  },
+  {
+   "id": "recvx",
+   "game": "生化危机 维罗妮卡 完全版",
+   "game_en": "Resident Evil – Code: Veronica",
+   "platform": "PS2",
+   "project": "RE CV X PC",
+   "type": "port",
+   "ai": "ai",
+   "status": "beta",
+   "search": "code veronica x native port",
+   "note": ""
+  },
+  {
+   "id": "sc2gc",
+   "game": "灵魂能力 II",
+   "game_en": "Soulcalibur II",
+   "platform": "GameCube",
+   "project": "SoulCalibur II PC Port",
+   "type": "port",
+   "ai": "unknown",
+   "status": "beta",
+   "search": "soulcalibur II pc port gamecube",
+   "note": ""
+  },
+  {
+   "id": "shadow",
+   "game": "暗影索尼克",
+   "game_en": "Shadow the Hedgehog",
+   "platform": "GameCube",
+   "project": "Shadow Recompiled",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "shadow the hedgehog recompiled",
+   "note": "",
+   "wiki": "Shadow the Hedgehog (video game)"
+  },
+  {
+   "id": "chibi",
+   "game": "Chibi-Robo!",
+   "game_en": "Chibi-Robo!",
+   "platform": "GameCube",
+   "project": "Chibi-Robo PC",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "chibi-robo pc",
+   "note": "",
+   "wiki": "Chibi-Robo! Plug Into Adventure!"
+  },
+  {
+   "id": "soa",
+   "game": "阿卡迪亚之空 传说",
+   "game_en": "Skies of Arcadia Legends",
+   "platform": "GameCube",
+   "project": "SoA Legends Recomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "skies of arcadia recomp",
+   "note": "",
+   "wiki": "Skies of Arcadia"
+  },
+  {
+   "id": "wwhd",
+   "game": "塞尔达传说：风之杖 HD",
+   "game_en": "The Legend of Zelda: The Wind Waker HD",
+   "platform": "Wii U",
+   "project": "WW HD Linux",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "wind waker hd recomp linux",
+   "note": ""
+  },
+  {
+   "id": "jsrf",
+   "game": "喷射小子 未来",
+   "game_en": "Jet Set Radio Future",
+   "platform": "Xbox",
+   "project": "JSRF Windows",
+   "type": "port",
+   "ai": "ai",
+   "status": "beta",
+   "search": "jet set radio future pc port",
+   "note": ""
+  },
+  {
+   "id": "sneakking",
+   "game": "Sneak King",
+   "game_en": "Sneak King",
+   "platform": "Xbox",
+   "project": "sneaky-whopper-recomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "released",
+   "search": "sneaky-whopper-recomp",
+   "note": "README 写明使用 Claude Code 制作。"
+  },
+  {
+   "id": "skate3",
+   "game": "滑板 3",
+   "game_en": "Skate 3",
+   "platform": "Xbox 360",
+   "project": "Skate3recomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "Skate3recomp",
+   "note": ""
+  },
+  {
+   "id": "sc4",
+   "game": "灵魂能力 IV",
+   "game_en": "Soulcalibur IV",
+   "platform": "Xbox 360",
+   "project": "rexglue-SoulCaliburIV",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "rexglue SoulCaliburIV",
+   "note": ""
+  },
+  {
+   "id": "crackdown",
+   "game": "除暴战警",
+   "game_en": "Crackdown",
+   "platform": "Xbox 360",
+   "project": "Crackdown Native",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "crackdown recomp native",
+   "note": "",
+   "wiki": "Crackdown (video game)"
+  },
+  {
+   "id": "dp360",
+   "game": "致命预感",
+   "game_en": "Deadly Premonition",
+   "platform": "Xbox 360",
+   "project": "Deadly Premonition PC",
+   "type": "port",
+   "ai": "ai",
+   "status": "released",
+   "search": "deadly premonition recomp xbox 360",
+   "note": ""
+  },
+  {
+   "id": "sm64ds-r",
+   "game": "超级马力欧 64 DS",
+   "game_en": "Super Mario 64 DS",
+   "platform": "DS",
+   "project": "SuperMario64DSRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "SuperMario64DSRecomp",
+   "note": ""
+  },
+  {
+   "id": "mph",
+   "game": "银河战士 Prime 猎人",
+   "game_en": "Metroid Prime Hunters",
+   "platform": "DS",
+   "project": "MetroidPrimeHuntersRecomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "MetroidPrimeHuntersRecomp",
+   "note": ""
+  },
+  {
+   "id": "b2w2",
+   "game": "宝可梦 黑2/白2",
+   "game_en": "Pokémon Black 2 and White 2",
+   "platform": "DS",
+   "project": "Frigate",
+   "type": "port",
+   "ai": "ai",
+   "status": "released",
+   "search": "frigate pokemon black 2",
+   "note": ""
+  },
+  {
+   "id": "hgss",
+   "game": "宝可梦 心金/魂银",
+   "game_en": "Pokémon HeartGold and SoulSilver",
+   "platform": "DS",
+   "project": "SoulSilver Native",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "search": "soulsilver native recomp",
+   "note": ""
+  },
+  {
+   "id": "yokai",
+   "game": "妖怪手表（3DS 系列）",
+   "game_en": "Yo-kai Watch",
+   "platform": "3DS",
+   "project": "Yo-kai Watch 3DS Native PC",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "released",
+   "search": "yo-kai watch 3ds native pc",
+   "note": "",
+   "wiki": "Yo-kai Watch (video game)"
+  },
+  {
+   "id": "ms5",
+   "game": "合金弹头 5",
+   "game_en": "Metal Slug 5",
+   "platform": "Neo Geo",
+   "project": "MS5 Native",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "released",
+   "search": "metal slug 5 native",
+   "note": ""
+  },
+  {
+   "id": "ntm",
+   "game": "Neo Turf Masters",
+   "game_en": "Neo Turf Masters",
+   "platform": "Neo Geo",
+   "project": "NTM Decomp",
+   "type": "decomp",
+   "ai": "ai",
+   "status": "released",
+   "search": "neo turf masters decomp",
+   "note": ""
+  },
+  {
+   "id": "vf1",
+   "game": "VR 战士",
+   "game_en": "Virtua Fighter",
+   "platform": "Arcade",
+   "project": "VF1 Native",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "released",
+   "search": "virtua fighter model 1 native",
+   "note": "",
+   "wiki": "Virtua Fighter (video game)"
+  },
+  {
+   "id": "wipeoutpure",
+   "game": "反重力赛车 Pure",
+   "game_en": "Wipeout Pure",
+   "platform": "PSP",
+   "project": "Wipeout Pure Native",
+   "type": "port",
+   "ai": "ai",
+   "status": "released",
+   "search": "wipeout pure pc port",
+   "note": ""
   }
  ]
 }
