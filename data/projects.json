@@ -1868,9 +1868,9 @@
    "project": "bloodborne_pc",
    "type": "decomp",
    "ai": "ai",
-   "status": "lead",
+   "status": "beta",
    "repo": "supermedo/bloodborne_pc",
-   "note": "Claude 参与的反编译，尚不可玩。"
+   "note": "Claude 参与的反编译移植，已发布 Windows 版本（社区关注度很高）。"
   },
   {
    "id": "bb-niels",
@@ -2033,7 +2033,11 @@
    "status": "lead",
    "repo": "boykopovar/AnyPS5",
    "wiki": false,
-   "note": "把 PS5 可执行文件预先转换为原生 Windows/Linux 程序的重链接器；目前仅验证《Dreaming Sarah》可玩。"
+   "note": "把 PS5 可执行文件预先转换为原生 Windows/Linux 程序的重链接器；目前仅验证《Dreaming Sarah》可玩。",
+   "targets": [
+    "windows",
+    "linux"
+   ]
   },
   {
    "id": "ps3recomp",
