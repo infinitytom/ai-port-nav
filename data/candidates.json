@@ -1,0 +1,1114 @@
+{
+ "generated": "2026-10-22T09:32:23.252Z",
+ "candidates": {
+  "pilotwings": [],
+  "jfg": [
+   {
+    "repo": "TK22-26/JetForceGemini-Recomp",
+    "desc": "Native Windows PC recompilation of Jet Force Gemini with modern mouse/keyboard and controller controls, high-refresh rendering, and easy setup. Playable release",
+    "stars": 61,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "VibinToast/JetForceGemini-Recomp",
+    "desc": "Jet Force Gemini on the N64 ported to PC . Comes with modern features such as Mouse & Keyboard, 60+ FPS and HD texture support. 100% Playable.",
+    "stars": 19,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "VibinToast/JetForceGemini-HD_TexturePack",
+    "desc": "HD texture pack for my JetForceGemini Recomp",
+    "stars": 3,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "snap": [
+   {
+    "repo": "JackandBeans/Snap64Recomp",
+    "desc": "Native Windows, Linux and macOS port of Pokémon Snap (N64) by static recompilation. Plays like the cartridge by default; every enhancement is opt-in. Bring your",
+    "stars": 119,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "JackandBeans/Snap64RecompMods",
+    "desc": "Mods for Snap64 Recomp, the native PC port of Pokemon Snap: Unlimited Film and Unlock Everything",
+    "stars": 2,
+    "pushed": "2026-10-18",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "harshithmothilal/Snap64Recomp",
+    "desc": "Play Pokémon Snap natively on Windows, Linux, and Steam Deck via static recompilation using your own N64 cartridge dump.",
+    "stars": 1,
+    "pushed": "2026-10-12",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "JackandBeans/Snap64RecompSyms",
+    "desc": "The game's function and variable names with their addresses, for building Snap64 Recomp mods",
+    "stars": 1,
+    "pushed": "2026-09-20",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "battleship": [
+   {
+    "repo": "rockenrooster/Smash64DS_Port",
+    "desc": "Nintendo DS source port of Super Smash Bros. 64 via the BattleShip decomp.",
+    "stars": 30,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "jajdp/smash64-xbox",
+    "desc": "The packaging half of the Super Smash Bros. UWP port for an Xbox Series in Developer Mode. The port itself is the author's (BattleShip, codex/uwp-perf-trace bra",
+    "stars": 0,
+    "pushed": "2026-10-20",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "windwaker": [
+   {
+    "repo": "ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+    "desc": "Zelda Wind Waker HD Recomp",
+    "stars": 934,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "elliotttate/Wind-Waker-Recomp",
+    "desc": "Personal source fork of BlueWake for The Wind Waker on iPhone and iPad",
+    "stars": 567,
+    "pushed": "2026-10-05",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "arcadematicas/wind-waker-recomp-tools",
+    "desc": "Play The Wind Waker recompilation in French/Spanish/Italian (PAL text injected into a USA disc), plus Linux/Proton notes",
+    "stars": 2,
+    "pushed": "2026-10-03",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "weskestis/Wind-Waker-Recomp-UWP",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-03",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "acgc": [
+   {
+    "repo": "flyngmt/ACGC-PC-Port",
+    "desc": "Unofficial PC Port of Animal Crossing Gamecube",
+    "stars": 1507,
+    "pushed": "2026-08-02",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "imcynic/ACGC-Deluxe-PC-Port",
+    "desc": "Animal Crossing PC Port - Deluxe Edition",
+    "stars": 22,
+    "pushed": "2026-03-25",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "WhoIsDankeyKang/ACGC-Mac-Port",
+    "desc": "A mac version of https://github.com/flyngmt/ACGC-PC-Port",
+    "stars": 0,
+    "pushed": "2026-05-31",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "AdamMcWilliam/halo-crossing",
+    "desc": "Fan prototype: Halo CE combat inside an Animal Crossing (GameCube) town, on the ACGC-PC-Port. No game data included; bring your own discs.",
+    "stars": 2,
+    "pushed": "2026-10-04",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "smg-nebula": [
+   {
+    "repo": "keepvaibin/nebula",
+    "desc": "A decompiled PC Port of Super Mario Galaxy, intended to work on Windows, Linux, MacOS, Android, and iOS/iPadOS.",
+    "stars": 297,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "silenthill": [],
+  "acfa": [
+   {
+    "repo": "rensoftworks/Armored-core-ReAnswered",
+    "desc": "An attempt at using static recomp to get a functioning version of the cult classic game Armored core for answer. ",
+    "stars": 3,
+    "pushed": "2026-04-13",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "freeriders": [
+   {
+    "repo": "YuutaTsubasa/Free-Riders-Recompiled",
+    "desc": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect",
+    "stars": 97,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "FermataRest/Free-Riders-Recompiled",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-01",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "My-Appimages/sonic-free-riders-recompiled-appimage",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "YuutaTsubasa/Free-Riders-Recompiled-Traditional-Chinese-Mod",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-07",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "shaolin": [
+   {
+    "repo": "OAleex/ShaolinMonksRecomp",
+    "desc": "Native port of Mortal Kombat: Shaolin Monks (Xbox) through static recompilation.",
+    "stars": 170,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "OAleex/ShaolinMonksRecompKrypt",
+    "desc": "",
+    "stars": 2,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "StarKillerChief/ShaolinMonksRecomp-DualSensePrompts",
+    "desc": "DualSense (PS5) button prompts for Shaolin Monks Recomp - English and Brazilian Portuguese",
+    "stars": 0,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "Thorhax/ShaolinMonks-NX",
+    "desc": "Nintendo Switch port of Mortal Kombat: Shaolin Monks, built on OAleex's ShaolinMonksRecomp (Xbox static recompilation), Vulkan via NVK",
+    "stars": 0,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "takedawn": [
+   {
+    "repo": "xenophobentx/takedawn",
+    "desc": "Unofficial native PC/handheld port of Burnout 3: Takedown (static recompilation). Bring your own disc.",
+    "stars": 328,
+    "pushed": "2026-10-17",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "griches/PS5_Burnout3",
+    "desc": "Burnout 3: Takedown on PlayStation 5: a port of Takedawn, the static recompilation of the original Xbox game. Bring your own USA disc.",
+    "stars": 9,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "SirL0LL0/takedawn-pal-it",
+    "desc": "Takedawn: the original Xbox Burnout 3 Takedown as a native program, built for the European (PAL) disc and in Italian. The dashboard's language is a setting: eng",
+    "stars": 0,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "ge-n64": [
+   {
+    "repo": "jkdansereau/goldeneye-pc-port",
+    "desc": "GoldenEye 007 (N64, 1997) as a native PC game for Windows, Linux, Steam Deck and macOS. Built from the open decompilation, with widescreen, mouse and keyboard o",
+    "stars": 284,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "murkantor/Project-Midas",
+    "desc": "PC port of GE for Windows and Linux, built from the N64 decompilation. Widescreen, mouse look, modern controller support and in-game settings. Co-op, netplay an",
+    "stars": 321,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "cylonicboom/pd-friends-of-joanna-basedir",
+    "desc": "basedir for Perfect Dark pc port modloader layouts (Friends of Joanna, Goldeneye:X, AIO)",
+    "stars": 0,
+    "pushed": "2026-07-30",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "largeweb/hyrule-composite",
+    "desc": "Minecraft Java running live alongside N64 PC ports (Ocarina of Time, Mario Kart 64, GoldenEye 007): blocks, digging and combat inside the original games. Linux ",
+    "stars": 0,
+    "pushed": "2026-10-17",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "ge-midas": [
+   {
+    "repo": "murkantor/Project-Midas",
+    "desc": "PC port of GE for Windows and Linux, built from the N64 decompilation. Widescreen, mouse look, modern controller support and in-game settings. Co-op, netplay an",
+    "stars": 321,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "smash64r": [
+   {
+    "repo": "zestydevy/smash64rsyms",
+    "desc": "Symbol files for Super Smash Bros R.",
+    "stars": 2,
+    "pushed": "2025-05-05",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "navjack/smash64r",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-16",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "noxxerw2007-crypto/Smash64RemakeAssets",
+    "desc": "Credits go where its do, idk where these are from!",
+    "stars": 0,
+    "pushed": "2026-08-27",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "Smash64Recomp/Smash64RecompSyms",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-06",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "fzerox": [
+   {
+    "repo": "Zorkats/G-Diffuser",
+    "desc": "Unofficial PC Port of F-Zero X based on the decompilation of inspectredc.",
+    "stars": 292,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "cruxxxxxx/gdx-3ds",
+    "desc": "Unofficial 3DS Port of F-Zero X based on G-Diffuser & the decompilation of inspectredc",
+    "stars": 28,
+    "pushed": "2026-10-20",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "chrissotraidis/f0x",
+    "desc": "Native F-Zero X source port via G-Diffuser for Apple Silicon macOS, iPhone, and iPad, with Metal and touch controls.",
+    "stars": 10,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "astromaddie/fzerox-vr",
+    "desc": "Experimental standalone F-Zero X VR for Steam Frame, based on G-Diffuser. Bring your own game data.",
+    "stars": 1,
+    "pushed": "2026-10-11",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "mischief": [],
+  "rogue": [
+   {
+    "repo": "MikeSemicolonD/RogueSquadron64Recomp",
+    "desc": "A fully playable (AI assisted) static recompilation of Star Wars: Rogue Squadron on N64 for Windows 10, Linux & Android",
+    "stars": 15,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "sp00nznet/rogue-squadron-recomp",
+    "desc": "Star Wars: Rogue Squadron 3D (1998 PC), statically recompiled with pcrecomp: windowed, no mode changes, F10 cheat menu",
+    "stars": 1,
+    "pushed": "2026-10-20",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "MikeSemicolonD/RogueSquadron64RecompSyms",
+    "desc": "Symbol files for the RogueSquadron64Recomp",
+    "stars": 0,
+    "pushed": "2026-10-13",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "MikeSemicolonD/RogueSquadron64RecompModTemplate",
+    "desc": "Bare mod template for making RogueSquadron64Recomp mods.",
+    "stars": 0,
+    "pushed": "2026-10-13",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "pkmn-gen1": [
+   {
+    "repo": "mstan/PokemonRedAndBlueRecomp",
+    "desc": "Pokémon Red & Blue recompiled for the Game Boy using a fork of gb-recompiled · Part of the R.A.I.D. community",
+    "stars": 10,
+    "pushed": "2026-07-23",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "tetrisgb": [
+   {
+    "repo": "mstan/TetrisGBRecomp",
+    "desc": "Tetris recompiled for the Game Boy using a fork of gb-recompiled · Part of the R.A.I.D. community",
+    "stars": 7,
+    "pushed": "2026-08-17",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "shantae": [],
+  "ladx-hd": [],
+  "emerald": [
+   {
+    "repo": "mstan/EmeraldRecomp",
+    "desc": "Pokémon Emerald recompiled for the Game Boy Advance using gbarecomp · Part of the R.A.I.D. community",
+    "stars": 38,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "frlg": [
+   {
+    "repo": "mstan/FireRedLeafGreenRecomp",
+    "desc": "Pokémon FireRed & LeafGreen recompiled for the Game Boy Advance using gbarecomp · Part of the R.A.I.D. community",
+    "stars": 28,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "mkscgba": [
+   {
+    "repo": "mstan/MarioKartSuperCircuitRecomp",
+    "desc": "Static recompilation of Mario Kart: Super Circuit with optional 60 FPS and Adaptive Widescreen mods · Part of the R.A.I.D. community",
+    "stars": 71,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "dbzlog2": [],
+  "boktai3": [
+   {
+    "repo": "moozilla/boktai3-decomp",
+    "desc": "Matching decompilation of Shin Bokura no Taiyou (Boktai 3)",
+    "stars": 1,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "smb-nes": [],
+  "metroid-nes": [
+   {
+    "repo": "mstan/MetroidNESRecomp",
+    "desc": "Metroid recompiled for the NES using nesrecomp · Part of the R.A.I.D. community",
+    "stars": 23,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "mother1": [
+   {
+    "repo": "mstan/Mother1NESRecomp",
+    "desc": "",
+    "stars": 2,
+    "pushed": "2026-09-09",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "mm3": [
+   {
+    "repo": "mstan/Megaman3NESRecomp",
+    "desc": "Mega Man 3 recompiled for the NES using nesrecomp · Part of the R.A.I.D. community",
+    "stars": 11,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "dkc2": [
+   {
+    "repo": "mstan/DKC2Recomp",
+    "desc": "Superseded by elliotttate/DKC2Recomp — static recompilation of Donkey Kong Country 2 (SNES) via snesrecomp",
+    "stars": 9,
+    "pushed": "2026-09-14",
+    "fork": false,
+    "archived": true
+   },
+   {
+    "repo": "elliotttate/DKC3Recomp",
+    "desc": "Native recompilation of Donkey Kong Country 3 (SNES), built the DKC2Recomp way on snesrecomp",
+    "stars": 134,
+    "pushed": "2026-09-13",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "toniisound/DKC2Recomp-NX",
+    "desc": "Donkey Kong Country 2 (SNES) static recompilation for Nintendo Switch — 60 fps, HD upscaler, pause menu, save states and HD Rumble.",
+    "stars": 0,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "1weell/DKC2Recomp-Switch",
+    "desc": "Nintendo Switch port of DKC2Recomp with 16:9 presentation and SDL/libnx host support.",
+    "stars": 1,
+    "pushed": "2026-09-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "mmx": [
+   {
+    "repo": "mstan/MegaManXSNESRecomp",
+    "desc": "Mega Man X recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+    "stars": 200,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "FermataRest/MegaManXSNESRecomp",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-01",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "navjack/MegaManXSNESRecomp-macos-linux-wide",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-16",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "starfox-snes": [
+   {
+    "repo": "mstan/StarFoxSNESRecomp",
+    "desc": "Star Fox recompiled for the Super Nintendo using snesrecomp · Part of the R.A.I.D. community",
+    "stars": 30,
+    "pushed": "2026-10-18",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "smrpg": [],
+  "gaia": [
+   {
+    "repo": "mrOt4/babel-recomp",
+    "desc": "Illusion of Gaia (SNES) native port: Linux, Windows, macOS, Switch, Android, 3DS and PS Vita. Bring your own ROM.",
+    "stars": 1,
+    "pushed": "2026-10-16",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "sonic1": [
+   {
+    "repo": "mstan/SonicTheHedgehog2Recomp",
+    "desc": "Sonic the Hedgehog 2 recompiled for the Sega Genesis using segagenesisrecomp · Part of the R.A.I.D. community",
+    "stars": 19,
+    "pushed": "2026-10-18",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "mstan/SonicTheHedgehogRecomp",
+    "desc": "Sonic the Hedgehog recompiled for the Sega Genesis using segagenesisrecomp · Part of the R.A.I.D. community",
+    "stars": 18,
+    "pushed": "2026-10-18",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "mstan/Sonic3AndKnucklesRecomp",
+    "desc": "Sonic 3 & Knuckles recompiled for the Sega Genesis using segagenesisrecomp · Part of the R.A.I.D. community",
+    "stars": 18,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "sonic3k": [
+   {
+    "repo": "mstan/Sonic3AndKnucklesRecomp",
+    "desc": "Sonic 3 & Knuckles recompiled for the Sega Genesis using segagenesisrecomp · Part of the R.A.I.D. community",
+    "stars": 18,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "landstalker": [],
+  "apeescape": [
+   {
+    "repo": "mstan/ApeEscapeRecomp",
+    "desc": "Ape Escape (USA) recompiled for the Sony PlayStation using psxrecomp · Part of the R.A.I.D. community",
+    "stars": 91,
+    "pushed": "2026-10-08",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "FermataRest/ApeEscapeRecomp",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-01",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "mmx4": [
+   {
+    "repo": "mstan/MegaManX4Recomp",
+    "desc": "Mega Man X4 (USA, SLUS-00561) statically recompiled to a native PC executable with PSXRecomp",
+    "stars": 105,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "FermataRest/MegaManX4Recomp",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-01",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "lom": [
+   {
+    "repo": "TechnicallyComputers/Legend-of-Mana-Recomp",
+    "desc": "Made with PSXrecomp, a Sony PlayStation game static recompiler ecosystem · Part of the R.A.I.D. community",
+    "stars": 4,
+    "pushed": "2026-10-10",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "tomba": [
+   {
+    "repo": "mstan/TombaRecomp",
+    "desc": "Tomba! (USA) recompiled for the Sony PlayStation using psxrecomp · Part of the R.A.I.D. community",
+    "stars": 73,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "FermataRest/TombaRecomp",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-01",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "syphon": [
+   {
+    "repo": "Alexbeav/SF-pc-port",
+    "desc": "Unofficial source-only Syphon Filter PC fork focused on modern mouse-look controls",
+    "stars": 3,
+    "pushed": "2026-09-12",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "dimovitus/SF-pc-port-linux",
+    "desc": "Linux port of Syphon Filter PC (based on Madxbio97/SF-pc-port). Unofficial; you need a legal USA v1.1 BIN/CUE.",
+    "stars": 0,
+    "pushed": "2026-08-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "spyro": [
+   {
+    "repo": "Tokatta007/Spyro-1-Co-Op-OpenPete",
+    "desc": "Split-screen co-op for Spyro the Dragon, as an OpenPete mod. Successor to the PS1 co-op mod.",
+    "stars": 5,
+    "pushed": "2026-09-23",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "dragxnflare/rainbow-spyro-openpete",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-15",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "hmbtn": [
+   {
+    "repo": "GabrielBigardi/HarvestMoonBTN-Recomp",
+    "desc": "Native Windows/Linux port of Harvest Moon: Back to Nature (PS1) by static recompilation - bring your own copy, no game files included",
+    "stars": 0,
+    "pushed": "2026-10-20",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "vinibeloni/hmbtn-mods",
+    "desc": "Drop-in mods for the Harvest Moon: Back to Nature native PC port (unofficial fan project, noncommercial license, no game data)",
+    "stars": 0,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "azure": [
+   {
+    "repo": "PotionDweller/Azure-Dreams-HD-Recompilation",
+    "desc": "Native Windows PC port of Azure Dreams (PS1) via static recompilation with psxrecomp: HD rendering, 16:9 widescreen, fast loading. Bring your own disc.",
+    "stars": 2,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "Agoengwew/wew",
+    "desc": "#EXTM3U  ########################################### INDONESIA CHANNEL ################################################## #EXTINF:-1 tvg-logo=\"https://i.imgur.c",
+    "stars": 33,
+    "pushed": "2020-02-08",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "kingsfield": [
+   {
+    "repo": "Voicedrew11/verdite2",
+    "desc": "AI driven attempt at porting King's Field (SLUS-00158) to PC with a variety of improvements",
+    "stars": 54,
+    "pushed": "2026-10-17",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "Voicedrew11/verdite3",
+    "desc": "AI driven attempt at porting King's Field II (SLUS-00255) to PC with a variety of improvements ",
+    "stars": 26,
+    "pushed": "2026-10-18",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "Voicedrew11/verdite1",
+    "desc": "AI driven attempt at porting King's Field (SLPS-00017) to PC with a variety of improvements",
+    "stars": 9,
+    "pushed": "2026-10-18",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "Acranon/verdite2-mods",
+    "desc": "Mods for Verdite2, the native PC port of King's Field (PS1)",
+    "stars": 4,
+    "pushed": "2026-09-27",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "vagrant": [
+   {
+    "repo": "SomeoneIsWorking/psx-vagrant-story",
+    "desc": "PC-native port of Vagrant Story (PS1, SLUS_010.40) built on psxport — vendors the CC0 rood-reverse decomp",
+    "stars": 3,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "sotc": [
+   {
+    "repo": "HenryKun55/celosia",
+    "desc": "Native port of Shadow of the Colossus (PS2) to macOS and PS Vita: static recompilation with PS2Recomp, a native Metal/OpenGL renderer, and a decompilation in pr",
+    "stars": 30,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "GenissonEmilio/ShadowOfTheColossusPC",
+    "desc": "Port nativo Linux de Shadow of the Colossus (PS2 USA), baseado em Celosia/PS2Recomp; ROM própria necessária.",
+    "stars": 0,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "killzone": [
+   {
+    "repo": "drakolordx7/KillzoneRecomp",
+    "desc": "Native PC port of Killzone (PS2) via static recompilation. Mouse and keyboard, 120+ fps, upscaling. Bring your own disc.",
+    "stars": 89,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "crashtwin": [
+   {
+    "repo": "menaman123/TwinsanityEvolved",
+    "desc": "PC Port of Crash Twinsanity ",
+    "stars": 4,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "Mozarella-png/Crash-Twinsanity-Android",
+    "desc": "A port of the Crash Twinsanity pc port for android",
+    "stars": 0,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "ssx3": [
+   {
+    "repo": "andersfischernielsen/ssx3-decomp",
+    "desc": "A decompilation/port of SSX 3 in Rust.",
+    "stars": 22,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "godhand": [
+   {
+    "repo": "LasVola/godhand-recomp",
+    "desc": "God Hand Recompiled: native PC port of God Hand (PS2) via static recompilation. No game data included.",
+    "stars": 5,
+    "pushed": "2026-10-20",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "gow2": [],
+  "dmc3": [
+   {
+    "repo": "WadeWinningWilson/dmc3-decomp",
+    "desc": "Decompilation of Devil May Cry 3: Dante's Awakening (PS2)",
+    "stars": 3,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "ratchet": [
+   {
+    "repo": "lombyte-project/Lombyte",
+    "desc": "Preserving Ratchet & Clank (2002) through decompilation",
+    "stars": 47,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "lombyte-project/lombyte-project.github.io",
+    "desc": "Website of Lombyte, the Ratchet & Clank (2002) decompilation project",
+    "stars": 0,
+    "pushed": "2026-10-18",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "conor-sometimes/decomp-nix",
+    "desc": "Nix packages for matching decompilations: build environments and toolchains (Lombyte / Ratchet & Clank PS2 first)",
+    "stars": 0,
+    "pushed": "2026-10-15",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "burnout3ps2": [
+   {
+    "repo": "danielgomesvieira2000/burnout3-pc",
+    "desc": "Burnout 3: Takedown as a native Windows port, through a PS2 decompilation toolchain. Unofficial; bring your own disc. No game content included.",
+    "stars": 157,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "davidptrssvea/burnout3pc",
+    "desc": "",
+    "stars": 1,
+    "pushed": "2026-10-14",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "recvx": [
+   {
+    "repo": "Patt92/recvx-native",
+    "desc": "native port of Resident Evil Code Veronica X decompilation",
+    "stars": 0,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "sc2gc": [],
+  "shadow": [],
+  "chibi": [
+   {
+    "repo": "Armandpro12/chibi-robo-pc",
+    "desc": "Chibi-Robo! (GameCube) as a native PC game: static recompilation with no emulated hardware. Decompilation, multiplayer, remaster and mods planned.",
+    "stars": 1,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "soa": [
+   {
+    "repo": "ogdanimal/SkiesOfArcadiaLegends-Recomp",
+    "desc": "Native port of Skies of Arcadia Legends (GameCube) via static recompilation. Bring your own disc.",
+    "stars": 81,
+    "pushed": "2026-10-22",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "wwhd": [
+   {
+    "repo": "AsadSi/wwhd-recomp-mods",
+    "desc": "Wind Waker HD native port (macOS/Linux/Windows) with extra mods: spooky sea events, Tetra's ship, Shadow Beast, experimental online co-op. Bring your own copy o",
+    "stars": 1,
+    "pushed": "2026-10-14",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "jsrf": [],
+  "sneakking": [
+   {
+    "repo": "Guuzzeji/sneaky-whopper-recomp",
+    "desc": "Burger King: Sneak King (original Xbox) statically recompiled into a native Windows PC port, plus an experimental WebAssembly browser build. No emulator. Bring ",
+    "stars": 0,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "skate3": [
+   {
+    "repo": "mchughalex/skate3recomp",
+    "desc": "A native recompilation of Skate 3 for Windows, Linux, and macOS.",
+    "stars": 1703,
+    "pushed": "2026-07-24",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "DioguitoM11/Skate3Recomp",
+    "desc": "Skate3Recomp IS Made With XenonRecomp,And Has The Objecive to Recompile the xbox 360 version of the game",
+    "stars": 0,
+    "pushed": "2025-03-15",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "jaypolanco96/HOPE",
+    "desc": "HOPE — Hills, Ollies, Pavement, Expression. PC-focused Skate3Recomp update and Windows launcher, based on mchughalex/skate3recomp.",
+    "stars": 1,
+    "pushed": "2026-10-07",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "FermataRest/skate3recomp",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-01",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "sc4": [
+   {
+    "repo": "FluffyQuack/rexglue-SoulCaliburIV",
+    "desc": "SoulCalibur IV Statically Recompiled using ReXGlue SDK",
+    "stars": 27,
+    "pushed": "2026-07-07",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "crackdown": [
+   {
+    "repo": "Unowa001/crackdown-recomp",
+    "desc": "Unofficial native PC port of Crackdown (Xbox 360) via static recompilation - beta releases and setup guide. No game data included.",
+    "stars": 69,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "saulob/crackdown-xbox360-recompiled",
+    "desc": "Crackdown native PC port via static recompilation, with high frame rates, 4K rendering, ultrawide support, offline achievements, language selection, TRG launche",
+    "stars": 44,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "dp360": [],
+  "sm64ds-r": [
+   {
+    "repo": "mstan/supermario64dsrecomp",
+    "desc": "",
+    "stars": 14,
+    "pushed": "2026-09-09",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "mph": [
+   {
+    "repo": "mstan/MetroidPrimeHuntersRecomp",
+    "desc": "",
+    "stars": 265,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   },
+   {
+    "repo": "FermataRest/MetroidPrimeHuntersRecomp",
+    "desc": "",
+    "stars": 0,
+    "pushed": "2026-10-01",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "b2w2": [
+   {
+    "repo": "CallanCampos/Frigate",
+    "desc": "Frigate: a native PC and Mac port of Pokémon Black 2 and White 2, built from the pokebw2 decompilation and kept in sync with it. Bring your own ROM.",
+    "stars": 2,
+    "pushed": "2026-10-21",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "hgss": [],
+  "yokai": [
+   {
+    "repo": "clockwork-recompdev/clockwork",
+    "desc": "Native PC versions of the Yo-kai Watch 3DS games by static recompilation",
+    "stars": 9,
+    "pushed": "2026-10-20",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "ms5": [
+   {
+    "repo": "AlmazProud/metal-slug-5-recomp",
+    "desc": "Native Windows port of Metal Slug 5 (Neo Geo) by static recompilation. Bring your own copy (MAME set).",
+    "stars": 0,
+    "pushed": "2026-10-20",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "ntm": [
+   {
+    "repo": "blakebratcher/ntm-decomp",
+    "desc": "Byte-exact decompilation research for Neo Turf Masters: methodology, classification metadata, and corpus-independent tooling",
+    "stars": 0,
+    "pushed": "2026-10-19",
+    "fork": false,
+    "archived": false
+   }
+  ],
+  "vf1": [],
+  "wipeoutpure": []
+ }
+}
