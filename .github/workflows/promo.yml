@@ -9,7 +9,7 @@ permissions:
 jobs:
   record:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -17,11 +17,14 @@ jobs:
           node-version: 20
       - name: 安装浏览器、中文字体与 ffmpeg
         run: |
-          sudo apt-get update -q
-          sudo apt-get install -y -q fonts-noto-cjk ffmpeg
+          sudo apt-get install -y -q --no-install-recommends fonts-noto-cjk || (sudo apt-get update -q && sudo apt-get install -y -q --no-install-recommends fonts-noto-cjk)
+          which ffmpeg || sudo apt-get install -y -q ffmpeg
           npm i --no-save playwright@1.48.2
-          npx playwright install --with-deps chromium
+          npx playwright install ffmpeg
+          google-chrome --version
       - name: 录制
+        env:
+          CHANNEL: chrome
         run: node scripts/promo.mjs "https://infinitytom.github.io/ai-port-nav/" promo-out
       - name: 转码为 MP4
         run: |

@@ -8,7 +8,7 @@ const OUT = process.argv[3] || "promo-out";
 const W = 1920, H = 1080;
 await mkdir(OUT, { recursive: true });
 
-const browser = await chromium.launch(process.env.CHROME ? { executablePath: process.env.CHROME } : {});
+const browser = await chromium.launch(process.env.CHROME ? { executablePath: process.env.CHROME } : { channel: process.env.CHANNEL || undefined });
 const ctx = await browser.newContext({
   viewport: { width: W, height: H }, deviceScaleFactor: 1, colorScheme: "dark", locale: "zh-CN",
   recordVideo: { dir: OUT, size: { width: W, height: H } },
@@ -73,7 +73,10 @@ await page.goto(URL_, { waitUntil: "networkidle" });
 // 放大页面内容，让 1180px 宽的版面铺满 1080p 画面（字幕不放大）
 await page.addStyleTag({ content: ".hero,main,.foot{zoom:1.45}" });
 await page.evaluate(() => document.fonts.ready);
-await page.evaluate(async () => { for (const img of document.images) if (!img.complete) await new Promise((r) => { img.onload = img.onerror = r; setTimeout(r, 4000); }); });
+await page.evaluate(() => Promise.race([
+  Promise.all([...document.images].filter((i) => !i.complete && i.getBoundingClientRect().top < innerHeight).map((i) => new Promise((r) => { i.onload = i.onerror = r; }))),
+  new Promise((r) => setTimeout(r, 6000)),
+]));
 await wait(800);
 await caption("反编译 · 静态重编译 · 原生移植");
 await wait(2200);
