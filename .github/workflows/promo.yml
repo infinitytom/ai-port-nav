@@ -17,7 +17,7 @@ jobs:
           node-version: 20
       - name: 准备录制环境（中文字体由网页从 Google Fonts 加载）
         run: |
-          pip install -q imageio-ffmpeg
+          pip install -q imageio-ffmpeg numpy scipy
           echo "FF=$(python3 -c 'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())')" >> $GITHUB_ENV
           npm i --no-save playwright@1.48.2
           npx playwright install ffmpeg
@@ -26,10 +26,14 @@ jobs:
         env:
           CHANNEL: chrome
         run: node scripts/promo.mjs "https://infinitytom.github.io/ai-port-nav/" promo-out
-      - name: 转码为 MP4
+      - name: 转码为 MP4 并配上原创背景音乐
         run: |
           mkdir -p promo
-          "$FF" -y -i promo-out/promo.webm -c:v libx264 -preset slow -crf 22 -pix_fmt yuv420p -r 30 -movflags +faststart -an promo/ai-port-nav-promo.mp4
+          "$FF" -y -i promo-out/promo.webm -c:v libx264 -preset slow -crf 22 -pix_fmt yuv420p -r 30 -an promo-out/video.mp4
+          DUR=$(python3 -c "import subprocess,re,sys;o=subprocess.run(['$FF','-i','promo-out/video.mp4'],capture_output=True,text=True).stderr;h,m,s=re.search(r'Duration: (\d+):(\d+):([\d.]+)',o).groups();print(int(h)*3600+int(m)*60+float(s))")
+          echo "视频时长 $DUR 秒"
+          python3 scripts/bgm.py "$DUR" promo-out/bgm.wav
+          "$FF" -y -i promo-out/video.mp4 -i promo-out/bgm.wav -map 0:v -map 1:a -c:v copy -af "loudnorm=I=-16:TP=-1.5:LRA=7" -c:a aac -b:a 192k -ar 44100 -shortest -movflags +faststart promo/ai-port-nav-promo.mp4
           "$FF" -y -ss 6 -i promo/ai-port-nav-promo.mp4 -frames:v 1 -q:v 3 promo/poster.jpg
           ls -la promo
       - name: 提交
