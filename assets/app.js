@@ -1,5 +1,5 @@
 // 仓库地址：用于"推荐一个项目"链接。部署后改成你的 owner/repo
-const SITE_REPO = "OWNER/ai-port-nav";
+const SITE_REPO = "infinitytom/ai-port-nav";
 
 const TYPE = { decomp: "反编译移植", recomp: "静态重编译", port: "原生重写" };
 const AI = { ai: "AI 主导", assist: "允许辅助", none: "纯人工", unknown: "未声明" };
