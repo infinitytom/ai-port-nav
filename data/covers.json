@@ -1,1 +1,885 @@
-{"generated":null,"covers":{}}
+{
+ "generated": "2026-10-22T09:32:50.289Z",
+ "covers": {
+  "soh": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time",
+   "title": "The Legend of Zelda: Ocarina of Time",
+   "how": "title"
+  },
+  "2ship": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 367,
+   "h": 256,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Majora%27s_Mask",
+   "title": "The Legend of Zelda: Majora's Mask",
+   "how": "title"
+  },
+  "zelda64recomp": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 367,
+   "h": 256,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Majora%27s_Mask",
+   "title": "The Legend of Zelda: Majora's Mask",
+   "how": "title"
+  },
+  "ghostship": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 387,
+   "h": 270,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_64",
+   "title": "Super Mario 64",
+   "how": "title"
+  },
+  "sm64coopdx": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 387,
+   "h": 270,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_64",
+   "title": "Super Mario 64",
+   "how": "title"
+  },
+  "sm64plus": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/e/e9/Super_Mario_64.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 387,
+   "h": 270,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_64",
+   "title": "Super Mario 64",
+   "how": "title"
+  },
+  "spaghettikart": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 264,
+   "page": "https://en.wikipedia.org/wiki/Mario_Kart_64",
+   "title": "Mario Kart 64",
+   "how": "title"
+  },
+  "mk64recomp": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 264,
+   "page": "https://en.wikipedia.org/wiki/Mario_Kart_64",
+   "title": "Mario Kart 64",
+   "how": "title"
+  },
+  "starship": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/Star_Fox_64",
+   "title": "Star Fox 64",
+   "how": "title"
+  },
+  "sf64recomp": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/63/StarFox64_N64_Game_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/Star_Fox_64",
+   "title": "Star Fox 64",
+   "how": "title"
+  },
+  "paperboat": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/61/Papermario.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/Paper_Mario_(video_game)",
+   "title": "Paper Mario (video game)",
+   "how": "title"
+  },
+  "lighthouse": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Banjo_Kazooie_logo.png/500px-Banjo_Kazooie_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "w": 480,
+   "h": 190,
+   "page": "https://en.wikipedia.org/wiki/Banjo-Kazooie",
+   "title": "Banjo-Kazooie",
+   "how": "title"
+  },
+  "banjorecomp": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Banjo_Kazooie_logo.png/500px-Banjo_Kazooie_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "w": 480,
+   "h": 190,
+   "page": "https://en.wikipedia.org/wiki/Banjo-Kazooie",
+   "title": "Banjo-Kazooie",
+   "how": "title"
+  },
+  "banjotooie": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/41/Banjo-Tooie_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 320,
+   "h": 223,
+   "page": "https://en.wikipedia.org/wiki/Banjo-Tooie",
+   "title": "Banjo-Tooie",
+   "how": "title"
+  },
+  "dk64": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/ae/DonkeyKong64CoverArt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 350,
+   "h": 256,
+   "page": "https://en.wikipedia.org/wiki/Donkey_Kong_64",
+   "title": "Donkey Kong 64",
+   "how": "title"
+  },
+  "dkr": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/72/Diddy_Kong_Racing_Cover_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 344,
+   "h": 243,
+   "page": "https://en.wikipedia.org/wiki/Diddy_Kong_Racing",
+   "title": "Diddy Kong Racing",
+   "how": "title"
+  },
+  "hm64": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/6a/Harvest_Moon_64_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 177,
+   "page": "https://en.wikipedia.org/wiki/Harvest_Moon_64",
+   "title": "Harvest Moon 64",
+   "how": "title"
+  },
+  "bm64": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/5f/Bomberman_64.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 264,
+   "page": "https://en.wikipedia.org/wiki/Bomberman_64_(1997_video_game)",
+   "title": "Bomberman 64 (1997 video game)",
+   "how": "title"
+  },
+  "bmhero": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/1c/Bomberman_Hero_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/Bomberman_Hero",
+   "title": "Bomberman Hero",
+   "how": "title"
+  },
+  "dinoplanet": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/31/Star_Fox_Adventures_GCN_Game_Box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 265,
+   "h": 376,
+   "page": "https://en.wikipedia.org/wiki/Star_Fox_Adventures",
+   "title": "Star Fox Adventures",
+   "how": "title"
+  },
+  "drmario64": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/d/d9/Dr._Mario_64.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/Dr._Mario_64",
+   "title": "Dr. Mario 64",
+   "how": "title"
+  },
+  "goemon64": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/9e/MysticalNinjaStarringGoemon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 374,
+   "h": 266,
+   "page": "https://en.wikipedia.org/wiki/Mystical_Ninja_Starring_Goemon",
+   "title": "Mystical Ninja Starring Goemon",
+   "how": "title"
+  },
+  "quest64": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/ae/Quest64_big.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 380,
+   "h": 262,
+   "page": "https://en.wikipedia.org/wiki/Quest_64",
+   "title": "Quest 64",
+   "how": "title"
+  },
+  "sbk2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/2/23/Snowboard_Kids_2_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 188,
+   "page": "https://en.wikipedia.org/wiki/Snowboard_Kids_2",
+   "title": "Snowboard Kids 2",
+   "how": "title"
+  },
+  "pilotwings": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/94/Pilotwings_64_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 179,
+   "page": "https://en.wikipedia.org/wiki/Pilotwings_64",
+   "title": "Pilotwings 64",
+   "how": "title"
+  },
+  "dnzh": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/7e/Duke_Nukem_Zero_Hour_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 370,
+   "h": 270,
+   "page": "https://en.wikipedia.org/wiki/Duke_Nukem:_Zero_Hour",
+   "title": "Duke Nukem: Zero Hour",
+   "how": "title"
+  },
+  "goldeneye360": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 264,
+   "page": "https://en.wikipedia.org/wiki/GoldenEye_007",
+   "title": "GoldenEye 007",
+   "how": "title"
+  },
+  "jfg": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/1a/Jet_Force_Gemini_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 179,
+   "page": "https://en.wikipedia.org/wiki/Jet_Force_Gemini",
+   "title": "Jet Force Gemini",
+   "how": "title"
+  },
+  "snap": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/0a/Pok%C3%A9mon_Snap_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Snap",
+   "title": "Pokémon Snap",
+   "how": "title"
+  },
+  "battleship": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/42/Supersmashbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 380,
+   "h": 262,
+   "page": "https://en.wikipedia.org/wiki/Super_Smash_Bros._(video_game)",
+   "title": "Super Smash Bros. (video game)",
+   "how": "title"
+  },
+  "melee": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 267,
+   "h": 373,
+   "page": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee",
+   "title": "Super Smash Bros. Melee",
+   "how": "title"
+  },
+  "dusklight": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 354,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Twilight_Princess",
+   "title": "The Legend of Zelda: Twilight Princess",
+   "how": "title"
+  },
+  "windwaker": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 309,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker",
+   "title": "The Legend of Zelda: The Wind Waker",
+   "how": "title"
+  },
+  "acgc": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/82/Animal_Crossing_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 362,
+   "page": "https://en.wikipedia.org/wiki/Animal_Crossing_(video_game)",
+   "title": "Animal Crossing (video game)",
+   "how": "title"
+  },
+  "smg-nebula": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 362,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_Galaxy",
+   "title": "Super Mario Galaxy",
+   "how": "title"
+  },
+  "mkwii": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 267,
+   "page": "https://en.wikipedia.org/wiki/Mario_Kart_Wii",
+   "title": "Mario Kart Wii",
+   "how": "title"
+  },
+  "las": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/74/The_Legend_of_Zelda_Link%27s_Awakening_%282019_video_game%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening_(2019_video_game)",
+   "title": "The Legend of Zelda: Link's Awakening (2019 video game)",
+   "how": "title"
+  },
+  "sor2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/2/26/Streets_of_Rage_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 267,
+   "h": 374,
+   "page": "https://en.wikipedia.org/wiki/Streets_of_Rage_2",
+   "title": "Streets of Rage 2",
+   "how": "title"
+  },
+  "zelda3": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 377,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past",
+   "title": "The Legend of Zelda: A Link to the Past",
+   "how": "title"
+  },
+  "smetroid": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 379,
+   "h": 264,
+   "page": "https://en.wikipedia.org/wiki/Super_Metroid",
+   "title": "Super Metroid",
+   "how": "title"
+  },
+  "smw": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_World",
+   "title": "Super Mario World",
+   "how": "title"
+  },
+  "zquest": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 266,
+   "h": 379,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)",
+   "title": "The Legend of Zelda (video game)",
+   "how": "title"
+  },
+  "psydoom": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 380,
+   "page": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+   "title": "Doom (1993 video game)",
+   "how": "title"
+  },
+  "redriver2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/8e/Driver_2_Coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Driver_2",
+   "title": "Driver 2",
+   "how": "title"
+  },
+  "lod": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 259,
+   "h": 388,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Dragoon",
+   "title": "The Legend of Dragoon",
+   "how": "title"
+  },
+  "wipeout": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/c3/WipEoutCover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 320,
+   "h": 325,
+   "page": "https://en.wikipedia.org/wiki/Wipeout_(video_game)",
+   "title": "Wipeout (video game)",
+   "how": "title"
+  },
+  "silenthill": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Silent_Hill_(video_game)",
+   "title": "Silent Hill (video game)",
+   "how": "title"
+  },
+  "sotn": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 312,
+   "h": 319,
+   "page": "https://en.wikipedia.org/wiki/Castlevania:_Symphony_of_the_Night",
+   "title": "Castlevania: Symphony of the Night",
+   "how": "title"
+  },
+  "medievil": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/d/d3/Medievil_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/MediEvil",
+   "title": "MediEvil",
+   "how": "title"
+  },
+  "rageracer": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/4b/RageRacerBox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 323,
+   "h": 320,
+   "page": "https://en.wikipedia.org/wiki/Rage_Racer",
+   "title": "Rage Racer",
+   "how": "title"
+  },
+  "opengoal": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 364,
+   "page": "https://en.wikipedia.org/wiki/Jak_and_Daxter:_The_Precursor_Legacy",
+   "title": "Jak and Daxter: The Precursor Legacy",
+   "how": "title"
+  },
+  "fatalframe": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/b7/Fatal_Frame_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 363,
+   "page": "https://en.wikipedia.org/wiki/Fatal_Frame_(video_game)",
+   "title": "Fatal Frame (video game)",
+   "how": "title"
+  },
+  "sa2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 256,
+   "page": "https://en.wikipedia.org/wiki/Sonic_Advance_2",
+   "title": "Sonic Advance 2",
+   "how": "title"
+  },
+  "sa1": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/ab/Sonic_Advance_US_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 242,
+   "h": 240,
+   "page": "https://en.wikipedia.org/wiki/Sonic_Advance",
+   "title": "Sonic Advance",
+   "how": "title"
+  },
+  "sm64ds": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/12/Super_Mario_64_DS_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 300,
+   "h": 267,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_64_DS",
+   "title": "Super Mario 64 DS",
+   "how": "title"
+  },
+  "unleashed": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a0/Sonic_unleashed_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 267,
+   "h": 373,
+   "page": "https://en.wikipedia.org/wiki/Sonic_Unleashed",
+   "title": "Sonic Unleashed",
+   "how": "title"
+  },
+  "renut": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/63/Banjo-Kazooie_Nuts_%26_Bolts_Game_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 264,
+   "h": 378,
+   "page": "https://en.wikipedia.org/wiki/Banjo-Kazooie:_Nuts_%26_Bolts",
+   "title": "Banjo-Kazooie: Nuts & Bolts",
+   "how": "title"
+  },
+  "reblue": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/f/f7/Blue_Dragon_Box_Art.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 290,
+   "page": "https://en.wikipedia.org/wiki/Blue_Dragon_(video_game)",
+   "title": "Blue Dragon (video game)",
+   "how": "search"
+  },
+  "kameo": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/0f/Kameocover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 260,
+   "h": 370,
+   "page": "https://en.wikipedia.org/wiki/Kameo",
+   "title": "Kameo",
+   "how": "title"
+  },
+  "tip": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a0/Viva_Pinata_Trouble_in_Paradise.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 265,
+   "h": 375,
+   "page": "https://en.wikipedia.org/wiki/Viva_Pi%C3%B1ata:_Trouble_in_Paradise",
+   "title": "Viva Piñata: Trouble in Paradise",
+   "how": "title"
+  },
+  "recherry": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/39/Lollipop_Chainsaw_Cover_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 265,
+   "page": "https://en.wikipedia.org/wiki/Lollipop_Chainsaw",
+   "title": "Lollipop Chainsaw",
+   "how": "title"
+  },
+  "naughtybear": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/0f/Naughty_Bear.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 310,
+   "page": "https://en.wikipedia.org/wiki/Naughty_Bear",
+   "title": "Naughty Bear",
+   "how": "title"
+  },
+  "ac6": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/16/Ace_Combat_6_Fires_of_Liberation_Game_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 265,
+   "h": 375,
+   "page": "https://en.wikipedia.org/wiki/Ace_Combat_6:_Fires_of_Liberation",
+   "title": "Ace Combat 6: Fires of Liberation",
+   "how": "title"
+  },
+  "acfa": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/2/29/Armored_Core_for_Answer_cover_art.PNG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 284,
+   "h": 350,
+   "page": "https://en.wikipedia.org/wiki/Armored_Core:_For_Answer",
+   "title": "Armored Core: For Answer",
+   "how": "title"
+  },
+  "freeriders": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/3f/Sonic_Free_Riders_Box_Artwork.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 305,
+   "page": "https://en.wikipedia.org/wiki/Sonic_Free_Riders",
+   "title": "Sonic Free Riders",
+   "how": "title"
+  },
+  "shaolin": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/2/29/PS2MKSM.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 329,
+   "page": "https://en.wikipedia.org/wiki/Mortal_Kombat:_Shaolin_Monks",
+   "title": "Mortal Kombat: Shaolin Monks",
+   "how": "title"
+  },
+  "takedawn": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/93/Burnout_3_-_Takedown_Coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 275,
+   "h": 330,
+   "page": "https://en.wikipedia.org/wiki/Burnout_3:_Takedown",
+   "title": "Burnout 3: Takedown",
+   "how": "title"
+  },
+  "mp4": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/58/Mario_Party_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 358,
+   "page": "https://en.wikipedia.org/wiki/Mario_Party_4",
+   "title": "Mario Party 4",
+   "how": "title"
+  },
+  "tmc": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/0a/TLOZ-_Minish_Cap_NA_Box_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 280,
+   "h": 280,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Minish_Cap",
+   "title": "The Legend of Zelda: The Minish Cap",
+   "how": "title"
+  },
+  "projectr": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/2/20/Rush2049box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 277,
+   "h": 358,
+   "page": "https://en.wikipedia.org/wiki/San_Francisco_Rush_2049",
+   "title": "San Francisco Rush 2049",
+   "how": "title"
+  },
+  "ge-n64": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 264,
+   "page": "https://en.wikipedia.org/wiki/GoldenEye_007",
+   "title": "GoldenEye 007",
+   "how": "title"
+  },
+  "ge-midas": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/13/GoldenEye_007_N64_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 264,
+   "page": "https://en.wikipedia.org/wiki/GoldenEye_007",
+   "title": "GoldenEye 007",
+   "how": "title"
+  },
+  "smash64r": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/42/Supersmashbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 380,
+   "h": 262,
+   "page": "https://en.wikipedia.org/wiki/Super_Smash_Bros._(video_game)",
+   "title": "Super Smash Bros. (video game)",
+   "how": "title"
+  },
+  "fzerox": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/2/21/F-Zero_X_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/F-Zero_X",
+   "title": "F-Zero X",
+   "how": "title"
+  },
+  "mischief": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/31/Mischief_Makers.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 376,
+   "h": 265,
+   "page": "https://en.wikipedia.org/wiki/Mischief_Makers",
+   "title": "Mischief Makers",
+   "how": "title"
+  },
+  "rogue": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/b6/Star-wars-rogue-squadron.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 301,
+   "h": 266,
+   "page": "https://en.wikipedia.org/wiki/Star_Wars:_Rogue_Squadron",
+   "title": "Star Wars: Rogue Squadron",
+   "how": "title"
+  },
+  "pkmn-gen1": {
+   "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp/500px-Pok%C3%A9mon_Red_and_Blue_cover_art.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "w": 480,
+   "h": 160,
+   "page": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red,_Blue,_and_Yellow",
+   "title": "Pokémon Red, Blue, and Yellow",
+   "how": "title"
+  },
+  "tetrisgb": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/4a/Tetris_Boxshot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 320,
+   "h": 322,
+   "page": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+   "title": "Tetris (Game Boy video game)",
+   "how": "title"
+  },
+  "shantae": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/44/Shantae_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Shantae_(video_game)",
+   "title": "Shantae (video game)",
+   "how": "title"
+  },
+  "ladx-hd": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening",
+   "title": "The Legend of Zelda: Link's Awakening",
+   "how": "title"
+  },
+  "emerald": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Emerald",
+   "title": "Pokémon Emerald",
+   "how": "title"
+  },
+  "frlg": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 446,
+   "h": 223,
+   "page": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_FireRed_and_LeafGreen",
+   "title": "Pokémon FireRed and LeafGreen",
+   "how": "title"
+  },
+  "mkscgba": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/90/Super_Circuit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Mario_Kart:_Super_Circuit",
+   "title": "Mario Kart: Super Circuit",
+   "how": "title"
+  },
+  "dbzlog2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/40/Dragon_Ball_Z_The_Legacy_of_Goku_II_NA_box_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 317,
+   "h": 317,
+   "page": "https://en.wikipedia.org/wiki/Dragon_Ball_Z:_The_Legacy_of_Goku_II",
+   "title": "Dragon Ball Z: The Legacy of Goku II",
+   "how": "title"
+  },
+  "boktai3": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/f/f0/Boktai_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 320,
+   "page": "https://en.wikipedia.org/wiki/Boktai:_The_Sun_Is_in_Your_Hand",
+   "title": "Boktai: The Sun Is in Your Hand",
+   "how": "title"
+  },
+  "smb-nes": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 361,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_Bros.",
+   "title": "Super Mario Bros.",
+   "how": "title"
+  },
+  "metroid-nes": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 263,
+   "h": 379,
+   "page": "https://en.wikipedia.org/wiki/Metroid_(video_game)",
+   "title": "Metroid (video game)",
+   "how": "title"
+  },
+  "mother1": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/c4/EarthBound_Beginnings_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 265,
+   "h": 377,
+   "page": "https://en.wikipedia.org/wiki/EarthBound_Beginnings",
+   "title": "EarthBound Beginnings",
+   "how": "title"
+  },
+  "mm3": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/49/Megaman3_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 347,
+   "page": "https://en.wikipedia.org/wiki/Mega_Man_3",
+   "title": "Mega Man 3",
+   "how": "title"
+  },
+  "dkc2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/c3/DK_Country_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 330,
+   "h": 230,
+   "page": "https://en.wikipedia.org/wiki/Donkey_Kong_Country_2",
+   "title": "Donkey Kong Country 2",
+   "how": "title"
+  },
+  "mmx": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/f/f1/Mega_Man_X_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/Mega_Man_X_(video_game)",
+   "title": "Mega Man X (video game)",
+   "how": "title"
+  },
+  "starfox-snes": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/52/Star_Fox_SNES.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/Star_Fox_(1993_video_game)",
+   "title": "Star Fox (1993 video game)",
+   "how": "title"
+  },
+  "smrpg": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/89/SuperMarioRPGSNESCoverArtUS.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 263,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_RPG",
+   "title": "Super Mario RPG",
+   "how": "title"
+  },
+  "gaia": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/1a/Iogbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 370,
+   "h": 270,
+   "page": "https://en.wikipedia.org/wiki/Illusion_of_Gaia",
+   "title": "Illusion of Gaia",
+   "how": "title"
+  },
+  "sonic1": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 249,
+   "h": 359,
+   "page": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)",
+   "title": "Sonic the Hedgehog (1991 video game)",
+   "how": "title"
+  },
+  "sonic3k": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/07/Sonic3-box-us-225.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 267,
+   "h": 374,
+   "page": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_3",
+   "title": "Sonic the Hedgehog 3",
+   "how": "title"
+  },
+  "landstalker": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/16/Landstalker_us.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 265,
+   "h": 377,
+   "page": "https://en.wikipedia.org/wiki/Landstalker",
+   "title": "Landstalker",
+   "how": "title"
+  },
+  "apeescape": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/00/ApeEscapeNACover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 319,
+   "h": 312,
+   "page": "https://en.wikipedia.org/wiki/Ape_Escape_(video_game)",
+   "title": "Ape Escape (video game)",
+   "how": "title"
+  },
+  "mmx4": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/bf/Mega_Man_X4_PSX.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 295,
+   "h": 338,
+   "page": "https://en.wikipedia.org/wiki/Mega_Man_X4",
+   "title": "Mega Man X4",
+   "how": "title"
+  },
+  "lom": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/09/Legend_of_Mana.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 315,
+   "page": "https://en.wikipedia.org/wiki/Legend_of_Mana",
+   "title": "Legend of Mana",
+   "how": "title"
+  },
+  "tomba": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/75/Tomba%21_NTSC.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Tomba!",
+   "title": "Tomba!",
+   "how": "title"
+  },
+  "syphon": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/f/f9/Syphon_Filter_US_Cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Syphon_Filter_(video_game)",
+   "title": "Syphon Filter (video game)",
+   "how": "title"
+  },
+  "hmbtn": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/bf/Harvest_Moon_Back_to_Nature.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Harvest_Moon:_Back_to_Nature",
+   "title": "Harvest Moon: Back to Nature",
+   "how": "title"
+  },
+  "azure": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/78/Azure_Dreams_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Azure_Dreams",
+   "title": "Azure Dreams",
+   "how": "title"
+  },
+  "kingsfield": {
+   "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/75/King%27s_Field_logo.png/500px-King%27s_Field_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "w": 480,
+   "h": 167,
+   "page": "https://en.wikipedia.org/wiki/King%27s_Field",
+   "title": "King's Field",
+   "how": "title"
+  },
+  "vagrant": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a3/Vagrantstorybox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 318,
+   "h": 314,
+   "page": "https://en.wikipedia.org/wiki/Vagrant_Story",
+   "title": "Vagrant Story",
+   "how": "title"
+  },
+  "sotc": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/f/f8/Shadow_of_the_Colossus_%282005%29_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 267,
+   "h": 373,
+   "page": "https://en.wikipedia.org/wiki/Shadow_of_the_Colossus",
+   "title": "Shadow of the Colossus",
+   "how": "title"
+  },
+  "killzone": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/94/Killzonecoverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 362,
+   "page": "https://en.wikipedia.org/wiki/Killzone_(video_game)",
+   "title": "Killzone (video game)",
+   "how": "title"
+  },
+  "burnout3ps2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/9/93/Burnout_3_-_Takedown_Coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 275,
+   "h": 330,
+   "page": "https://en.wikipedia.org/wiki/Burnout_3:_Takedown",
+   "title": "Burnout 3: Takedown",
+   "how": "title"
+  },
+  "sm64ds-r": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/12/Super_Mario_64_DS_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 300,
+   "h": 267,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_64_DS",
+   "title": "Super Mario 64 DS",
+   "how": "title"
+  }
+ }
+}

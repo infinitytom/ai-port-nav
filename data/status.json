@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-22T09:17:58.617Z",
+ "generated": "2026-10-22T09:32:17.972Z",
  "repos": {
   "HarbourMasters/Shipwright": {
-   "stars": 5717,
+   "stars": 5718,
    "pushed_at": "2026-10-21T23:07:36Z",
    "archived": false,
    "release": {
@@ -628,8 +628,8 @@
    ]
   },
   "peiikai/LASRecomp": {
-   "stars": 1593,
-   "pushed_at": "2026-10-22T08:18:02Z",
+   "stars": 1594,
+   "pushed_at": "2026-10-22T09:32:31Z",
    "archived": false,
    "release": {
     "tag": "test-random-pace-3",
@@ -851,7 +851,7 @@
   },
   "tangosdev/sm64ds-decomp": {
    "stars": 222,
-   "pushed_at": "2026-10-22T09:16:07Z",
+   "pushed_at": "2026-10-22T09:25:00Z",
    "archived": false,
    "release": null,
    "targets": [],
