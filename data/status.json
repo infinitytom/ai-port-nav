@@ -1,1 +1,535 @@
-{"generated":null,"repos":{}}
+{
+ "generated": "2026-10-22T08:44:11.817Z",
+ "repos": {
+  "HarbourMasters/Shipwright": {
+   "stars": 5717,
+   "pushed_at": "2026-10-21T23:07:36Z",
+   "archived": false,
+   "release": {
+    "tag": "9.3.1",
+    "published_at": "2026-10-18T21:06:27Z",
+    "prerelease": false
+   }
+  },
+  "HarbourMasters/2ship2harkinian": {
+   "stars": 2359,
+   "pushed_at": "2026-10-20T23:21:41Z",
+   "archived": false,
+   "release": {
+    "tag": "5.0.1",
+    "published_at": "2026-08-25T17:54:43Z",
+    "prerelease": false
+   }
+  },
+  "Zelda64Recomp/Zelda64Recomp": {
+   "stars": 7498,
+   "pushed_at": "2026-09-25T18:57:57Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.2.2",
+    "published_at": "2025-08-27T00:58:35Z",
+    "prerelease": false
+   }
+  },
+  "HarbourMasters/Ghostship": {
+   "stars": 843,
+   "pushed_at": "2026-09-11T05:06:37Z",
+   "archived": false,
+   "release": {
+    "tag": "3.0.0",
+    "published_at": "2026-09-07T04:57:17Z",
+    "prerelease": false
+   }
+  },
+  "coop-deluxe/sm64coopdx": {
+   "stars": 1473,
+   "pushed_at": "2026-10-08T20:06:15Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.5.1",
+    "published_at": "2026-06-01T02:00:11Z",
+    "prerelease": false
+   }
+  },
+  "MorsGames/sm64plus": {
+   "stars": 645,
+   "pushed_at": "2026-03-11T14:43:16Z",
+   "archived": false,
+   "release": {
+    "tag": "LauncherMirror",
+    "published_at": "2021-11-30T12:58:55Z",
+    "prerelease": false
+   }
+  },
+  "HarbourMasters/SpaghettiKart": {
+   "stars": 2437,
+   "pushed_at": "2026-10-11T19:22:02Z",
+   "archived": false,
+   "release": {
+    "tag": "1.0.0",
+    "published_at": "2026-02-25T02:26:04Z",
+    "prerelease": false
+   }
+  },
+  "sonicdcer/MarioKart64Recomp": {
+   "stars": 618,
+   "pushed_at": "2026-10-21T05:00:21Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.9.2",
+    "published_at": "2026-02-13T17:30:04Z",
+    "prerelease": false
+   }
+  },
+  "HarbourMasters/Starship": {
+   "stars": 2112,
+   "pushed_at": "2026-09-15T21:17:12Z",
+   "archived": false,
+   "release": {
+    "tag": "v2.0.0",
+    "published_at": "2025-05-25T03:43:32Z",
+    "prerelease": false
+   }
+  },
+  "sonicdcer/Starfox64Recomp": {
+   "stars": 393,
+   "pushed_at": "2026-08-11T17:36:21Z",
+   "archived": false,
+   "release": {
+    "tag": "1.0.3",
+    "published_at": "2025-12-30T04:13:00Z",
+    "prerelease": false
+   }
+  },
+  "HarbourMasters/PaperBoat": {
+   "stars": 506,
+   "pushed_at": "2026-10-20T15:17:07Z",
+   "archived": false,
+   "release": {
+    "tag": "1.0.3",
+    "published_at": "2026-10-11T17:56:48Z",
+    "prerelease": false
+   }
+  },
+  "HarbourMasters/Lighthouse": {
+   "stars": 518,
+   "pushed_at": "2026-10-22T00:19:34Z",
+   "archived": false,
+   "release": {
+    "tag": "1.1.0",
+    "published_at": "2026-08-17T02:20:38Z",
+    "prerelease": false
+   }
+  },
+  "BanjoRecomp/BanjoRecomp": {
+   "stars": 2074,
+   "pushed_at": "2026-09-25T18:57:08Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0.2",
+    "published_at": "2026-07-31T19:43:17Z",
+    "prerelease": false
+   }
+  },
+  "some-scurvy-dog/banjo-tooie-scurvy-dog-port": {
+   "stars": 92,
+   "pushed_at": "2026-10-17T04:59:22Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.1.0-alpha.4.3",
+    "published_at": "2026-10-17T04:59:29Z",
+    "prerelease": true
+   }
+  },
+  "fgsfdsfgs/perfect_dark": {
+   "stars": 2072,
+   "pushed_at": "2026-08-13T05:58:19Z",
+   "archived": false,
+   "release": {
+    "tag": "ci-dev-build",
+    "published_at": "2024-05-14T09:41:23Z",
+    "prerelease": false
+   }
+  },
+  "Rainchus/Donkey-Kong-64-Recompiled": {
+   "stars": 532,
+   "pushed_at": "2026-09-30T00:21:10Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0.3",
+    "published_at": "2026-09-30T00:21:10Z",
+    "prerelease": false
+   }
+  },
+  "ThatGuyMcd/DKR-R": {
+   "stars": 233,
+   "pushed_at": "2026-10-21T19:43:15Z",
+   "archived": false,
+   "release": {
+    "tag": "Version1.0.8",
+    "published_at": "2026-10-20T14:23:12Z",
+    "prerelease": false
+   }
+  },
+  "HarvestMoon64Recomp/HarvestMoon64Recomp": {
+   "stars": 172,
+   "pushed_at": "2026-09-25T21:17:14Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.2.2",
+    "published_at": "2026-09-25T21:17:14Z",
+    "prerelease": false
+   }
+  },
+  "RevoSucks/BM64Recomp": {
+   "stars": 306,
+   "pushed_at": "2026-03-25T20:52:36Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0.0",
+    "published_at": "2026-03-22T22:47:19Z",
+    "prerelease": false
+   }
+  },
+  "RevoSucks/BMHeroRecomp": {
+   "stars": 125,
+   "pushed_at": "2026-05-12T03:54:09Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.7.1",
+    "published_at": "2026-05-03T20:48:20Z",
+    "prerelease": true
+   }
+  },
+  "DinosaurPlanetRecomp/dino-recomp": {
+   "stars": 333,
+   "pushed_at": "2026-10-17T00:25:15Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.3.0",
+    "published_at": "2026-05-31T00:23:46Z",
+    "prerelease": false
+   }
+  },
+  "theboy181/drmario64_recomp_plus": {
+   "stars": 155,
+   "pushed_at": "2025-12-18T04:46:41Z",
+   "archived": false,
+   "release": {
+    "tag": "1.0.0",
+    "published_at": "2025-12-18T04:36:00Z",
+    "prerelease": false
+   }
+  },
+  "klorfmorf/Goemon64Recomp": {
+   "stars": 326,
+   "pushed_at": "2026-09-19T19:36:05Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.2.0-dev",
+    "published_at": "2026-01-31T15:40:34Z",
+    "prerelease": false
+   }
+  },
+  "Rainchus/Quest64-Recomp": {
+   "stars": 281,
+   "pushed_at": "2026-09-29T01:15:22Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.1",
+    "published_at": "2026-01-11T23:08:21Z",
+    "prerelease": false
+   }
+  },
+  "cdlewis/snowboardkids2-recomp": {
+   "stars": 109,
+   "pushed_at": "2026-10-17T17:25:00Z",
+   "archived": false,
+   "release": {
+    "tag": "v2.0.2",
+    "published_at": "2026-10-17T21:17:34Z",
+    "prerelease": false
+   }
+  },
+  "gcsmith/Pilotwings64Recomp": {
+   "missing": true
+  },
+  "sonicdcer/DNZHRecomp": {
+   "stars": 193,
+   "pushed_at": "2025-11-03T00:08:08Z",
+   "archived": false,
+   "release": {
+    "tag": "0.0.3",
+    "published_at": "2025-11-01T22:11:40Z",
+    "prerelease": false
+   }
+  },
+  "SunJaycy/GoldenEye-Recomp": {
+   "stars": 907,
+   "pushed_at": "2026-06-18T18:28:00Z",
+   "archived": false,
+   "release": {
+    "tag": "Goldeneye1.2.4",
+    "published_at": "2026-06-18T18:28:00Z",
+    "prerelease": false
+   }
+  },
+  "doldecomp/melee": {
+   "stars": 2438,
+   "pushed_at": "2026-10-16T20:09:18Z",
+   "archived": false,
+   "release": null
+  },
+  "TwilitRealm/dusklight": {
+   "stars": 6015,
+   "pushed_at": "2026-10-20T11:30:29Z",
+   "archived": false,
+   "release": {
+    "tag": "v2.0.3",
+    "published_at": "2026-09-30T07:06:44Z",
+    "prerelease": false
+   }
+  },
+  "patchzyy/Wiicompiled": {
+   "stars": 1237,
+   "pushed_at": "2026-10-21T23:05:43Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.2.36",
+    "published_at": "2026-10-19T20:14:52Z",
+    "prerelease": false
+   }
+  },
+  "peiikai/LASRecomp": {
+   "stars": 1593,
+   "pushed_at": "2026-10-22T08:18:02Z",
+   "archived": false,
+   "release": {
+    "tag": "beta_4",
+    "published_at": "2026-10-15T03:07:44Z",
+    "prerelease": false
+   }
+  },
+  "snesrev/zelda3": {
+   "stars": 4891,
+   "pushed_at": "2026-10-02T23:58:23Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.3",
+    "published_at": "2023-08-17T01:18:40Z",
+    "prerelease": false
+   }
+  },
+  "RadzPrower/Super-Metroid-Launcher": {
+   "stars": 210,
+   "pushed_at": "2026-10-21T21:45:59Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0",
+    "published_at": "2023-03-21T20:14:30Z",
+    "prerelease": false
+   }
+  },
+  "stephini/SMAS_Launcher": {
+   "stars": 62,
+   "pushed_at": "2023-10-19T17:48:17Z",
+   "archived": false,
+   "release": {
+    "tag": "idunno",
+    "published_at": "2023-07-06T13:17:05Z",
+    "prerelease": true
+   }
+  },
+  "BodbDearg/PsyDoom": {
+   "stars": 546,
+   "pushed_at": "2025-10-05T05:06:23Z",
+   "archived": false,
+   "release": {
+    "tag": "releases/1.1.1",
+    "published_at": "2023-06-13T06:50:01Z",
+    "prerelease": false
+   }
+  },
+  "OpenDriver2/REDRIVER2": {
+   "stars": 1422,
+   "pushed_at": "2026-09-22T12:58:13Z",
+   "archived": false,
+   "release": {
+    "tag": "7.4-rc2",
+    "published_at": "2022-02-04T19:01:30Z",
+    "prerelease": false
+   }
+  },
+  "wipeout-phantom-edition/wipeout-phantom-edition": {
+   "stars": 980,
+   "pushed_at": "2024-08-21T02:53:02Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.2.256",
+    "published_at": "2024-02-17T07:13:37Z",
+    "prerelease": false
+   }
+  },
+  "BlackLabelHQ/SymphonyRecomp": {
+   "stars": 947,
+   "pushed_at": "2026-10-21T03:46:06Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.5.1b",
+    "published_at": "2026-08-19T01:28:39Z",
+    "prerelease": false
+   }
+  },
+  "BlackLabelHQ/MediEvilRecomp": {
+   "stars": 198,
+   "pushed_at": "2026-10-03T21:52:59Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.2b",
+    "published_at": "2026-10-03T21:52:59Z",
+    "prerelease": false
+   }
+  },
+  "khasinski/rage-racer-pc": {
+   "stars": 130,
+   "pushed_at": "2026-10-21T10:01:37Z",
+   "archived": false,
+   "release": {
+    "tag": "0.6.5-alpha",
+    "published_at": "2026-09-09T23:00:39Z",
+    "prerelease": false
+   }
+  },
+  "Mikompilation/MikuPan": {
+   "stars": 130,
+   "pushed_at": "2026-10-05T14:25:59Z",
+   "archived": false,
+   "release": {
+    "tag": "nightly",
+    "published_at": "2026-06-04T02:54:21Z",
+    "prerelease": true
+   }
+  },
+  "SAT-R/sa2": {
+   "stars": 684,
+   "pushed_at": "2026-08-01T08:53:14Z",
+   "archived": false,
+   "release": null
+  },
+  "SAT-R/sa1": {
+   "stars": 77,
+   "pushed_at": "2026-03-28T22:08:11Z",
+   "archived": true,
+   "release": null
+  },
+  "tangosdev/sm64ds-decomp": {
+   "stars": 222,
+   "pushed_at": "2026-10-22T08:43:43Z",
+   "archived": false,
+   "release": null
+  },
+  "hedge-dev/UnleashedRecomp": {
+   "stars": 5245,
+   "pushed_at": "2026-06-29T11:05:43Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0.3",
+    "published_at": "2025-04-03T22:04:45Z",
+    "prerelease": false
+   }
+  },
+  "masterspike52/reNut": {
+   "stars": 163,
+   "pushed_at": "2026-10-22T08:36:20Z",
+   "archived": false,
+   "release": {
+    "tag": "beta8",
+    "published_at": "2026-10-22T08:36:20Z",
+    "prerelease": false
+   }
+  },
+  "zolaware/reblue": {
+   "stars": 835,
+   "pushed_at": "2026-10-09T14:10:43Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.3.1",
+    "published_at": "2026-10-05T14:07:04Z",
+    "prerelease": false
+   }
+  },
+  "birabittoh/KameoRePowered": {
+   "stars": 64,
+   "pushed_at": "2026-10-21T07:36:16Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.2.1",
+    "published_at": "2026-06-23T20:53:54Z",
+    "prerelease": false
+   }
+  },
+  "SolarCookies/TiP-Recomp": {
+   "stars": 224,
+   "pushed_at": "2026-10-03T01:10:21Z",
+   "archived": false,
+   "release": {
+    "tag": "1.13.0",
+    "published_at": "2026-10-01T22:35:45Z",
+    "prerelease": false
+   }
+  },
+  "MaxDeadBear/Re-Cherry": {
+   "stars": 52,
+   "pushed_at": "2026-10-18T08:03:06Z",
+   "archived": false,
+   "release": {
+    "tag": "beta",
+    "published_at": "2026-10-18T08:01:16Z",
+    "prerelease": true
+   }
+  },
+  "MaxDeadBear/NaughtyBear_ReStuff": {
+   "stars": 58,
+   "pushed_at": "2026-10-22T04:15:00Z",
+   "archived": false,
+   "release": {
+    "tag": "release_v1.5.1",
+    "published_at": "2026-09-10T22:01:41Z",
+    "prerelease": false
+   }
+  },
+  "sal063/AC6_recomp": {
+   "stars": 547,
+   "pushed_at": "2026-08-22T15:52:26Z",
+   "archived": false,
+   "release": {
+    "tag": "v1.0.0-beta.2",
+    "published_at": "2026-08-17T20:00:51Z",
+    "prerelease": true
+   }
+  },
+  "flashfire199/Armored-core-ReAnswered": {
+   "missing": true
+  },
+  "mariopartyrd/marioparty4": {
+   "stars": 877,
+   "pushed_at": "2026-10-15T20:59:34Z",
+   "archived": false,
+   "release": {
+    "tag": "partyboard_0.2.0",
+    "published_at": "2026-04-30T23:59:31Z",
+    "prerelease": true
+   }
+  },
+  "999sian/tmc": {
+   "stars": 491,
+   "pushed_at": "2026-10-20T00:26:50Z",
+   "archived": false,
+   "release": {
+    "tag": "v0.9.6",
+    "published_at": "2026-10-20T00:39:05Z",
+    "prerelease": false
+   }
+  }
+ }
+}
