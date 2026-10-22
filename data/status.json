@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T10:25:42.979Z",
+ "generated": "2026-10-22T10:28:32.907Z",
  "repos": {
   "HarbourMasters/Shipwright": {
    "stars": 5716,
@@ -1080,11 +1080,11 @@
   },
   "YuutaTsubasa/Free-Riders-Recompiled": {
    "stars": 97,
-   "pushed_at": "2026-10-22T10:16:31Z",
+   "pushed_at": "2026-10-22T10:28:33Z",
    "archived": false,
    "release": {
-    "tag": "v0.10.21",
-    "published_at": "2026-10-22T07:04:05Z",
+    "tag": "v0.10.22",
+    "published_at": "2026-10-22T10:28:34Z",
     "prerelease": false
    },
    "targets": [
@@ -1095,15 +1095,15 @@
     "windows"
    ],
    "assets": [
-    "FreeRidersRecompiled-0.10.21-android-arm64-licenses.zip",
-    "FreeRidersRecompiled-0.10.21-android-arm64.apk",
-    "FreeRidersRecompiled-0.10.21-android-arm64.apk.idsig",
-    "FreeRidersRecompiled-0.10.21-android10-arm64.apk",
-    "FreeRidersRecompiled-0.10.21-android10-arm64.apk.idsig",
-    "FreeRidersRecompiled-0.10.21-ios-arm64.ipa",
-    "FreeRidersRecompiled-0.10.21-linux-x64.tar.gz",
-    "FreeRidersRecompiled-0.10.21-macos-arm64.zip",
-    "FreeRidersRecompiled-0.10.21-windows-x64.zip",
+    "FreeRidersRecompiled-0.10.22-android-arm64-licenses.zip",
+    "FreeRidersRecompiled-0.10.22-android-arm64.apk",
+    "FreeRidersRecompiled-0.10.22-android-arm64.apk.idsig",
+    "FreeRidersRecompiled-0.10.22-android10-arm64.apk",
+    "FreeRidersRecompiled-0.10.22-android10-arm64.apk.idsig",
+    "FreeRidersRecompiled-0.10.22-ios-arm64.ipa",
+    "FreeRidersRecompiled-0.10.22-linux-x64.tar.gz",
+    "FreeRidersRecompiled-0.10.22-macos-arm64.zip",
+    "FreeRidersRecompiled-0.10.22-windows-x64.zip",
     "SHA256SUMS.txt"
    ]
   },
@@ -1356,7 +1356,7 @@
   },
   "moozilla/boktai3-decomp": {
    "stars": 1,
-   "pushed_at": "2026-10-22T10:26:18Z",
+   "pushed_at": "2026-10-22T10:26:49Z",
    "archived": false,
    "release": null,
    "targets": [],
@@ -2128,7 +2128,7 @@
    "assets": []
   },
   "FelipePrado0/SpartanPort": {
-   "stars": 3859,
+   "stars": 3860,
    "pushed_at": "2026-10-22T04:32:04Z",
    "archived": false,
    "release": {
@@ -2313,7 +2313,7 @@
    ]
   },
   "boykopovar/AnyPS5": {
-   "stars": 46581,
+   "stars": 46582,
    "pushed_at": "2026-10-22T10:05:26Z",
    "archived": false,
    "release": {
