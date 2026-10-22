@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T09:32:50.289Z",
+ "generated": "2026-10-22T09:37:45.561Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -865,6 +865,54 @@
    "title": "Killzone (video game)",
    "how": "title"
   },
+  "crashtwin": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/e/e3/Crash_Twinsanity_North_American_PS2_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 252,
+   "h": 319,
+   "page": "https://en.wikipedia.org/wiki/Crash_Twinsanity",
+   "title": "Crash Twinsanity",
+   "how": "title"
+  },
+  "ssx3": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/43/SSX_3_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 327,
+   "page": "https://en.wikipedia.org/wiki/SSX_3",
+   "title": "SSX 3",
+   "how": "title"
+  },
+  "godhand": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/e/e9/God_Hand_%282006_Playstation_2%29_video_game_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 266,
+   "h": 375,
+   "page": "https://en.wikipedia.org/wiki/God_Hand",
+   "title": "God Hand",
+   "how": "title"
+  },
+  "gow2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/2/25/God_of_War_II_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 260,
+   "h": 369,
+   "page": "https://en.wikipedia.org/wiki/God_of_War_II",
+   "title": "God of War II",
+   "how": "title"
+  },
+  "dmc3": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/76/Devil_May_Cry_3_boxshot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 260,
+   "h": 332,
+   "page": "https://en.wikipedia.org/wiki/Devil_May_Cry_3:_Dante%27s_Awakening",
+   "title": "Devil May Cry 3: Dante's Awakening",
+   "how": "title"
+  },
+  "ratchet": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/b6/RaCbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 265,
+   "h": 376,
+   "page": "https://en.wikipedia.org/wiki/Ratchet_%26_Clank_(2002_video_game)",
+   "title": "Ratchet & Clank (2002 video game)",
+   "how": "title"
+  },
   "burnout3ps2": {
    "src": "https://upload.wikimedia.org/wikipedia/en/9/93/Burnout_3_-_Takedown_Coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "w": 275,
@@ -873,12 +921,172 @@
    "title": "Burnout 3: Takedown",
    "how": "title"
   },
+  "recvx": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 259,
+   "h": 388,
+   "page": "https://en.wikipedia.org/wiki/Resident_Evil_%E2%80%93_Code:_Veronica",
+   "title": "Resident Evil – Code: Veronica",
+   "how": "title"
+  },
+  "sc2gc": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/37/Soulcalibur_II_flyer.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 277,
+   "h": 358,
+   "page": "https://en.wikipedia.org/wiki/Soulcalibur_II",
+   "title": "Soulcalibur II",
+   "how": "title"
+  },
+  "shadow": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/b2/Shadow_the_Hedgehog_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 266,
+   "h": 375,
+   "page": "https://en.wikipedia.org/wiki/Shadow_the_Hedgehog_(video_game)",
+   "title": "Shadow the Hedgehog (video game)",
+   "how": "title"
+  },
+  "chibi": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/c6/Chibi_Robo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 362,
+   "page": "https://en.wikipedia.org/wiki/Chibi-Robo!_(video_game)",
+   "title": "Chibi-Robo! (video game)",
+   "how": "title"
+  },
+  "soa": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/65/ArcadiaDC.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 300,
+   "h": 306,
+   "page": "https://en.wikipedia.org/wiki/Skies_of_Arcadia",
+   "title": "Skies of Arcadia",
+   "how": "title"
+  },
+  "wwhd": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 309,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker",
+   "title": "The Legend of Zelda: The Wind Waker",
+   "how": "title"
+  },
+  "jsrf": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/7a/JetSetRadioFuturebox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 355,
+   "page": "https://en.wikipedia.org/wiki/Jet_Set_Radio_Future",
+   "title": "Jet Set Radio Future",
+   "how": "title"
+  },
+  "sneakking": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/d/da/Sneakkingbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 367,
+   "page": "https://en.wikipedia.org/wiki/Sneak_King",
+   "title": "Sneak King",
+   "how": "title"
+  },
+  "skate3": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 270,
+   "h": 284,
+   "page": "https://en.wikipedia.org/wiki/Skate_3",
+   "title": "Skate 3",
+   "how": "title"
+  },
+  "sc4": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/6c/Soulcalibur_IV_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 330,
+   "page": "https://en.wikipedia.org/wiki/Soulcalibur_IV",
+   "title": "Soulcalibur IV",
+   "how": "title"
+  },
+  "crackdown": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/3/35/Crackdownfinalbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 267,
+   "h": 373,
+   "page": "https://en.wikipedia.org/wiki/Crackdown_(video_game)",
+   "title": "Crackdown (video game)",
+   "how": "title"
+  },
+  "dp360": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/c5/Deadly_Premonition_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 315,
+   "page": "https://en.wikipedia.org/wiki/Deadly_Premonition",
+   "title": "Deadly Premonition",
+   "how": "title"
+  },
   "sm64ds-r": {
    "src": "https://upload.wikimedia.org/wikipedia/en/1/12/Super_Mario_64_DS_Coverart.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
    "w": 300,
    "h": 267,
    "page": "https://en.wikipedia.org/wiki/Super_Mario_64_DS",
    "title": "Super Mario 64 DS",
+   "how": "title"
+  },
+  "mph": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/b2/Mph_cover_updated.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 334,
+   "h": 299,
+   "page": "https://en.wikipedia.org/wiki/Metroid_Prime_Hunters",
+   "title": "Metroid Prime Hunters",
+   "how": "title"
+  },
+  "b2w2": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/d/dd/Pokemon_White_2.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 470,
+   "h": 212,
+   "page": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Black_2_and_White_2",
+   "title": "Pokémon Black 2 and White 2",
+   "how": "title"
+  },
+  "hgss": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/cb/PokemonHGSSBox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 467,
+   "h": 213,
+   "page": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_HeartGold_and_SoulSilver",
+   "title": "Pokémon HeartGold and SoulSilver",
+   "how": "title"
+  },
+  "yokai": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/b7/Yo-Kai_Watch_NA_Artwork.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 250,
+   "page": "https://en.wikipedia.org/wiki/Yo-kai_Watch_(video_game)",
+   "title": "Yo-kai Watch (video game)",
+   "how": "title"
+  },
+  "ms5": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/1/15/Metal_Slug_5_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 270,
+   "h": 369,
+   "page": "https://en.wikipedia.org/wiki/Metal_Slug_5",
+   "title": "Metal Slug 5",
+   "how": "title"
+  },
+  "ntm": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/81/Neo_Turf_Masters_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 277,
+   "h": 358,
+   "page": "https://en.wikipedia.org/wiki/Neo_Turf_Masters",
+   "title": "Neo Turf Masters",
+   "how": "title"
+  },
+  "vf1": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/b/bb/VirtuaFighter_arcadeflyer.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 278,
+   "h": 357,
+   "page": "https://en.wikipedia.org/wiki/Virtua_Fighter_(video_game)",
+   "title": "Virtua Fighter (video game)",
+   "how": "title"
+  },
+  "wipeoutpure": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/8e/Wipeoutpure.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 241,
+   "h": 413,
+   "page": "https://en.wikipedia.org/wiki/Wipeout_Pure",
+   "title": "Wipeout Pure",
    "how": "title"
   }
  }
