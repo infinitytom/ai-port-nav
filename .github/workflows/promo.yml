@@ -15,10 +15,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: 安装浏览器、中文字体与 ffmpeg
+      - name: 准备录制环境（中文字体由网页从 Google Fonts 加载）
         run: |
-          sudo apt-get install -y -q --no-install-recommends fonts-noto-cjk || (sudo apt-get update -q && sudo apt-get install -y -q --no-install-recommends fonts-noto-cjk)
-          which ffmpeg || sudo apt-get install -y -q ffmpeg
+          which ffmpeg
           npm i --no-save playwright@1.48.2
           npx playwright install ffmpeg
           google-chrome --version
