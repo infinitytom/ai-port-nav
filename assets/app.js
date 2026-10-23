@@ -49,6 +49,8 @@ const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
 const state = { q: "", target: "", platform: "", type: "", ai: "", status: "", play: "", sort: "rec" };
 let projects = [], repoStatus = {}, covers = {};
+let GEN_ONLY = false;
+try { GEN_ONLY = new URLSearchParams(location.search).get("cover") === "gen"; } catch (e) {}
 
 // ---------- 主题 ----------
 (function () {
@@ -96,7 +98,7 @@ function cover(p, big) {
     <linearGradient id="s${p.id}" x1="0" y1="0" x2="0" y2="1"><stop offset=".35" stop-color="${c}" stop-opacity="0"/><stop offset="1" stop-color="${c}" stop-opacity=".88"/></linearGradient></defs>
     <rect width="320" height="180" fill="url(#g${p.id})"/>${pat}<rect width="320" height="180" fill="url(#s${p.id})"/></svg>`;
   const hue = Math.round((r() - 0.5) * 70);
-  const cv = covers[p.id];
+  const cv = GEN_ONLY ? null : covers[p.id];
   const real = cv ? `<img class="cv-bg" src="${esc(cv.src)}" alt="" aria-hidden="true" loading="lazy" referrerpolicy="no-referrer">
     <img class="cv-art" src="${esc(cv.src)}" alt="${esc(p.game)} 封面" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.cover').classList.remove('real')">` : "";
   return `<div class="cover${big ? " big" : ""}${cv ? " real" : ""}" style="--hue:${hue}deg">${svg}${real}
@@ -129,12 +131,9 @@ const stars = (p) => (p.repo && repoStatus[p.repo]?.stars) || 0;
 function links(p) {
   const out = [];
   if (p.repo) {
-    const s = repoStatus[p.repo];
-    const hasRel = !s || !!s.release;
-    if (hasRel) out.push(`<a class="btn primary" href="https://github.com/${esc(p.repo)}/releases" target="_blank" rel="noopener">⬇ 下载</a>`);
-    out.push(`<a class="btn${hasRel ? "" : " primary"}" href="https://github.com/${esc(p.repo)}" target="_blank" rel="noopener">GitHub${hasRel ? "" : " 仓库"}</a>`);
+    out.push(`<a class="btn primary" href="https://github.com/${esc(p.repo)}" target="_blank" rel="noopener">项目主页</a>`);
   } else if (p.url) {
-    out.push(`<a class="btn primary" href="${esc(p.url)}" target="_blank" rel="noopener">官网 / 下载</a>`);
+    out.push(`<a class="btn primary" href="${esc(p.url)}" target="_blank" rel="noopener">项目官网</a>`);
   } else if (p.search) {
     out.push(`<a class="btn" href="https://github.com/search?type=repositories&q=${encodeURIComponent(p.search)}" target="_blank" rel="noopener">🔍 GitHub 搜索（待核实）</a>`);
   }

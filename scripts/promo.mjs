@@ -25,7 +25,7 @@ body{display:flex;flex-direction:column;align-items:center;justify-content:cente
  background:repeating-linear-gradient(0deg,transparent 0 3px,rgba(255,255,255,.025) 3px 4px),radial-gradient(circle at 50% 40%,#2a1608,#141210 65%)}
 .logo{font:700 30px "JetBrains Mono",monospace;letter-spacing:.2em;color:#e8590c;opacity:0;animation:in .8s .1s forwards}
 h1{font-size:132px;font-weight:900;margin:24px 0 18px;letter-spacing:-.01em;opacity:0;animation:in .9s .35s forwards}
-p{font-size:40px;color:#a39a8e;margin:0;opacity:0;animation:in .9s .8s forwards}
+p{font-size:40px;line-height:1.6;text-align:center;color:#a39a8e;margin:0;opacity:0;animation:in .9s .8s forwards}
 .foot{margin-top:56px;font:700 38px "JetBrains Mono",monospace;color:#f1ece4;background:#e8590c;padding:14px 30px;border-radius:14px;opacity:0;animation:in .9s 1.3s forwards}
 @keyframes in{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 </style></head><body><div class="logo">◧ PORT/NAV</div><h1>${title}</h1><p>${sub}</p>${foot ? `<div class="foot">${foot}</div>` : ""}</body></html>`;
@@ -64,13 +64,14 @@ async function clickSlow(sel) {
   await el.click(); await wait(900);
 }
 
-// 1. 片头
-await page.setContent(card("AI 移植游戏导航", "老游戏的原生 PC 移植，一站找齐"));
-await wait(3600);
+// 1. 片头 + 声明
+await page.setContent(card("开源游戏移植资料站", "反编译 · 静态重编译 · 游戏保存"));
+await wait(3400);
+await page.setContent(card("先说清楚", "本站只整理开源项目的技术资料<br>不提供任何游戏、ROM、密钥或固件 · 需自备正版"));
+await wait(4200);
 
 // 2. 首页
 await page.goto(URL_, { waitUntil: "networkidle" });
-// 放大页面内容，让 1180px 宽的版面铺满 1080p 画面（字幕不放大）
 await page.addStyleTag({ content: ".hero,main,.foot{zoom:1.45}" });
 await page.evaluate(() => document.fonts.ready);
 await page.evaluate(() => Promise.race([
@@ -78,82 +79,75 @@ await page.evaluate(() => Promise.race([
   new Promise((r) => setTimeout(r, 6000)),
 ]));
 await wait(800);
-await caption("反编译 · 静态重编译 · 原生移植");
-await wait(2200);
-const n = await page.evaluate(() => document.querySelectorAll("#grid .card").length);
-await caption(`已收录 ${n} 个项目，每周自动更新`);
-await wait(2200);
+await caption("开源社区如何把老游戏改写成原生程序？");
+await wait(2400);
+await caption("首页声明：不提供任何游戏资源，仅作技术与保存交流");
+await page.evaluate(() => { const n = document.querySelector(".notice"); n.style.transition = "box-shadow .4s"; n.style.boxShadow = "0 0 0 4px #e8590c"; });
+await wait(3000);
+await page.evaluate(() => { document.querySelector(".notice").style.boxShadow = ""; });
 
-// 3. 编辑推荐（横向滚动）
-await smoothScrollTo((await topOf("#featured")) - 140, 1400);
-await caption("编辑推荐：新手从这里开始");
-await wait(800);
-await page.evaluate(async () => {
-  const el = document.getElementById("featured"); const max = el.scrollWidth - el.clientWidth; const t0 = performance.now();
-  await new Promise((res) => { const f = (t) => { const k = Math.min(1, (t - t0) / 5200); el.scrollLeft = max * (k < .5 ? 2 * k * k : 1 - (-2 * k + 2) ** 2 / 2); k < 1 ? requestAnimationFrame(f) : res(); }; requestAnimationFrame(f); });
-});
-await wait(600);
-await page.evaluate(() => document.getElementById("featured").scrollTo({ left: 0, behavior: "smooth" }));
+// 3. 技术类型科普
+await smoothScrollTo((await topOf(".info")) - 120, 2400);
+await caption("反编译、静态重编译、原生重写：每种技术是什么");
+await wait(3600);
+await caption("AI 参与程度也会标注出来");
+await wait(2600);
+
+// 4. 社区实测的可玩性
+await smoothScrollTo((await topOf("#targets")) - 120, 2200);
+await caption("每个项目附社区实测结论与来源，而不只看作者自述");
+await page.selectOption("#fPlay", "full");
 await wait(900);
+await smoothScrollTo((await topOf("#grid")) - 200, 1000);
+await page.evaluate(() => { const b = document.querySelector("#grid .play"); if (b) { b.style.transition = "box-shadow .4s"; b.style.boxShadow = "0 0 0 4px #e8590c"; } });
+await wait(3200);
+await page.evaluate(() => { const b = document.querySelector("#grid .play"); if (b) b.style.boxShadow = ""; });
+await smoothScrollTo((await topOf("#targets")) - 120, 1000);
+await page.selectOption("#fPlay", "partial");
+await caption("有问题的也如实标注：崩溃多、内容不全");
+await wait(900);
+await smoothScrollTo((await topOf("#grid")) - 200, 1000);
+await wait(2600);
+await smoothScrollTo((await topOf("#targets")) - 120, 1000);
+await page.selectOption("#fPlay", "");
 
-// 4. 按目标平台
-await smoothScrollTo((await topOf("#targets")) - 120, 1300);
-await caption("想在哪里玩？按移植平台一键筛选");
-await wait(700);
-for (const t of ["windows", "linux", "macos", "android"]) { await clickSlow(`.tab[data-t="${t}"]`); await wait(500); }
-await clickSlow(`.tab[data-t="ps5"]`);
-await caption("甚至可以玩到移植到 PS5 的版本");
-await wait(2000);
-await clickSlow(`.tab[data-t=""]`);
-
-// 5. 较新主机：Switch、PS4
-await caption("较新主机也来了：Switch 的御天之剑、奥德赛……");
-await clickSlow(`.chip[data-p="Switch"]`);
-await smoothScrollTo((await topOf("#grid")) - 220, 1100);
-await wait(1000);
-await smoothScrollTo((await topOf("#grid")) + 600, 2800);
-await wait(500);
+// 5. 按技术类型筛选、搜索
+await caption("按技术类型、平台、AI 参与度筛选");
+await page.selectOption("#fType", "recomp");
+await wait(1200);
+await smoothScrollTo((await topOf("#grid")) + 500, 2600);
+await wait(600);
 await smoothScrollTo((await topOf("#targets")) - 120, 1100);
-await caption("PS4 独占：血源、战神 III、最后的守护者");
-await clickSlow(`.chip[data-p="PS4"]`);
-await smoothScrollTo((await topOf("#grid")) - 220, 1100);
-await wait(1000);
-await smoothScrollTo((await topOf("#grid")) + 900, 3400);
-await wait(700);
-await smoothScrollTo((await topOf("#targets")) - 120, 1200);
-await clickSlow(`.chip[data-p=""]`);
-
-// 6. 搜索
-await caption("中英文搜索，秒找想玩的游戏");
+await page.selectOption("#fType", "");
+await caption("中英文搜索");
 await page.locator("#q").click();
-await page.keyboard.type("塞尔达", { delay: 220 });
-await wait(1000);
-await smoothScrollTo((await topOf("#grid")) - 220, 1000);
-await wait(2200);
+await page.keyboard.type("Recomp", { delay: 160 });
+await wait(800);
+await smoothScrollTo((await topOf("#grid")) - 200, 1000);
+await wait(2000);
 await smoothScrollTo((await topOf("#targets")) - 120, 1000);
 await page.locator("#q").fill("");
 await page.locator("#q").dispatchEvent("input");
 await wait(400);
 
-// 7. AI 参与度
-await caption("标注 AI 参与程度：AI 主导 / 允许辅助 / 纯人工");
-await page.selectOption("#fAI", "ai");
-await wait(900);
-await smoothScrollTo((await topOf("#grid")) - 220, 1000);
-await wait(1200);
-await smoothScrollTo((await topOf("#grid")) + 1400, 3600);
-await wait(600);
-await page.selectOption("#fAI", "");
+// 6. 玩家反馈
+await smoothScrollTo((await topOf("#grid")) - 200, 1000);
+await caption("玩过的玩家可以提交实测反馈，每周核实后更新");
+const fb = page.locator("#grid .btn.fb").first();
+const bb = await fb.boundingBox();
+if (bb) await page.mouse.move(bb.x + bb.width / 2, bb.y + bb.height / 2, { steps: 24 });
+await page.evaluate(() => { const b = document.querySelector("#grid .btn.fb"); b.style.boxShadow = "0 0 0 4px #e8590c"; });
+await wait(3000);
 
-// 8. 收录原则
-await smoothScrollTo((await topOf(".info")) - 160, 2200);
-await caption("只收录需自备正版游戏文件的项目，不提供 ROM");
+// 7. 收录原则
+await smoothScrollTo((await topOf(".info")) - 120, 2200);
+await caption("只收录开源、需自备正版的项目");
 await wait(3200);
 await caption("");
 
-// 9. 片尾
-await page.setContent(card("AI 移植游戏导航", "收藏起来，每周都有新游戏", "infinitytom.github.io/ai-port-nav"));
-await wait(4200);
+// 8. 片尾
+await page.setContent(card("开源 · 透明 · 可核查", "游戏保存，从了解技术开始", "infinitytom.github.io/ai-port-nav"));
+await wait(4400);
 
 const vpath = await page.video().path();
 await ctx.close(); await browser.close();
