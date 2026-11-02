@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T07:51:10.808Z",
+ "generated": "2026-11-02T02:12:49.330Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1487,6 +1487,46 @@
    "h": 296,
    "page": "https://en.wikipedia.org/wiki/Super_Mario_Bros._Wonder",
    "title": "Super Mario Bros. Wonder",
+   "how": "title"
+  },
+  "sdoj": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/e/e1/DoDonPachi_SaiDaiOuJou_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 265,
+   "h": 377,
+   "page": "https://en.wikipedia.org/wiki/DoDonPachi_SaiDaiOuJou",
+   "title": "DoDonPachi SaiDaiOuJou",
+   "how": "title"
+  },
+  "ico-pc": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/40/Ico_cover_-_EU%2BJP.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 264,
+   "h": 376,
+   "page": "https://en.wikipedia.org/wiki/Ico",
+   "title": "Ico",
+   "how": "title"
+  },
+  "kingkong360": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/2/21/King-kong-cover-pc.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 361,
+   "page": "https://en.wikipedia.org/wiki/King_Kong_(2005_video_game)",
+   "title": "King Kong (2005 video game)",
+   "how": "title"
+  },
+  "letsgo": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/47/Pok%C3%A9mon_Let%27s_Go%2C_Pikachu%21_and_Let%27s_Go%2C_Eevee%21.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 446,
+   "h": 223,
+   "page": "https://en.wikipedia.org/wiki/Pok%C3%A9mon:_Let%27s_Go,_Pikachu!_and_Let%27s_Go,_Eevee!",
+   "title": "Pokémon: Let's Go, Pikachu! and Let's Go, Eevee!",
+   "how": "title"
+  },
+  "order1886": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/00/The_Order_1886_Cover_Art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 273,
+   "h": 365,
+   "page": "https://en.wikipedia.org/wiki/The_Order:_1886",
+   "title": "The Order: 1886",
    "how": "title"
   }
  }
