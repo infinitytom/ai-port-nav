@@ -631,7 +631,7 @@
    "type": "port",
    "ai": "ai",
    "status": "released",
-   "note": "2026 年 10 月 14 日发布首个公开版本，现为 v1.0.1（仅 Windows），作者使用 Claude；需自备 RMGE01 rev0 光盘镜像，安装时本地构建。",
+   "note": "2026 年 10 月 14 日发布首个公开版本，现为 v1.0.2（仅 Windows），作者使用 Claude；需自备 RMGE01 rev0 光盘镜像，安装时本地构建。",
    "repo": "keepvaibin/nebula"
   },
   {
@@ -1161,9 +1161,10 @@
    "ai": "none",
    "status": "beta",
    "repo": "mariopartyrd/marioparty4",
-   "note": "已发布 Party Board Alpha 0.2.0 原生 PC 版（Windows），可进行派对与大部分小游戏，部分棋盘和小游戏仍会崩溃，需自备美版光盘镜像。",
+   "note": "已发布 Party Board Alpha 0.2.0 原生版（Windows/Android），可进行派对与大部分小游戏，部分棋盘和小游戏仍会崩溃，需自备美版光盘镜像。",
    "targets": [
-    "windows"
+    "windows",
+    "android"
    ],
    "targetsChecked": true
   },
@@ -2431,7 +2432,7 @@
    "status": "beta",
    "repo": "boykopovar/AnyPS5",
    "wiki": false,
-   "note": "把 PS5 可执行文件预先转换为原生 Windows/Linux 程序的重链接器，已发布 v0.1.1；目前可确认《Dreaming Sarah》可玩，非官方追踪站称有 7 款可通关，尚未证实。请只从 GitHub Releases 下载，网上有仿冒站。",
+   "note": "把 PS5 可执行文件预先转换为原生 Windows/Linux 程序的重链接器，已发布 v0.1.4；目前可确认《Dreaming Sarah》可玩，非官方追踪站称有 7 款可通关，尚未证实。请只从 GitHub Releases 下载，网上有仿冒站。",
    "targets": [
     "windows",
     "linux"
@@ -2834,7 +2835,7 @@
    "type": "recomp",
    "ai": "unknown",
    "status": "beta",
-   "note": "已发布预构建版（最新 v0.6.0-alpha.1），支持 Windows/Linux/Steam Deck/macOS/Android，村庄、狩猎与存档可用，需自备 HD 版光盘镜像。",
+   "note": "已发布预构建版（v0.7.5），支持 Windows/Linux/Steam Deck/macOS/Android，村庄、狩猎与存档可用，需自备 HD 版光盘镜像。",
    "repo": "TeamGDB/Yakumo"
   },
   {
@@ -3079,7 +3080,7 @@
    "status": "beta",
    "repo": "xFractals/pokopia-native",
    "wiki": "Pokémon Pokopia",
-   "note": "工具形式、无预编译包，用自备游戏在本地构建原生 macOS（Apple 芯片）/iOS 应用；可玩性目前只有作者自述。"
+   "note": "工具形式：下载包（Windows/macOS，Linux 为单独 Beta）不含游戏内容，用自备的 2.0.1 或 1.0.5 版转储在本机构建，还可构建 iPhone 应用；可玩性目前主要是作者说明，部分 AMD/Intel 显卡有卡死反馈。"
   },
   {
    "id": "recompia",
@@ -3119,7 +3120,7 @@
    "status": "beta",
    "repo": "Lucas-blip-png/dkb-pc-recomp",
    "wiki": "Donkey Kong Bananza",
-   "note": "11 月 8 日发布 v0.1.0 预览版，可玩教程、过场和第一关，尚未完成、可能崩溃；Windows 为主，Linux/macOS 预览，需自备 1.0.0 游戏。"
+   "note": "已发布 v0.2.0 预览版（支持 1.0.0 和 3.2.0），可玩教程、过场和第一关，尚未完成、可能崩溃；Windows 为主，Linux/macOS 预览，下载包不含游戏数据，需自备游戏。"
   },
   {
    "id": "hookshot",
@@ -3131,12 +3132,8 @@
    "ai": "assist",
    "status": "beta",
    "repo": "NotRexed/Hookshot",
-   "targets": [
-    "windows"
-   ],
-   "targetsChecked": true,
    "wiki": "The Legend of Zelda: Ocarina of Time",
-   "note": "重制版发售数日内出现的原生重编译，目前仅科基利森林实测可玩，其余流程未测，需 Vulkan 网格着色器显卡；用自备 Switch 2 游戏本地构建（约 40 分钟）。"
+   "note": "重制版发售数日内出现的原生重编译，更新很快（已到 v2.0.5），Windows/Linux；README 早期只保证科基利森林，新版已在修卡卡利科、海拉鲁平原、格鲁德峡谷的画面问题，尚无完整流程验证。需 Vulkan 网格着色器显卡，用自备 Switch 2 游戏本地构建。"
   },
   {
    "id": "totk",
@@ -3162,7 +3159,7 @@
    "status": "beta",
    "repo": "Revivedx/SavageWindRecomp",
    "wiki": "The Legend of Zelda: Breath of the Wild",
-   "note": "Switch 1.8.2 版静态重编译的 Alpha 预览，目前只确认苏醒神庙和初始台地可玩，其余区域未测；需自备游戏，安装时本地构建。"
+   "note": "Switch 1.8.2 版静态重编译的 Alpha 预览，据 10 月报道只确认苏醒神庙和初始台地可玩，其余区域未测；需自备游戏，安装时本地构建。"
   },
   {
    "id": "powermoon",
