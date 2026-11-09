@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-09",
  "projects": [
   {
    "id": "soh",
@@ -232,7 +232,18 @@
    "status": "released",
    "repo": "HarbourMasters/Lighthouse",
    "note": "HarbourMasters 版班卓熊，接受 AI 辅助提交。",
-   "wiki": "Banjo-Kazooie"
+   "wiki": "Banjo-Kazooie",
+   "play": {
+    "rating": "mostly",
+    "community": "官方称原版可 100% 通关，Steam Deck HQ 实测 60 帧、手柄正常，GamingOnLinux 评论有用户称运行良好，开放 issue 多为功能需求；暂未读到具体的完整通关报告。",
+    "sources": [
+     "https://steamdeckhq.com/news/banjo-kazooie-native-pc-port-harbour-masters/",
+     "https://gamingonlinux.com/2026/08/lighthouse-the-harbour-masters-pc-port-of-banjo-kazooie-is-out-now",
+     "https://github.com/HarbourMasters/Lighthouse/issues"
+    ],
+    "checked": "2026-11-09"
+   },
+   "featured": true
   },
   {
    "id": "banjorecomp",
@@ -373,7 +384,17 @@
    "status": "beta",
    "repo": "DinosaurPlanetRecomp/dino-recomp",
    "note": "Rare 未发售原型（后来的星际火狐冒险）首次原生运行。",
-   "wiki": "Dinosaur Planet (video game)"
+   "wiki": "Dinosaur Planet (video game)",
+   "play": {
+    "rating": "mostly",
+    "community": "作者仍称开发中；粉丝站称 Recomp 已含推进所需修复，配合 Dinomod Enhanced 可玩到很后面，但原型本身未完成、没有写好的结局。",
+    "sources": [
+     "https://dinosaurpla.net/faq",
+     "https://www.readonlymemo.com/dinosaur-planet-recompiled-pc-port",
+     "https://thunderstore.io/c/dinosaur-planet-recompiled/p/DinomodEnhanced/DinomodEnhanced/"
+    ],
+    "checked": "2026-11-09"
+   }
   },
   {
    "id": "drmario64",
@@ -434,9 +455,9 @@
    "project": "Pilotwings64Recomp",
    "type": "recomp",
    "ai": "unknown",
-   "status": "wip",
-   "note": "原仓库已失效。",
-   "search": "Pilotwings64Recomp"
+   "status": "released",
+   "note": "已发布 v0.1.1，Windows/Linux 原生版，支持宽屏与高帧率，需自备美版 ROM。",
+   "repo": "danielgomesvieira2000/pilotwings-64-recomp"
   },
   {
    "id": "dnzh",
@@ -562,7 +583,17 @@
    "ai": "ai",
    "status": "beta",
    "search": "Wind-Waker-Recomp",
-   "note": "60–120 帧运行，需要美版光盘镜像；媒体称大量依赖 AI。"
+   "note": "60–120 帧运行，需要美版光盘镜像；媒体称大量依赖 AI。 注意：上游 BlueWake 的现成 Windows/Linux 包内含作者光盘转译的游戏代码，不符合本站收录红线，这里不提供直链，请用自备光盘自行构建。",
+   "play": {
+    "rating": "partial",
+    "community": "玩家能进游戏并玩到禁忌要塞、风之岛一带，但常见低帧率，禁忌要塞软锁未确认修复，暂无通关报告；作者也承认后期迷宫和 Boss 大多未测，整理站的「可玩」偏乐观。",
+    "sources": [
+     "https://github.com/chrissotraidis/bluewake/issues/76",
+     "https://github.com/chrissotraidis/bluewake/issues/104",
+     "https://portedgames.com/zelda-wind-waker-pc/"
+    ],
+    "checked": "2026-11-09"
+   }
   },
   {
    "id": "acgc",
@@ -599,8 +630,8 @@
    "project": "Nebula",
    "type": "port",
    "ai": "ai",
-   "status": "beta",
-   "note": "2026 年 10 月 14 日发布首个公开 Beta，作者使用 Claude。",
+   "status": "released",
+   "note": "2026 年 10 月 14 日发布首个公开版本，现为 v1.0.1（仅 Windows），作者使用 Claude；需自备 RMGE01 rev0 光盘镜像，安装时本地构建。",
    "repo": "keepvaibin/nebula"
   },
   {
@@ -927,7 +958,7 @@
    "ai": "none",
    "status": "wip",
    "repo": "SAT-R/sa1",
-   "note": "未完成但可游玩。"
+   "note": "未完成但可游玩。 仓库已归档，开发并入 SAT-R/sa2。"
   },
   {
    "id": "sm64ds",
@@ -1128,9 +1159,13 @@
    "project": "marioparty4",
    "type": "decomp",
    "ai": "none",
-   "status": "wip",
+   "status": "beta",
    "repo": "mariopartyrd/marioparty4",
-   "note": ""
+   "note": "已发布 Party Board Alpha 0.2.0 原生 PC 版（Windows），可进行派对与大部分小游戏，部分棋盘和小游戏仍会崩溃，需自备美版光盘镜像。",
+   "targets": [
+    "windows"
+   ],
+   "targetsChecked": true
   },
   {
    "id": "tmc",
@@ -1143,7 +1178,17 @@
    "status": "beta",
    "repo": "999sian/tmc",
    "note": "已发布 v0.9.6 多平台可玩版本。",
-   "wiki": "The Legend of Zelda: The Minish Cap"
+   "wiki": "The Legend of Zelda: The Minish Cap",
+   "play": {
+    "rating": "mostly",
+    "community": "作者自称 WIP 较保守，但玩家已推进到云之顶风之塔，当时的软锁由可选的「跳过 Ezlo 提示」导致且有绕过方法；另有 Windows 启动崩溃和随机器失败，暂无 PC 版通关报告。",
+    "sources": [
+     "https://github.com/999sian/tmc/issues/221",
+     "https://github.com/999sian/tmc/pull/222",
+     "https://screenrant.com/legend-of-zelda-minish-cap-modern-makeover-recomp/"
+    ],
+    "checked": "2026-11-09"
+   }
   },
   {
    "id": "projectr",
@@ -1825,7 +1870,17 @@
    "ai": "ai",
    "status": "beta",
    "note": "Wii U 版风之杖 HD 的静态重编译。",
-   "repo": "ZeldaWWHDRecomp/ZeldaWWHDRecomp"
+   "repo": "ZeldaWWHDRecomp/ZeldaWWHDRecomp",
+   "play": {
+    "rating": "mostly",
+    "community": "作者称已在四个平台通关，但未见独立玩家通关记录；XDA 实测从 Cemu 存档继续玩了多个迷宫，整体流畅，仍有着色器卡顿、实验性真 60 帧表现差，稳定性略逊于 Cemu。",
+    "sources": [
+     "https://www.xda-developers.com/the-zelda-wind-waker-hd-pc-port-ive-dreamed-of-finally-real-complete-with-buttery-smooth-60fps/",
+     "https://github.com/ZeldaWWHDRecomp/ZeldaWWHDRecomp/issues"
+    ],
+    "checked": "2026-11-09"
+   },
+   "featured": true
   },
   {
    "id": "jsrf",
@@ -2373,10 +2428,10 @@
    "project": "AnyPS5",
    "type": "recomp",
    "ai": "unknown",
-   "status": "lead",
+   "status": "beta",
    "repo": "boykopovar/AnyPS5",
    "wiki": false,
-   "note": "把 PS5 可执行文件预先转换为原生 Windows/Linux 程序的重链接器；目前仅验证《Dreaming Sarah》可玩。",
+   "note": "把 PS5 可执行文件预先转换为原生 Windows/Linux 程序的重链接器，已发布 v0.1.1；目前可确认《Dreaming Sarah》可玩，非官方追踪站称有 7 款可通关，尚未证实。请只从 GitHub Releases 下载，网上有仿冒站。",
    "targets": [
     "windows",
     "linux"
@@ -2527,10 +2582,14 @@
    "platform": "Switch",
    "project": "OpenSmash-Ultimate",
    "type": "recomp",
-   "ai": "unknown",
+   "ai": "ai",
    "status": "beta",
    "repo": "Denkishi/ssbu-recomp",
-   "note": "早期版本，整理站标注可游玩。"
+   "note": "早期版本，整理站标注可游玩。 无预编译游戏包，由安装器用你自己的转储本地构建。",
+   "targets": [
+    "windows"
+   ],
+   "targetsChecked": true
   },
   {
    "id": "ssbu-ws",
@@ -2541,8 +2600,21 @@
    "type": "recomp",
    "ai": "unknown",
    "status": "beta",
-   "note": "实验性 Windows x64 原生移植工具包：AArch64 静态重编译。",
-   "repo": "OpenSmash-Ultimate/WindowSmash"
+   "note": "实验性 Windows x64 原生移植工具包：AArch64 静态重编译。 无预编译游戏包，由安装器用你自己的转储本地构建；项目正并入 OpenSmash-Ultimate/OpenSmash-Ultimate。",
+   "repo": "OpenSmash-Ultimate/WindowSmash",
+   "play": {
+    "rating": "partial",
+    "community": "作者标注实验性，菜单和对战能跑；玩家反馈贴图缺失、卡顿、DLC 不显示，合并后的新仓库另有开局崩溃、命魂模式崩溃、约 90 分钟后显卡设备丢失等报告。",
+    "sources": [
+     "https://github.com/OpenSmash-Ultimate/WindowSmash/issues",
+     "https://github.com/OpenSmash-Ultimate/OpenSmash-Ultimate/issues"
+    ],
+    "checked": "2026-11-09"
+   },
+   "targets": [
+    "windows"
+   ],
+   "targetsChecked": true
   },
   {
    "id": "eow",
@@ -2564,8 +2636,8 @@
    "project": "AC-Recomp",
    "type": "recomp",
    "ai": "ai",
-   "status": "lead",
-   "note": "实验性静态重编译（macOS），已发布 v0.1.0 预览版，需自备合法导出的游戏；另有 Windows 版 AstralChain-PC 项目在开发。",
+   "status": "beta",
+   "note": "实验性静态重编译（macOS），已发布 v0.1.0 预览版，可进入开场与第一章摩托追逐，尚不能通关，存档未验证（目前仅开发者自述）；需自备合法导出的游戏。另有 Windows 版 AstralChain-PC 项目在开发。",
    "repo": "swaymun/AC-Recomp"
   },
   {
@@ -2612,7 +2684,17 @@
    "status": "beta",
    "note": "NVN 转 Vulkan/MoltenVK，支持 macOS、安卓、Windows。 原仓库已失效。",
    "featured": false,
-   "search": "Super Mario Bros Wonder recomp"
+   "search": "Super Mario Bros Wonder recomp",
+   "play": {
+    "rating": "partial",
+    "community": "作者只列到标题、选人、世界地图和 1-1 正常，后续关卡未验证；Windows 有选人后崩溃报告，安卓有黑屏与渲染问题，且需自行编译；个别整理站标「可玩」并不可靠。",
+    "sources": [
+     "https://github.com/BelmanteGu/SuperMarioWonderRecomp",
+     "https://portedgames.com/super-mario-wonder-pc/",
+     "https://recompsoftware.com/p/super-mario-wonder-recomp/"
+    ],
+    "checked": "2026-11-09"
+   }
   },
   {
    "id": "bayo2",
@@ -2624,7 +2706,17 @@
    "ai": "unknown",
    "status": "beta",
    "note": "非官方 Windows 静态重编译，从你自己的游戏文件构建。",
-   "repo": "K0NL/B2recomp"
+   "repo": "K0NL/B2recomp",
+   "play": {
+    "rating": "mostly",
+    "community": "作者 README 只确认序章和第一章开头，较保守；已有玩家报告全章节通关、稳定 60 帧（仅此一例），同时仍有点 Play 即崩、swgame.dll 访问冲突等报告。",
+    "sources": [
+     "https://github.com/K0NL/B2recomp/issues/68",
+     "https://github.com/K0NL/B2recomp/issues/75",
+     "https://github.com/K0NL/B2recomp/issues/39"
+    ],
+    "checked": "2026-11-09"
+   }
   },
   {
    "id": "mk8d",
@@ -2647,8 +2739,18 @@
    "type": "recomp",
    "ai": "ai",
    "status": "beta",
-   "note": "已发布 v0.5.5 测试版（Linux 等）。",
-   "repo": "smm2recomp/smm2recomp"
+   "note": "已发布 v0.7.10 测试版（Windows/Linux/macOS），需自备游戏与密钥，由用户转储本地构建。",
+   "repo": "smm2recomp/smm2recomp",
+   "play": {
+    "rating": "partial",
+    "community": "作者自称早期开发；玩家已能深入故事模式（第 87 关崩溃在 v0.5.10 修复），但 Course World 点赞、评论、上传未完成，联机未验证，仍有不少崩溃与安装类 issue。",
+    "sources": [
+     "https://github.com/smm2recomp/smm2recomp/issues/30",
+     "https://github.com/smm2recomp/smm2recomp/issues/56",
+     "https://github.com/smm2recomp/smm2recomp/releases/tag/v0.7.10"
+    ],
+    "checked": "2026-11-09"
+   }
   },
   {
    "id": "yw4",
@@ -2695,10 +2797,20 @@
    "platform": "3DS",
    "project": "TriAevum",
    "type": "recomp",
-   "ai": "unknown",
+   "ai": "assist",
    "status": "beta",
    "repo": "coccofresco/TriAevum",
-   "note": "实验性移植，已发布 v0.8.0-beta 测试版。"
+   "note": "实验性移植，已发布 v0.8.0-beta 测试版。",
+   "play": {
+    "rating": "mostly",
+    "community": "作者只保证测过前期并标注实验性，但已有玩家通关并看完片尾（片尾崩溃在 beta.1.2 修复后本人确认），社区进度超过作者说法；仍有神庙过场卡死、启动崩溃等未关闭问题，通关报告仅一例。",
+    "sources": [
+     "https://github.com/coccofresco/TriAevum/issues/104",
+     "https://github.com/coccofresco/TriAevum/issues/45",
+     "https://github.com/coccofresco/TriAevum/issues/119"
+    ],
+    "checked": "2026-11-09"
+   }
   },
   {
    "id": "vitarecomp",
@@ -2721,9 +2833,9 @@
    "project": "Yakumo",
    "type": "recomp",
    "ai": "unknown",
-   "status": "lead",
-   "search": "Yakumo monster hunter portable 3rd",
-   "note": "整理站标注为测试版。"
+   "status": "beta",
+   "note": "已发布预构建版（最新 v0.6.0-alpha.1），支持 Windows/Linux/Steam Deck/macOS/Android，村庄、狩猎与存档可用，需自备 HD 版光盘镜像。",
+   "repo": "TeamGDB/Yakumo"
   },
   {
    "id": "flow",
@@ -2929,6 +3041,141 @@
     ],
     "checked": "2026-11-02"
    }
+  },
+  {
+   "id": "pokopia-recomp",
+   "game": "宝可梦 Pokopia",
+   "game_en": "Pokémon Pokopia",
+   "platform": "Switch 2",
+   "project": "Pokopia Recomp（switch2-recomp）",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "drakolordx7/switch2-recomp",
+   "targets": [
+    "windows"
+   ],
+   "targetsChecked": true,
+   "wiki": "Pokémon Pokopia",
+   "note": "Switch 2 游戏静态重编译，Windows 原生运行，安装时用自备的 2.0.1a 游戏本地构建；下载在作者的 pokopia-recomp 仓库。",
+   "play": {
+    "rating": "partial",
+    "community": "作者称可玩，但玩家 issue 集中在黑白贴图、百变怪渲染成黑色、约 212 个着色器缺失、阴影缺失，另有 NSP/NUP 导入失败和编译错误，暂无长程游玩报告。",
+    "sources": [
+     "https://github.com/drakolordx7/pokopia-recomp/issues",
+     "https://gamerbrowser.com/story/pokopia-recomp"
+    ],
+    "checked": "2026-11-09"
+   }
+  },
+  {
+   "id": "pokopia-native",
+   "game": "宝可梦 Pokopia",
+   "game_en": "Pokémon Pokopia",
+   "platform": "Switch 2",
+   "project": "pokopia-native",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "xFractals/pokopia-native",
+   "wiki": "Pokémon Pokopia",
+   "note": "工具形式、无预编译包，用自备游戏在本地构建原生 macOS（Apple 芯片）/iOS 应用；可玩性目前只有作者自述。"
+  },
+  {
+   "id": "recompia",
+   "game": "宝可梦 Pokopia",
+   "game_en": "Pokémon Pokopia",
+   "platform": "Switch 2",
+   "project": "Recompia",
+   "type": "recomp",
+   "ai": "assist",
+   "status": "beta",
+   "repo": "featureJosh/Recompia",
+   "targets": [
+    "windows",
+    "linux"
+   ],
+   "targetsChecked": true,
+   "wiki": "Pokémon Pokopia",
+   "note": "基于 Pokopia Recomp 的分支，加入联机（Link Play，仍在测试）；Windows/Linux，需自备 2.0.1a 游戏；启动器未签名。",
+   "play": {
+    "rating": "partial",
+    "community": "玩家实测 Steam Deck 约 26–53 帧、Legion Go S 55–75 帧，联机可加入和走动，但长时间、多人和外网未测，FSR/DLSS 画面不佳。",
+    "sources": [
+     "https://github.com/featureJosh/Recompia",
+     "https://playported.com/ports/1314-pokemon-pokopia/"
+    ],
+    "checked": "2026-11-09"
+   }
+  },
+  {
+   "id": "dkb",
+   "game": "大金刚 Bananza",
+   "game_en": "Donkey Kong Bananza",
+   "platform": "Switch 2",
+   "project": "DKB Recomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "repo": "Lucas-blip-png/dkb-pc-recomp",
+   "wiki": "Donkey Kong Bananza",
+   "note": "11 月 8 日发布 v0.1.0 预览版，可玩教程、过场和第一关，尚未完成、可能崩溃；Windows 为主，Linux/macOS 预览，需自备 1.0.0 游戏。"
+  },
+  {
+   "id": "hookshot",
+   "game": "塞尔达传说：时之笛（Switch 2 重制版）",
+   "game_en": "The Legend of Zelda: Ocarina of Time (Switch 2 remake)",
+   "platform": "Switch 2",
+   "project": "Hookshot",
+   "type": "recomp",
+   "ai": "assist",
+   "status": "beta",
+   "repo": "NotRexed/Hookshot",
+   "targets": [
+    "windows"
+   ],
+   "targetsChecked": true,
+   "wiki": "The Legend of Zelda: Ocarina of Time",
+   "note": "重制版发售数日内出现的原生重编译，目前仅科基利森林实测可玩，其余流程未测，需 Vulkan 网格着色器显卡；用自备 Switch 2 游戏本地构建（约 40 分钟）。"
+  },
+  {
+   "id": "totk",
+   "game": "塞尔达传说：王国之泪",
+   "game_en": "The Legend of Zelda: Tears of the Kingdom",
+   "platform": "Switch",
+   "project": "TotK PC Recomp",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "repo": "valentderah/totk-pc-recomp",
+   "wiki": "The Legend of Zelda: Tears of the Kingdom",
+   "note": "Switch 版静态重编译，Windows/Linux 原生运行，作者称可玩但仍有画面错误和崩溃；需自备本体与 1.1.0/1.2.1/1.4.3 更新，安装时本地构建。"
+  },
+  {
+   "id": "savagewind",
+   "game": "塞尔达传说：旷野之息",
+   "game_en": "The Legend of Zelda: Breath of the Wild",
+   "platform": "Switch",
+   "project": "Savage Wind",
+   "type": "recomp",
+   "ai": "ai",
+   "status": "beta",
+   "repo": "Revivedx/SavageWindRecomp",
+   "wiki": "The Legend of Zelda: Breath of the Wild",
+   "note": "Switch 1.8.2 版静态重编译的 Alpha 预览，目前只确认苏醒神庙和初始台地可玩，其余区域未测；需自备游戏，安装时本地构建。"
+  },
+  {
+   "id": "powermoon",
+   "game": "超级马力欧 奥德赛",
+   "game_en": "Super Mario Odyssey",
+   "platform": "Switch",
+   "project": "Power Moon Recomp",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "search": "Power Moon Recomp Super Mario Odyssey",
+   "wiki": "Super Mario Odyssey",
+   "note": "发布于 GitLab，媒体报道可从头玩到结局、Windows/Linux 原生；需自备 1.0.0 版游戏文件。仓库地址待确认，这里用搜索链接。"
   }
  ]
 }
