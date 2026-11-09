@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T02:05:28.018Z",
+ "generated": "2026-11-09T02:11:40.899Z",
  "repos": {
   "HarbourMasters/Shipwright": {
    "stars": 5930,
@@ -3579,7 +3579,7 @@
     ],
     "issues30d": 15,
     "bugs30d": 1,
-    "open": 7,
+    "open": 6,
     "bugTitles": [
      "Vulkan: loading a full save state in a new session crashes with \"missing sampled texture\" when it was saved with restyle"
     ]
@@ -4471,7 +4471,7 @@
   },
   "OverkillLabs3/driveclub-recomp": {
    "stars": 972,
-   "pushed_at": "2026-11-09T01:15:25Z",
+   "pushed_at": "2026-11-09T02:13:41Z",
    "archived": false,
    "release": {
     "tag": "v0.4.1",
@@ -4583,7 +4583,7 @@
    "targetsFrom": "assets"
   },
   "boykopovar/AnyPS5": {
-   "stars": 52347,
+   "stars": 52350,
    "pushed_at": "2026-11-09T01:55:27Z",
    "archived": false,
    "release": {
@@ -5324,7 +5324,7 @@
    "assets": []
   },
   "coccofresco/TriAevum": {
-   "stars": 674,
+   "stars": 675,
    "pushed_at": "2026-10-22T15:58:21Z",
    "archived": false,
    "release": {
@@ -5882,7 +5882,7 @@
    "targetsFrom": "assets"
   },
   "drakolordx7/switch2-recomp": {
-   "stars": 503,
+   "stars": 504,
    "pushed_at": "2026-11-04T20:05:33Z",
    "archived": false,
    "release": {
@@ -5961,7 +5961,7 @@
   },
   "featureJosh/Recompia": {
    "stars": 302,
-   "pushed_at": "2026-11-09T00:54:28Z",
+   "pushed_at": "2026-11-09T02:13:28Z",
    "archived": false,
    "release": {
     "tag": "v0.8.0",
@@ -5983,7 +5983,7 @@
      "windows",
      "linux"
     ],
-    "issues30d": 18,
+    "issues30d": 17,
     "bugs30d": 3,
     "open": 3,
     "bugTitles": [
@@ -6042,7 +6042,7 @@
    "targetsFrom": "assets"
   },
   "NotRexed/Hookshot": {
-   "stars": 3179,
+   "stars": 3186,
    "pushed_at": "2026-11-09T01:20:58Z",
    "archived": false,
    "release": {
@@ -6065,15 +6065,15 @@
      "linux",
      "switch"
     ],
-    "issues30d": 23,
-    "bugs30d": 7,
-    "open": 23,
+    "issues30d": 24,
+    "bugs30d": 8,
+    "open": 24,
     "bugTitles": [
+     "Corrupted textures everywhere, low FPS and freezes on RTX 2050 laptop (Hookshot 2.0.5)",
      "PRoblem with a Menu Pause (Crashes after back to game) Texture Bugs",
      "It freezes when walking around in Hyrule city",
      "Crash on BC-250",
-     "a lot of janky issues after an hour of having the game open it crashed",
-     "Crash During First Run Shader Precompilation"
+     "a lot of janky issues after an hour of having the game open it crashed"
     ]
    },
    "assets": [
@@ -6088,7 +6088,7 @@
    ]
   },
   "valentderah/totk-pc-recomp": {
-   "stars": 5944,
+   "stars": 5947,
    "pushed_at": "2026-11-08T18:14:36Z",
    "archived": false,
    "release": {
