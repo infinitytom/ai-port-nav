@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T09:33:49.722Z",
+ "generated": "2026-11-09T02:09:11.155Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1527,6 +1527,70 @@
    "h": 365,
    "page": "https://en.wikipedia.org/wiki/The_Order:_1886",
    "title": "The Order: 1886",
+   "how": "title"
+  },
+  "pokopia-recomp": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/6a/Pok%C3%A9mon_Pokopia_box_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 278,
+   "h": 358,
+   "page": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Pokopia",
+   "title": "Pokémon Pokopia",
+   "how": "title"
+  },
+  "pokopia-native": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/6a/Pok%C3%A9mon_Pokopia_box_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 278,
+   "h": 358,
+   "page": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Pokopia",
+   "title": "Pokémon Pokopia",
+   "how": "title"
+  },
+  "recompia": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/6a/Pok%C3%A9mon_Pokopia_box_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 278,
+   "h": 358,
+   "page": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Pokopia",
+   "title": "Pokémon Pokopia",
+   "how": "title"
+  },
+  "dkb": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/0/01/Donkey_Kong_Bananza_updated_box_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 265,
+   "h": 376,
+   "page": "https://en.wikipedia.org/wiki/Donkey_Kong_Bananza",
+   "title": "Donkey Kong Bananza",
+   "how": "title"
+  },
+  "hookshot": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 264,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time",
+   "title": "The Legend of Zelda: Ocarina of Time",
+   "how": "title"
+  },
+  "totk": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 268,
+   "h": 372,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom",
+   "title": "The Legend of Zelda: Tears of the Kingdom",
+   "how": "title"
+  },
+  "savagewind": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 273,
+   "h": 365,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild",
+   "title": "The Legend of Zelda: Breath of the Wild",
+   "how": "title"
+  },
+  "powermoon": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 300,
+   "h": 300,
+   "page": "https://en.wikipedia.org/wiki/Super_Mario_Odyssey",
+   "title": "Super Mario Odyssey",
    "how": "title"
   }
  }
