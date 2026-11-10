@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T09:51:19.487Z",
+ "generated": "2026-11-10T09:28:22.880Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1591,6 +1591,14 @@
    "h": 300,
    "page": "https://en.wikipedia.org/wiki/Super_Mario_Odyssey",
    "title": "Super Mario Odyssey",
+   "how": "title"
+  },
+  "fefw": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/af/Fire_Emblem_Fortune%27s_Weave_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 350,
+   "page": "https://en.wikipedia.org/wiki/Fire_Emblem:_Fortune%27s_Weave",
+   "title": "Fire Emblem: Fortune's Weave",
    "how": "title"
   }
  }
