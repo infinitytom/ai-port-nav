@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "projects": [
   {
    "id": "soh",
@@ -3173,6 +3173,32 @@
    "search": "Power Moon Recomp Super Mario Odyssey",
    "wiki": "Super Mario Odyssey",
    "note": "发布于 GitLab，媒体报道可从头玩到结局、Windows/Linux 原生；需自备 1.0.0 版游戏文件。仓库地址待确认，这里用搜索链接。"
+  },
+  {
+   "id": "fefw",
+   "game": "火焰纹章 Fortune's Weave",
+   "game_en": "Fire Emblem: Fortune's Weave",
+   "platform": "Switch 2",
+   "project": "fefw-recomp",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "Goldoire/fefw-recomp",
+   "targets": [
+    "windows"
+   ],
+   "targetsChecked": true,
+   "wiki": "Fire Emblem: Fortune's Weave",
+   "note": "Switch 2 新作的原生 Windows 静态重编译，支持 60/120 帧、分辨率缩放和手柄；需自备 131072 更新版转储，启动器在本机构建，不含游戏文件。",
+   "play": {
+    "rating": "partial",
+    "community": "玩家已能推进到凯路线的王都一带，但 issue 里有序章林德战、王都、菜单滚动等多处崩溃，以及启动黑屏、旅店用餐黑屏、夜间光照错误等问题，暂无通关报告。",
+    "sources": [
+     "https://github.com/Goldoire/fefw-recomp/issues",
+     "https://gamerbrowser.com/story/fire-emblem-fortunes-weave-recomp"
+    ],
+    "checked": "2026-11-10"
+   }
   }
  ]
 }
