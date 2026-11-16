@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T09:28:22.880Z",
+ "generated": "2026-11-16T02:11:07.256Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1599,6 +1599,54 @@
    "h": 350,
    "page": "https://en.wikipedia.org/wiki/Fire_Emblem:_Fortune%27s_Weave",
    "title": "Fire Emblem: Fortune's Weave",
+   "how": "title"
+  },
+  "mkw": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/6/65/Mario_Kart_World_Cover_Artwork.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 267,
+   "h": 374,
+   "page": "https://en.wikipedia.org/wiki/Mario_Kart_World",
+   "title": "Mario Kart World",
+   "how": "title"
+  },
+  "oot-nx2navi": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 378,
+   "h": 264,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time",
+   "title": "The Legend of Zelda: Ocarina of Time",
+   "how": "title"
+  },
+  "ultratears": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 268,
+   "h": 372,
+   "page": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom",
+   "title": "The Legend of Zelda: Tears of the Kingdom",
+   "how": "title"
+  },
+  "mhgu": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/2/23/Monster_hunter_generations_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 315,
+   "h": 315,
+   "page": "https://en.wikipedia.org/wiki/Monster_Hunter_Generations",
+   "title": "Monster Hunter Generations",
+   "how": "title"
+  },
+  "dread": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/f/f7/Metroid_Dread_Banner.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 268,
+   "h": 372,
+   "page": "https://en.wikipedia.org/wiki/Metroid_Dread",
+   "title": "Metroid Dread",
+   "how": "title"
+  },
+  "bayo3": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/f/fe/Bayonetta_3_cover.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Bayonetta_3",
+   "title": "Bayonetta 3",
    "how": "title"
   }
  }
