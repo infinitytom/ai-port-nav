@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-16",
  "projects": [
   {
    "id": "soh",
@@ -122,7 +122,16 @@
    "note": "开箱即用的增强版，手感与镜头改进。",
    "targets": [
     "windows"
-   ]
+   ],
+   "play": {
+    "rating": "mostly",
+    "community": "2021 年起被 Nintendo Life 等广泛报道的成熟增强移植，已更新到 v4，社区长期使用、未见重大可玩性问题；本次未找到可引用的完整通关实录，暂定 mostly。",
+    "sources": [
+     "https://www.nintendolife.com/news/2021/04/super_mario_64_plus_is_an_unofficial_pc_port_with_60fps_and_a_permadeath_mode",
+     "https://www.dsogaming.com/patches/super-mario-64-plus-pc-port-version-4-0-1-released/"
+    ],
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "spaghettikart",
@@ -156,7 +165,16 @@
    "ai": "none",
    "status": "released",
    "repo": "sonicdcer/MarioKart64Recomp",
-   "note": "N64Recomp 版本，原汁原味。"
+   "note": "N64Recomp 版本，原汁原味。",
+   "play": {
+    "rating": "mostly",
+    "community": "媒体与整理站普遍报道可 4K/高帧流畅运行，处于 1.0 前的 v0.9.x，目前仅开放单人模式（本地多人未完成），Intel 显卡需更新驱动避免崩溃；未见大范围崩溃报告。",
+    "sources": [
+     "https://newreleases.io/project/github/sonicdcer/MarioKart64Recomp/release/v0.9.2",
+     "https://heldgames.com/guides/n64-recompiled-games-list"
+    ],
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "starship",
@@ -196,7 +214,22 @@
    "ai": "none",
    "status": "released",
    "repo": "sonicdcer/Starfox64Recomp",
-   "note": "N64Recomp 版本。"
+   "note": "N64Recomp 版本。",
+   "play": {
+    "rating": "mostly",
+    "community": "已发布 1.0 正式版并持续小版本修复，媒体称可正常游玩，支持模组与随机器；未见明显崩溃报告，但也暂未找到玩家完整通关实录。",
+    "sources": [
+     "https://www.timeextension.com/news/2025/12/star-fox-64-gets-another-pc-recompilation-just-in-time-for-christmas",
+     "https://newreleases.io/project/github/sonicdcer/Starfox64Recomp/release/1.0.3"
+    ],
+    "checked": "2026-11-16"
+   },
+   "targets": [
+    "windows",
+    "linux",
+    "macos"
+   ],
+   "targetsChecked": true
   },
   {
    "id": "paperboat",
@@ -278,7 +311,16 @@
    "ai": "ai",
    "status": "beta",
    "repo": "some-scurvy-dog/banjo-tooie-scurvy-dog-port",
-   "note": "大量代码由 AI 生成的独立移植，Windows Alpha。"
+   "note": "大量代码由 AI 生成的独立移植，Windows Alpha。",
+   "play": {
+    "rating": "partial",
+    "community": "AI 生成的 Alpha 版，被 N64: Recompiled 开发者公开批评为「坏掉的 alpha」，与官方 Banjo: Recompiled 团队无关，暂无正面实测报告。",
+    "sources": [
+     "https://www.gamesradar.com/games/platformer/zelda-and-banjo-pc-port-devs-slam-new-vibe-coded-banjo-tooie-recompilation-throwing-ai-at-it-is-just-disrespectful/",
+     "https://pcport.org/en/game/banjo-tooie-pc-port"
+    ],
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "perfectdark",
@@ -334,7 +376,16 @@
    "ai": "ai",
    "status": "beta",
    "repo": "ThatGuyMcd/DKR-R",
-   "note": "提交记录显示由 Claude 共同编写（README 未声明）。"
+   "note": "提交记录显示由 Claude 共同编写（README 未声明）。",
+   "play": {
+    "rating": "mostly",
+    "community": "v1.0.x 稳定迭代，玩家有四人本地与联机实机演示，联机延迟仍在优化，README 承认仍有个别启动/游戏中崩溃。",
+    "sources": [
+     "https://emulationking.com/nintendo/n64/games/diddykongracing/ports/dkrr/",
+     "https://www.youtube.com/watch?v=P1yk0YtTzmQ"
+    ],
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "hm64",
@@ -1166,7 +1217,16 @@
     "windows",
     "android"
    ],
-   "targetsChecked": true
+   "targetsChecked": true,
+   "play": {
+    "rating": "partial",
+    "community": "早期 Alpha：棋盘可玩，但约 15/50 个小游戏无法运行、缺音乐音效，媒体建议勤存档；暂无完整游玩报告。",
+    "sources": [
+     "https://www.techeblog.com/mario-party-4-playable-native-pc-port/",
+     "https://www.generationamiga.com/2026/04/13/mario-party-4-is-finally-playable-on-pc-thanks-to-fan-made-native-port/"
+    ],
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "tmc",
@@ -2562,9 +2622,8 @@
    "type": "recomp",
    "ai": "unknown",
    "status": "beta",
-   "repo": "Apolinario-coder/SkyRecomp",
    "featured": false,
-   "note": "Switch 版御天之剑 HD 的静态重编译，整理站标注可游玩。",
+   "note": "【疑遭下架/已失效：作者 Apolinario-coder 账号已从 GitHub 消失，portedgames 标注暂不可用】 Switch 版御天之剑 HD 的静态重编译，整理站标注可游玩。",
    "wiki": "The Legend of Zelda: Skyward Sword",
    "play": {
     "rating": "partial",
@@ -2574,7 +2633,8 @@
      "https://github.com/infinitytom/ai-port-nav/issues/1"
     ],
     "checked": "2026-11-02"
-   }
+   },
+   "search": "SkyRecomp Skyward Sword HD"
   },
   {
    "id": "ssbu",
@@ -2585,8 +2645,8 @@
    "type": "recomp",
    "ai": "ai",
    "status": "beta",
-   "repo": "Denkishi/ssbu-recomp",
-   "note": "早期版本，整理站标注可游玩。 无预编译游戏包，由安装器用你自己的转储本地构建。",
+   "repo": "OpenSmash-Ultimate/ssbu-recomp",
+   "note": "早期版本，整理站标注可游玩。 无预编译游戏包，由安装器用你自己的转储本地构建。 仓库已迁至 OpenSmash-Ultimate 组织下（原 Denkishi/ssbu-recomp 已不存在）。",
    "targets": [
     "windows"
    ],
@@ -2729,7 +2789,15 @@
    "ai": "unknown",
    "status": "beta",
    "note": "原生 iOS/macOS 移植，支持局域网、在线和无线联机。",
-   "repo": "c22dev/mush8"
+   "repo": "c22dev/mush8",
+   "play": {
+    "rating": "partial",
+    "community": "仅支持 Apple Silicon Mac/iOS，没有预编译版本需自行从源码编译，玩家在 issue 中反映编译失败与崩溃。",
+    "sources": [
+     "https://portedgames.com/mario-kart-8-deluxe-iphone/"
+    ],
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "smm2",
@@ -2822,9 +2890,9 @@
    "type": "recomp",
    "ai": "unknown",
    "status": "lead",
-   "repo": "soyjxck/vitarecomp",
    "wiki": false,
-   "note": "把 PS Vita 的 ARM 代码静态重编译为原生 C 的工具包（誓血龙骑士 3 重编译作者出品）。"
+   "note": "【已失效：soyjxck/vitarecomp 仓库已不存在（作者其他仓库仍在）】 把 PS Vita 的 ARM 代码静态重编译为原生 C 的工具包（誓血龙骑士 3 重编译作者出品）。",
+   "search": "vitarecomp PS Vita static recompiler"
   },
   {
    "id": "mhp3hd",
@@ -3052,13 +3120,12 @@
    "type": "recomp",
    "ai": "unknown",
    "status": "beta",
-   "repo": "drakolordx7/switch2-recomp",
    "targets": [
     "windows"
    ],
    "targetsChecked": true,
    "wiki": "Pokémon Pokopia",
-   "note": "Switch 2 游戏静态重编译，Windows 原生运行，安装时用自备的 2.0.1a 游戏本地构建；下载在作者的 pokopia-recomp 仓库。",
+   "note": "【疑遭下架/已失效：原仓库 drakolordx7/switch2-recomp 11 月起已从 GitHub 消失（删除或转私有），未见官方迁移地址】 Switch 2 游戏静态重编译，Windows 原生运行，安装时用自备的 2.0.1a 游戏本地构建；下载在作者的 pokopia-recomp 仓库。",
    "play": {
     "rating": "partial",
     "community": "作者称可玩，但玩家 issue 集中在黑白贴图、百变怪渲染成黑色、约 212 个着色器缺失、阴影缺失，另有 NSP/NUP 导入失败和编译错误，暂无长程游玩报告。",
@@ -3067,7 +3134,8 @@
      "https://gamerbrowser.com/story/pokopia-recomp"
     ],
     "checked": "2026-11-09"
-   }
+   },
+   "search": "Pokopia Recomp drakolordx7"
   },
   {
    "id": "pokopia-native",
@@ -3078,9 +3146,9 @@
    "type": "recomp",
    "ai": "unknown",
    "status": "beta",
-   "repo": "xFractals/pokopia-native",
    "wiki": "Pokémon Pokopia",
-   "note": "工具形式：下载包（Windows/macOS，Linux 为单独 Beta）不含游戏内容，用自备的 2.0.1 或 1.0.5 版转储在本机构建，还可构建 iPhone 应用；可玩性目前主要是作者说明，部分 AMD/Intel 显卡有卡死反馈。"
+   "note": "【已失效：作者 xFractals 账号已不存在，未见官方迁移地址】 工具形式：下载包（Windows/macOS，Linux 为单独 Beta）不含游戏内容，用自备的 2.0.1 或 1.0.5 版转储在本机构建，还可构建 iPhone 应用；可玩性目前主要是作者说明，部分 AMD/Intel 显卡有卡死反馈。",
+   "search": "pokopia-native Pokopia"
   },
   {
    "id": "recompia",
@@ -3091,14 +3159,14 @@
    "type": "recomp",
    "ai": "assist",
    "status": "beta",
-   "repo": "featureJosh/Recompia",
+   "repo": "Dittobyte/Recompia",
    "targets": [
     "windows",
     "linux"
    ],
    "targetsChecked": true,
    "wiki": "Pokémon Pokopia",
-   "note": "基于 Pokopia Recomp 的分支，加入联机（Link Play，仍在测试）；Windows/Linux，需自备 2.0.1a 游戏；启动器未签名。",
+   "note": "基于 Pokopia Recomp 的分支，加入联机（Link Play，仍在测试）；Windows/Linux，需自备 2.0.1a 游戏；启动器未签名。 仓库已迁至 Dittobyte/Recompia（原 featureJosh/Recompia 已不存在）。",
    "play": {
     "rating": "partial",
     "community": "玩家实测 Steam Deck 约 26–53 帧、Legion Go S 55–75 帧，联机可加入和走动，但长时间、多人和外网未测，FSR/DLSS 画面不佳。",
@@ -3120,7 +3188,15 @@
    "status": "beta",
    "repo": "Lucas-blip-png/dkb-pc-recomp",
    "wiki": "Donkey Kong Bananza",
-   "note": "已发布 v0.2.0 预览版（支持 1.0.0 和 3.2.0），可玩教程、过场和第一关，尚未完成、可能崩溃；Windows 为主，Linux/macOS 预览，下载包不含游戏数据，需自备游戏。"
+   "note": "已发布 v0.3.0 预览版（11/12）（支持 1.0.0 和 3.2.0），可玩教程、过场和第一关，尚未完成、可能崩溃；Windows 为主，Linux/macOS 预览，下载包不含游戏数据，需自备游戏。",
+   "play": {
+    "rating": "partial",
+    "community": "作者称新款 NVIDIA 显卡上可玩到第一关之后，但 FAQ 只确认实测打通第一关；AMD/Intel 有卡死或驱动崩溃，部分特效缺失。",
+    "sources": [
+     "https://quiverlauncher.com/apps/donkey-kong-bananza-dkb-recomp-3"
+    ],
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "hookshot",
@@ -3131,9 +3207,17 @@
    "type": "recomp",
    "ai": "assist",
    "status": "beta",
-   "repo": "NotRexed/Hookshot",
    "wiki": "The Legend of Zelda: Ocarina of Time",
-   "note": "重制版发售数日内出现的原生重编译，更新很快（已到 v2.0.5），Windows/Linux；README 早期只保证科基利森林，新版已在修卡卡利科、海拉鲁平原、格鲁德峡谷的画面问题，尚无完整流程验证。需 Vulkan 网格着色器显卡，用自备 Switch 2 游戏本地构建。"
+   "note": "【疑遭下架/已失效：NotRexed/Hookshot 仓库与账号约 11 月 12–15 日从 GitHub 消失，据报道为开发者自行撤下而非任天堂 DMCA；最后的 GitHub 版本为 v2.1.0（11/11），尚无可信的官方迁移公告】 重制版发售数日内出现的原生重编译，更新很快（已到 v2.0.5），Windows/Linux；README 早期只保证科基利森林，新版已在修卡卡利科、海拉鲁平原、格鲁德峡谷的画面问题，尚无完整流程验证。需 Vulkan 网格着色器显卡，用自备 Switch 2 游戏本地构建。",
+   "search": "Hookshot Ocarina of Time Switch 2 recomp",
+   "play": {
+    "rating": "partial",
+    "community": "仓库撤下前仍属实验性：媒体称只验证了科基利森林，门/树有黑闪和缺块，森林以外内容未经充分测试。",
+    "sources": [
+     "https://www.techeblog.com/hookshot-switch-2-ocarina-of-time-remake-pc-port-recomp/"
+    ],
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "totk",
@@ -3146,7 +3230,16 @@
    "status": "beta",
    "repo": "valentderah/totk-pc-recomp",
    "wiki": "The Legend of Zelda: Tears of the Kingdom",
-   "note": "Switch 版静态重编译，Windows/Linux 原生运行，作者称可玩但仍有画面错误和崩溃；需自备本体与 1.1.0/1.2.1/1.4.3 更新，安装时本地构建。"
+   "note": "Switch 版静态重编译，Windows/Linux 原生运行，作者称可玩但仍有画面错误和崩溃；需自备本体与 1.1.0/1.2.1/1.4.3 更新，安装时本地构建。",
+   "play": {
+    "rating": "partial",
+    "community": "SteamDeckHQ 实测开放世界仅 30–40 帧、阴影闪烁，作者自己也不推荐在 Deck 上游玩；Windows 版仍在持续修复崩溃，暂无通关报告。",
+    "sources": [
+     "https://steamdeckhq.com/news/tears-of-the-kingdom-recomp-on-steam-deck/",
+     "https://newreleases.io/project/github/valentderah/totk-pc-recomp/release/v0.3.1"
+    ],
+    "checked": "2026-11-16"
+   }
   },
   {
    "id": "savagewind",
@@ -3183,13 +3276,12 @@
    "type": "recomp",
    "ai": "unknown",
    "status": "beta",
-   "repo": "Goldoire/fefw-recomp",
    "targets": [
     "windows"
    ],
    "targetsChecked": true,
    "wiki": "Fire Emblem: Fortune's Weave",
-   "note": "Switch 2 新作的原生 Windows 静态重编译，支持 60/120 帧、分辨率缩放和手柄；需自备 131072 更新版转储，启动器在本机构建，不含游戏文件。",
+   "note": "【已失效：作者 Goldoire 已停止开发并于 11 月 15 日前删除仓库（未提及 DMCA），最后版本 v0.2.0；第三方延续项目 EmblemWeave 非原作者，未收录】 Switch 2 新作的原生 Windows 静态重编译，支持 60/120 帧、分辨率缩放和手柄；需自备 131072 更新版转储，启动器在本机构建，不含游戏文件。",
    "play": {
     "rating": "partial",
     "community": "玩家已能推进到凯路线的王都一带，但 issue 里有序章林德战、王都、菜单滚动等多处崩溃，以及启动黑屏、旅店用餐黑屏、夜间光照错误等问题，暂无通关报告。",
@@ -3198,7 +3290,86 @@
      "https://gamerbrowser.com/story/fire-emblem-fortunes-weave-recomp"
     ],
     "checked": "2026-11-10"
-   }
+   },
+   "search": "fefw-recomp Fortune's Weave"
+  },
+  {
+   "id": "mkw",
+   "game": "马力欧赛车 世界",
+   "game_en": "Mario Kart World",
+   "platform": "Switch 2",
+   "project": "mkw-recomp",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "adriadam10/mkw-recomp",
+   "wiki": "Mario Kart World",
+   "note": "Switch 2 首发大作的原生 PC 静态重编译，Release 提供 Windows 压缩包和 Linux AppImage；需自备 1.0.0 版 exefs/romfs，在本机构建，不含任何游戏文件。比赛约 30 帧可玩，部分菜单未完成、AMD 显卡有卡死，暂不支持联网。"
+  },
+  {
+   "id": "oot-nx2navi",
+   "game": "塞尔达传说：时之笛（Switch 2 重制版）",
+   "game_en": "The Legend of Zelda: Ocarina of Time (Switch 2 remake)",
+   "platform": "Switch 2",
+   "project": "NX2navi",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "tangerineturtle1/NX2navi",
+   "wiki": "The Legend of Zelda: Ocarina of Time",
+   "note": "时之笛重制版的原生 Windows 重编译（4000+ 星，TweakTown 等报道），支持 DLSS/FSR 3.1、30–240 帧和超宽屏；用自备 1.1.1 版 .nup 转储在本机构建（约 10–25 分钟），Linux AppImage 由 CI 附加、作者未亲测。已知 AMD 核显标题画面失败、16GB 内存在海拉鲁平原可能不足、偶发粒子崩溃。"
+  },
+  {
+   "id": "ultratears",
+   "game": "塞尔达传说：王国之泪",
+   "game_en": "The Legend of Zelda: Tears of the Kingdom",
+   "platform": "Switch",
+   "project": "UltraTears",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "kuraeow/ultratears",
+   "wiki": "The Legend of Zelda: Tears of the Kingdom",
+   "note": "另一个王国之泪原生 PC / Steam Deck 移植（与 TotK PC Recomp 不同项目），Release 有预编译程序，需自备 1.4.3 版解包文件本地构建，不提供游戏文件、密钥或转储工具；v0.3.0 修复了地底在 AMD 显卡和 Deck 上的画面错误与崩溃，重做体感瞄准。"
+  },
+  {
+   "id": "mhgu",
+   "game": "怪物猎人XX（Generations Ultimate）",
+   "game_en": "Monster Hunter Generations Ultimate",
+   "platform": "Switch",
+   "project": "MHGURecomp",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "morerokk/MHGURecomp",
+   "wiki": "Monster Hunter Generations Ultimate",
+   "note": "MHGU 原生 PC 移植，Release 提供 Windows、Linux 和实验性 Android 包；需自备 1.4.0 版转储，不含游戏文件和密钥。作者称单人与联机均可完整游玩，与模拟器的跨平台联机仍属实验性。"
+  },
+  {
+   "id": "dread",
+   "game": "密特罗德 生存恐惧",
+   "game_en": "Metroid Dread",
+   "platform": "Switch",
+   "project": "Metroid Dread Recomp",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "yozander2009-stack/Metroid-Dread-Recomp",
+   "wiki": "Metroid Dread",
+   "note": "银河战士新作的原生 Windows 静态重编译（Notebookcheck、GameGPU 报道），v0.3.0 起为约 72MB 安装器，带增量更新和回滚，可达 200+ 帧；需自备 2.1.0 版 RomFS/ExeFS 本地生成程序，仍在向 1.0 完善。"
+  },
+  {
+   "id": "bayo3",
+   "game": "猎天使魔女3",
+   "game_en": "Bayonetta 3",
+   "platform": "Switch",
+   "project": "Witch Time",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "Zexyen/Witch-Time",
+   "wiki": "Bayonetta 3",
+   "note": "猎天使魔女3 原生 PC 静态重编译，Windows（Release 压缩包附 sha256）与 Linux/Steam Deck；需自备 exefs/romfs 在本机构建，不含游戏代码、素材、SDK 或密钥。作者称游戏流程 60 帧（东京、涩谷已测）、偶有短暂卡顿，120 帧和 FSR 3.1 为实验性。"
   }
  ]
 }
