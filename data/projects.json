@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-23",
  "projects": [
   {
    "id": "soh",
@@ -469,7 +469,16 @@
    "ai": "none",
    "status": "beta",
    "repo": "klorfmorf/Goemon64Recomp",
-   "note": ""
+   "note": "",
+   "play": {
+    "rating": "mostly",
+    "community": "媒体试玩称运行流畅、画面清晰，社区反响积极；仅支持日版 ROM、暂无英文，视角操作笨拙，Mod 拖放与 Intel 显卡偶有崩溃。",
+    "sources": [
+     "https://www.readonlymemo.com/goemon-n64-recompiled-available-now",
+     "https://boundbyflame.com/mystical-ninja-starring-goemon-is-the-latest-n64-game-heading-to-pc/"
+    ],
+    "checked": "2026-11-23"
+   }
   },
   {
    "id": "quest64",
@@ -484,7 +493,17 @@
    "note": "",
    "targets": [
     "windows"
-   ]
+   ],
+   "play": {
+    "rating": "full",
+    "community": "v0.1 发布即被报道可从头玩到尾，速通玩家约 3 小时通关、只报告三处视觉小问题；宽屏下 HUD 仍为 4:3，仅支持日版 ROM。",
+    "sources": [
+     "https://www.timeextension.com/news/2026/01/holy-magic-century-batman-the-infamous-quest-64-is-being-recompiled-for-pc",
+     "https://retrohandhelds.gg/quest-64-gets-the-recomp-treatment/"
+    ],
+    "checked": "2026-11-23"
+   },
+   "featured": true
   },
   {
    "id": "sbk2",
@@ -683,7 +702,17 @@
    "ai": "ai",
    "status": "released",
    "note": "2026 年 10 月 14 日发布首个公开版本，现为 v1.0.2（仅 Windows），作者使用 Claude；需自备 RMGE01 rev0 光盘镜像，安装时本地构建。",
-   "repo": "keepvaibin/nebula"
+   "repo": "keepvaibin/nebula",
+   "play": {
+    "rating": "mostly",
+    "community": "DSOGaming 实测 1440p 稳定 60 帧，作者称可从头玩到尾；但 GitHub issue 有多起闪退（海滩碗银河、路易吉来信后、存档后），整体主线可玩、仍有崩溃。",
+    "sources": [
+     "https://www.dsogaming.com/?p=197649",
+     "https://www.techspot.com/news/114202-super-mario-galaxy-now-playable-pc-thanks-unofficial.html"
+    ],
+    "checked": "2026-11-23"
+   },
+   "featured": true
   },
   {
    "id": "mkwii",
@@ -2048,7 +2077,15 @@
    "ai": "ai",
    "status": "beta",
    "note": "",
-   "repo": "mstan/MetroidPrimeHuntersRecomp"
+   "repo": "mstan/MetroidPrimeHuntersRecomp",
+   "play": {
+    "rating": "partial",
+    "community": "媒体评测（v0.3 alpha）称可进入游戏、移动战斗，但有崩溃、图形音频问题、存档不完善，Wiimmfi 联机易断线；v0.7 暂无独立反馈。",
+    "sources": [
+     "https://www.generationamiga.com/2026/08/16/metroid-prime-hunters-recomp-brings-the-nintendo-ds-classic-to-pc/"
+    ],
+    "checked": "2026-11-23"
+   }
   },
   {
    "id": "b2w2",
@@ -2650,7 +2687,16 @@
    "targets": [
     "windows"
    ],
-   "targetsChecked": true
+   "targetsChecked": true,
+   "play": {
+    "rating": "partial",
+    "community": "作者测试确认菜单与 1v1 对 CPU 完整对局可用，冒险模式只到开场、多数模式未测、联机实验性；整理站标注早期 alpha，暂无独立玩家报告。",
+    "sources": [
+     "https://portedgames.com/super-smash-bros-ultimate-pc/",
+     "https://glitchmod.com/games/super-smash-bros-ultimate/mods/quiver-super-smash-bros-ultimate-opensmash-ultimate"
+    ],
+    "checked": "2026-11-23"
+   }
   },
   {
    "id": "ssbu-ws",
@@ -3252,7 +3298,16 @@
    "status": "beta",
    "repo": "Revivedx/SavageWindRecomp",
    "wiki": "The Legend of Zelda: Breath of the Wild",
-   "note": "Switch 1.8.2 版静态重编译的 Alpha 预览，据 10 月报道只确认苏醒神庙和初始台地可玩，其余区域未测；需自备游戏，安装时本地构建。"
+   "note": "BotW Switch 版静态重编译的 Alpha 预览（现为 v0.6.0-alpha.6，Windows/Linux），作者称 Alpha 6 起可从头通关、无已知卡关 bug，但仍有崩溃和 30 帧以上的机制问题；第三方实测目前只覆盖初始台地。需自备游戏，安装时本地构建。",
+   "play": {
+    "rating": "partial",
+    "community": "第三方实测（Notebookcheck、Steam Deck 视频）只覆盖初始台地，约 50–60 帧；作者 README 现称可从头通关、Alpha 6 无卡关 bug，但尚无社区通关报告，issue 中仍有过场与随机崩溃。",
+    "sources": [
+     "https://notebookcheck.net/Zelda-Breath-of-the-Wild-runs-on-Steam-Deck-without-an-emulator-at-nearly-60-FPS.1443180.0.html",
+     "https://gaming-st.com/pc-games/zelda-botw-savage-wind-recomp-unofficial-pc-port-2026-10/"
+    ],
+    "checked": "2026-11-23"
+   }
   },
   {
    "id": "powermoon",
@@ -3265,7 +3320,7 @@
    "status": "beta",
    "search": "Power Moon Recomp Super Mario Odyssey",
    "wiki": "Super Mario Odyssey",
-   "note": "发布于 GitLab，媒体报道可从头玩到结局、Windows/Linux 原生；需自备 1.0.0 版游戏文件。仓库地址待确认，这里用搜索链接。"
+   "note": "【疑遭下架/已失效：原 GitLab 仓库约 11 月 11 日起 404，疑似 DMCA；其他账号的重新上传与 GitHub 上的延续项目非原作者，未收录】 发布时媒体报道可从头玩到结局、Windows/Linux 原生；需自备 1.0.0 版游戏文件。"
   },
   {
    "id": "fefw",
@@ -3304,7 +3359,16 @@
    "status": "beta",
    "repo": "adriadam10/mkw-recomp",
    "wiki": "Mario Kart World",
-   "note": "Switch 2 首发大作的原生 PC 静态重编译，Release 提供 Windows 压缩包和 Linux AppImage；需自备 1.0.0 版 exefs/romfs，在本机构建，不含任何游戏文件。比赛约 30 帧可玩，部分菜单未完成、AMD 显卡有卡死，暂不支持联网。"
+   "note": "Switch 2 首发大作的原生 PC 静态重编译，Release 提供 Windows 压缩包和 Linux AppImage；需自备 1.0.0 版 exefs/romfs，在本机构建，不含任何游戏文件。比赛约 30 帧可玩，部分菜单未完成、AMD 显卡有卡死，暂不支持联网。",
+   "play": {
+    "rating": "partial",
+    "community": "能进菜单并完成比赛，但有阴影/音频错误、无联机，多名玩家报告一两场后 GPU 故障崩溃（维护者确认为已知问题），NVIDIA 与 AMD 均有。",
+    "sources": [
+     "https://www.enter.co/?p=589274",
+     "https://github.com/adriadam10/mkw-recomp/issues/137"
+    ],
+    "checked": "2026-11-23"
+   }
   },
   {
    "id": "oot-nx2navi",
@@ -3317,7 +3381,16 @@
    "status": "beta",
    "repo": "tangerineturtle1/NX2navi",
    "wiki": "The Legend of Zelda: Ocarina of Time",
-   "note": "时之笛重制版的原生 Windows 重编译（4000+ 星，TweakTown 等报道），支持 DLSS/FSR 3.1、30–240 帧和超宽屏；用自备 1.1.1 版 .nup 转储在本机构建（约 10–25 分钟），Linux AppImage 由 CI 附加、作者未亲测。已知 AMD 核显标题画面失败、16GB 内存在海拉鲁平原可能不足、偶发粒子崩溃。"
+   "note": "时之笛重制版的原生 Windows 重编译（4000+ 星，TweakTown 等报道），支持 DLSS/FSR 3.1、30–240 帧和超宽屏；用自备 1.1.1 版 .nup 转储在本机构建（约 10–25 分钟），Linux AppImage 由 CI 附加、作者未亲测。已知 AMD 核显标题画面失败、16GB 内存在海拉鲁平原可能不足、偶发粒子崩溃。 据报道 11 月 19 日起项目并入 Triforce（triforceproject.com）。",
+   "play": {
+    "rating": "partial",
+    "community": "媒体与社区展示科基里森林、卡卡利科村、死亡山等区域可 60 帧以上运行，但普遍提示画面错误和偶发崩溃（AMD/Intel Arc、读档），尚无通关报告。",
+    "sources": [
+     "https://gamerbrowser.com/story/ocarina-of-time-switch-2-recomp",
+     "https://www.pcguide.com/news/zelda-ocarina-of-time-remake-has-already-been-ported-to-pc-and-even-has-working-co-op-now/"
+    ],
+    "checked": "2026-11-23"
+   }
   },
   {
    "id": "ultratears",
@@ -3356,7 +3429,16 @@
    "status": "beta",
    "repo": "yozander2009-stack/Metroid-Dread-Recomp",
    "wiki": "Metroid Dread",
-   "note": "银河战士新作的原生 Windows 静态重编译（Notebookcheck、GameGPU 报道），v0.3.0 起为约 72MB 安装器，带增量更新和回滚，可达 200+ 帧；需自备 2.1.0 版 RomFS/ExeFS 本地生成程序，仍在向 1.0 完善。"
+   "note": "银河战士新作的原生 Windows 静态重编译（Notebookcheck、GameGPU 报道），v0.3.0 起为约 72MB 安装器，带增量更新和回滚，可达 200+ 帧；需自备 2.1.0 版 RomFS/ExeFS 本地生成程序，仍在向 1.0 完善。",
+   "play": {
+    "rating": "partial",
+    "community": "暂无独立通关报告，整理站标注 Beta「预计会崩溃」；issue 中有敌人攻击后闪退、能量站崩溃、AMD OpenGL 启动崩溃等，比作者宣传保守。",
+    "sources": [
+     "https://github.com/yozander2009-stack/Metroid-Dread-Recomp/issues/49",
+     "https://github.com/boburning/portcove/issues/2934"
+    ],
+    "checked": "2026-11-23"
+   }
   },
   {
    "id": "bayo3",
@@ -3370,6 +3452,84 @@
    "repo": "Zexyen/Witch-Time",
    "wiki": "Bayonetta 3",
    "note": "猎天使魔女3 原生 PC 静态重编译，Windows（Release 压缩包附 sha256）与 Linux/Steam Deck；需自备 exefs/romfs 在本机构建，不含游戏代码、素材、SDK 或密钥。作者称游戏流程 60 帧（东京、涩谷已测）、偶有短暂卡顿，120 帧和 FSR 3.1 为实验性。"
+  },
+  {
+   "id": "mp4beyond",
+   "game": "密特罗德 究极4 Beyond",
+   "game_en": "Metroid Prime 4: Beyond",
+   "platform": "Switch",
+   "project": "Metroid Prime 4 PC Recomp",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "PlagueDrRiess/salsburysteaks",
+   "wiki": "Metroid Prime 4: Beyond",
+   "note": "基于 SwitchRecomp 的原生 Windows 静态重编译（TweakTown、DSOGaming、VGTimes 报道），新版修复画面与性能；需自备游戏与更新文件，不含任何游戏素材。仍为开发中：首次进入区域有着色器卡顿、读档短暂冻结、FOV 滑块无效。"
+  },
+  {
+   "id": "xc2recomp",
+   "game": "异度神剑2",
+   "game_en": "Xenoblade Chronicles 2",
+   "platform": "Switch",
+   "project": "xc2-recomp",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "AksharDP/xc2-recomp",
+   "wiki": "Xenoblade Chronicles 2",
+   "note": "异度神剑2 原生 Windows 静态重编译（Vulkan），可通过 RecompLauncher 安装；需自备本体与 3.0.1 更新（DLC 可选）及自己主机导出的密钥，不含游戏文件。Tecnobits 实测 60–100 帧、未遇闪退，仅有雾效闪烁；需 AVX2 与 Vulkan 1.3。"
+  },
+  {
+   "id": "xcxrecomp",
+   "game": "异度神剑X 终极版",
+   "game_en": "Xenoblade Chronicles X: Definitive Edition",
+   "platform": "Switch",
+   "project": "xcx-recomp",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "jmars125/xcx-recomp",
+   "wiki": "Xenoblade Chronicles X",
+   "note": "异度神剑X 终极版原生 Windows 静态重编译（Vulkan），更新频繁（v0.1.15），已支持 60 帧以上、超宽屏、Steam Deck 与无 AVX2 的 CPU；需自备游戏文件，不含游戏数据。"
+  },
+  {
+   "id": "luigimansion",
+   "game": "路易吉洋馆",
+   "game_en": "Luigi's Mansion",
+   "platform": "GameCube",
+   "project": "Luigi's Mansion Recompiled",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "released",
+   "repo": "rob646464/luigis-mansion-recompiled",
+   "wiki": "Luigi's Mansion",
+   "note": "GameCube 路易吉洋馆的原生 PC 静态重编译，10 月 16 日发布 1.0，后续修复欧版钥匙门内存溢出、Steam Deck 30 帧以上卡死等；Windows/Linux/Apple Silicon Mac，需自备 GLME01/GLMP01 光盘镜像在本地构建，不含游戏文件。"
+  },
+  {
+   "id": "eternaldarkness",
+   "game": "永恒的黑暗：理智的安魂曲",
+   "game_en": "Eternal Darkness: Sanity's Requiem",
+   "platform": "GameCube",
+   "project": "EternalDarknessRecomp",
+   "type": "recomp",
+   "ai": "unknown",
+   "status": "beta",
+   "repo": "griches/EternalDarknessRecomp",
+   "wiki": "Eternal Darkness",
+   "note": "GameCube 经典恐怖游戏的静态重编译（DolRecomp + GXRuntime），支持 Windows/macOS/Linux/Steam Deck；媒体称已相当稳定、可推进到故事后期，目标 1.0；需自备欧版 GEDP01 光盘，美版暂不支持。"
+  },
+  {
+   "id": "astrobot",
+   "game": "宇宙机器人",
+   "game_en": "Astro Bot",
+   "platform": "PS5",
+   "project": "AstroHybrid (pcportastrobot)",
+   "type": "port",
+   "ai": "ai",
+   "status": "beta",
+   "repo": "imnotsharingmyname/pcportastrobot",
+   "wiki": "Astro Bot",
+   "note": "首个 PS5 独占的非官方原生 PC 移植（TweakTown、BornCity 报道），基于 AnyPS5 重链接与 KytyPS5 着色器转换，支持 DLSS 与帧生成；作者称大量借助 AI。早期版本可玩、CPU 负担重；需自备解密的 PS5 游戏文件，不含索尼代码。注意网上有冒充 AnyPS5/Kyty 的恶意仓库，请认准本仓库。"
   }
  ]
 }
