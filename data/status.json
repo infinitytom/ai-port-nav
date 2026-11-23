@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-23T02:03:56.963Z",
+ "generated": "2026-11-23T10:46:05.444Z",
  "repos": {
   "HarbourMasters/Shipwright": {
-   "stars": 6153,
+   "stars": 6159,
    "pushed_at": "2026-11-22T19:04:10Z",
    "archived": false,
    "release": {
@@ -25,9 +25,9 @@
      "linux",
      "macos"
     ],
-    "issues30d": 29,
-    "bugs30d": 6,
-    "open": 16,
+    "issues30d": 28,
+    "bugs30d": 5,
+    "open": 15,
     "bugTitles": [
      "[Bug] Ocarina softlock when triggered during Gold Skulltula text pop-up with \"No Skulltula Freeze\" enabled",
      "Steam Deck completely freezes on 9.3.0 and 9.3.1",
@@ -82,7 +82,7 @@
    "targetsFrom": "assets"
   },
   "Zelda64Recomp/Zelda64Recomp": {
-   "stars": 7755,
+   "stars": 7758,
    "pushed_at": "2026-09-25T18:57:57Z",
    "archived": false,
    "release": {
@@ -119,7 +119,7 @@
    "targetsFrom": "assets"
   },
   "HarbourMasters/Ghostship": {
-   "stars": 939,
+   "stars": 941,
    "pushed_at": "2026-10-27T07:44:34Z",
    "archived": false,
    "release": {
@@ -143,7 +143,7 @@
      "windows",
      "macos"
     ],
-    "issues30d": 8,
+    "issues30d": 7,
     "bugs30d": 5,
     "open": 10,
     "bugTitles": [
@@ -164,7 +164,7 @@
    "targetsFrom": "assets"
   },
   "coop-deluxe/sm64coopdx": {
-   "stars": 1561,
+   "stars": 1562,
    "pushed_at": "2026-11-21T14:41:38Z",
    "archived": false,
    "release": {
@@ -180,9 +180,9 @@
    "signals": {
     "readme": [],
     "readmeTargets": [],
-    "issues30d": 8,
+    "issues30d": 9,
     "bugs30d": 1,
-    "open": 14,
+    "open": 13,
     "bugTitles": [
      "Crash: closed with code 1 after 1 s"
     ]
@@ -226,7 +226,7 @@
    "targetsFrom": "readme"
   },
   "HarbourMasters/SpaghettiKart": {
-   "stars": 2508,
+   "stars": 2510,
    "pushed_at": "2026-10-22T15:55:20Z",
    "archived": false,
    "release": {
@@ -267,7 +267,7 @@
    "targetsFrom": "assets"
   },
   "sonicdcer/MarioKart64Recomp": {
-   "stars": 642,
+   "stars": 644,
    "pushed_at": "2026-11-12T01:41:19Z",
    "archived": false,
    "release": {
@@ -308,7 +308,7 @@
    "targetsFrom": "assets"
   },
   "HarbourMasters/Starship": {
-   "stars": 2154,
+   "stars": 2156,
    "pushed_at": "2026-09-15T21:17:12Z",
    "archived": false,
    "release": {
@@ -386,7 +386,7 @@
    "targetsFrom": "assets"
   },
   "HarbourMasters/PaperBoat": {
-   "stars": 579,
+   "stars": 580,
    "pushed_at": "2026-11-09T20:11:35Z",
    "archived": false,
    "release": {
@@ -409,7 +409,7 @@
      "linux",
      "macos"
     ],
-    "issues30d": 11,
+    "issues30d": 10,
     "bugs30d": 0,
     "open": 19,
     "bugTitles": []
@@ -422,7 +422,7 @@
    "targetsFrom": "assets"
   },
   "HarbourMasters/Lighthouse": {
-   "stars": 565,
+   "stars": 566,
    "pushed_at": "2026-11-16T18:16:38Z",
    "archived": false,
    "release": {
@@ -459,7 +459,7 @@
    "targetsFrom": "assets"
   },
   "BanjoRecomp/BanjoRecomp": {
-   "stars": 2151,
+   "stars": 2152,
    "pushed_at": "2026-09-25T18:57:08Z",
    "archived": false,
    "release": {
@@ -578,7 +578,7 @@
    "targetsFrom": "assets"
   },
   "Rainchus/Donkey-Kong-64-Recompiled": {
-   "stars": 595,
+   "stars": 596,
    "pushed_at": "2026-11-08T18:53:19Z",
    "archived": false,
    "release": {
@@ -786,7 +786,7 @@
   },
   "DinosaurPlanetRecomp/dino-recomp": {
    "stars": 342,
-   "pushed_at": "2026-11-15T20:16:26Z",
+   "pushed_at": "2026-11-23T05:51:15Z",
    "archived": false,
    "release": {
     "tag": "v0.3.0",
@@ -813,11 +813,11 @@
     ]
    },
    "assets": [
-    "DinosaurPlanetRecompiled-v0.3.1-beta1-Linux-x64.AppImage",
-    "DinosaurPlanetRecompiled-v0.3.1-beta1-Linux-x64.flatpak",
-    "DinosaurPlanetRecompiled-v0.3.1-beta1-Linux-x64.tar.gz",
-    "DinosaurPlanetRecompiled-v0.3.1-beta1-Windows-x64-ModDev.zip",
-    "DinosaurPlanetRecompiled-v0.3.1-beta1-Windows-x64.zip"
+    "DinosaurPlanetRecompiled-v0.3.1-beta2-Linux-x64.AppImage",
+    "DinosaurPlanetRecompiled-v0.3.1-beta2-Linux-x64.flatpak",
+    "DinosaurPlanetRecompiled-v0.3.1-beta2-Linux-x64.tar.gz",
+    "DinosaurPlanetRecompiled-v0.3.1-beta2-Windows-x64-ModDev.zip",
+    "DinosaurPlanetRecompiled-v0.3.1-beta2-Windows-x64.zip"
    ],
    "targetsFrom": "assets"
   },
@@ -925,7 +925,7 @@
    "targetsFrom": "readme"
   },
   "cdlewis/snowboardkids2-recomp": {
-   "stars": 116,
+   "stars": 117,
    "pushed_at": "2026-10-25T02:54:43Z",
    "archived": false,
    "release": {
@@ -1176,7 +1176,7 @@
    "assets": []
   },
   "TwilitRealm/dusklight": {
-   "stars": 6520,
+   "stars": 6524,
    "pushed_at": "2026-10-26T04:50:53Z",
    "archived": false,
    "release": {
@@ -1197,14 +1197,14 @@
      "android"
     ],
     "issues30d": 48,
-    "bugs30d": 10,
-    "open": 22,
+    "bugs30d": 11,
+    "open": 23,
     "bugTitles": [
+     "Crash: closed with code -1073741819: it read or wrote memory it shouldn't (access violation) after 9272 s",
      "Crash on zora kid cinematic",
      "Dusklight won't launch on Windows 11",
      "crashes on opening",
-     "Ordon hero outfit crashes game",
-     "Consistent Crashes on Pixel 10XL"
+     "Ordon hero outfit crashes game"
     ]
    },
    "assets": [
@@ -1220,7 +1220,7 @@
    "targetsFrom": "assets"
   },
   "flyngmt/ACGC-PC-Port": {
-   "stars": 1597,
+   "stars": 1598,
    "pushed_at": "2026-11-08T19:47:02Z",
    "archived": false,
    "release": {
@@ -1244,9 +1244,9 @@
      "android",
      "ios"
     ],
-    "issues30d": 18,
+    "issues30d": 19,
     "bugs30d": 3,
-    "open": 17,
+    "open": 18,
     "bugTitles": [
      "Crashes when talking to a villager",
      "Linux v1.0.0: existing town save crashes in mRF_CheckBeastRoad (out-of-bounds read of mRF_gate_info2 with block type 255",
@@ -1266,8 +1266,8 @@
    "targetsFrom": "assets"
   },
   "keepvaibin/nebula": {
-   "stars": 622,
-   "pushed_at": "2026-11-23T01:21:49Z",
+   "stars": 627,
+   "pushed_at": "2026-11-23T10:44:03Z",
    "archived": false,
    "release": {
     "tag": "v1.0.2",
@@ -1312,7 +1312,7 @@
    ]
   },
   "patchzyy/Wiicompiled": {
-   "stars": 1479,
+   "stars": 1480,
    "pushed_at": "2026-11-22T16:12:20Z",
    "archived": false,
    "release": {
@@ -1358,24 +1358,24 @@
    "targetsFrom": "assets"
   },
   "peiikai/LASRecomp": {
-   "stars": 2545,
-   "pushed_at": "2026-11-22T17:42:59Z",
+   "stars": 2549,
+   "pushed_at": "2026-11-23T08:23:41Z",
    "archived": false,
    "release": {
-    "tag": "nightly",
-    "published_at": "2026-11-15T08:12:05Z",
-    "prerelease": true
+    "tag": "v0.6.1",
+    "published_at": "2026-11-23T07:40:13Z",
+    "prerelease": false
    },
    "targets": [
-    "macos",
     "android",
     "ios",
     "linux",
+    "macos",
     "windows"
    ],
    "signals": {
     "readme": [
-     "- Linux aarch64 (ARM) -   experimental  : the latest build is on the  Experimental builds (https://github.com/peiikai/LASRecomp/releases/tag/experimental) page; reports welcome",
+     "- Linux aarch64 (ARM) -   experimental  : on the  nightly (https://github.com/peiikai/LASRecomp/releases/tag/nightly) page; reports welcome",
      "These are the minimums during the beta and may change as development continues.",
      "This is a beta release.",
      "That means bugs are likely, crashes could occur, randomizer seeds could possibly be unsolvable (dungeon room shuffle modes are especially experimental at this point) and some graphics issues remain (especially in wide and ultrawide aspect ratios)."
@@ -1387,29 +1387,18 @@
      "android",
      "ios"
     ],
-    "issues30d": 11,
-    "bugs30d": 1,
-    "open": 7,
-    "bugTitles": [
-     "The game crash when I quit to the launcher"
-    ]
+    "issues30d": 9,
+    "bugs30d": 0,
+    "open": 3,
+    "bugTitles": []
    },
    "assets": [
-    "appcast-macOS.xml",
-    "LAS.Recomp-nightly-202611221742-72791fb-android.apk",
-    "LAS.Recomp-nightly-202611221742-72791fb-iOS.laskit",
-    "LAS.Recomp-nightly-202611221742-72791fb-linux-aarch64.AppImage",
-    "LAS.Recomp-nightly-202611221742-72791fb-linux-aarch64.tar.gz",
-    "LAS.Recomp-nightly-202611221742-72791fb-linux-x86_64.AppImage",
-    "LAS.Recomp-nightly-202611221742-72791fb-linux-x86_64.tar.gz",
-    "LAS.Recomp-nightly-202611221742-72791fb-macOS.dmg",
-    "LAS.Recomp-nightly-202611221742-72791fb-windows-arm64.zip",
-    "LAS.Recomp-nightly-202611221742-72791fb-windows-x64.zip",
-    "LAS.Recomp-nightly-202611221742-72791fb-windows.zip",
-    "update-linux-aarch64.txt",
-    "update-linux-x86_64.txt",
-    "update-windows-arm64.txt",
-    "update-windows.txt"
+    "LAS.Recomp-v0.6.1-android.apk",
+    "LAS.Recomp-v0.6.1-iOS.laskit",
+    "LAS.Recomp-v0.6.1-linux-aarch64.AppImage",
+    "LAS.Recomp-v0.6.1-linux-x86_64.AppImage",
+    "LAS.Recomp-v0.6.1-macOS.dmg",
+    "LAS.Recomp-v0.6.1-windows.zip"
    ],
    "targetsFrom": "assets"
   },
@@ -1599,7 +1588,7 @@
    "targetsFrom": "readme"
   },
   "BlackLabelHQ/SymphonyRecomp": {
-   "stars": 1159,
+   "stars": 1160,
    "pushed_at": "2026-11-22T18:23:45Z",
    "archived": false,
    "release": {
@@ -1896,7 +1885,7 @@
    ]
   },
   "zolaware/reblue": {
-   "stars": 937,
+   "stars": 941,
    "pushed_at": "2026-11-22T17:51:32Z",
    "archived": false,
    "release": {
@@ -1932,7 +1921,7 @@
    ]
   },
   "birabittoh/KameoRePowered": {
-   "stars": 84,
+   "stars": 85,
    "pushed_at": "2026-11-16T04:08:33Z",
    "archived": false,
    "release": {
@@ -1999,7 +1988,7 @@
    ]
   },
   "MaxDeadBear/Re-Cherry": {
-   "stars": 81,
+   "stars": 82,
    "pushed_at": "2026-10-18T08:03:06Z",
    "archived": false,
    "release": {
@@ -2027,7 +2016,7 @@
    ]
   },
   "MaxDeadBear/NaughtyBear_ReStuff": {
-   "stars": 71,
+   "stars": 72,
    "pushed_at": "2026-10-22T04:15:00Z",
    "archived": false,
    "release": {
@@ -2056,7 +2045,7 @@
    "targetsFrom": "assets"
   },
   "sal063/AC6_recomp": {
-   "stars": 606,
+   "stars": 607,
    "pushed_at": "2026-08-22T15:52:26Z",
    "archived": false,
    "release": {
@@ -2196,7 +2185,7 @@
    "targetsFrom": "assets"
   },
   "xenophobentx/takedawn": {
-   "stars": 645,
+   "stars": 649,
    "pushed_at": "2026-11-06T06:16:32Z",
    "archived": false,
    "release": {
@@ -2381,7 +2370,7 @@
      "windows",
      "linux"
     ],
-    "issues30d": 26,
+    "issues30d": 25,
     "bugs30d": 1,
     "open": 29,
     "bugTitles": [
@@ -2423,9 +2412,9 @@
      "macos",
      "android"
     ],
-    "issues30d": 7,
+    "issues30d": 8,
     "bugs30d": 0,
-    "open": 8,
+    "open": 9,
     "bugTitles": []
    },
    "assets": [
@@ -2439,7 +2428,7 @@
    "targetsFrom": "assets"
   },
   "MikeSemicolonD/RogueSquadron64Recomp": {
-   "stars": 45,
+   "stars": 46,
    "pushed_at": "2026-11-22T20:38:53Z",
    "archived": false,
    "release": null,
@@ -2778,11 +2767,11 @@
   },
   "mstan/MegaManXSNESRecomp": {
    "stars": 238,
-   "pushed_at": "2026-11-22T08:01:46Z",
+   "pushed_at": "2026-11-23T10:39:30Z",
    "archived": false,
    "release": {
-    "tag": "v2.4.2",
-    "published_at": "2026-11-22T06:25:04Z",
+    "tag": "v2.4.4",
+    "published_at": "2026-11-23T10:39:30Z",
     "prerelease": false
    },
    "targets": [
@@ -2802,16 +2791,16 @@
      "macos",
      "android"
     ],
-    "issues30d": 9,
+    "issues30d": 10,
     "bugs30d": 1,
-    "open": 12,
+    "open": 13,
     "bugTitles": [
      "Feature Request: Add Complete Edition changes"
     ]
    },
    "assets": [
-    "MegaManXSNESRecomp-linux-2.4.2-x86_64.AppImage",
-    "MegaManXSNESRecomp-windows-2.4.2.zip"
+    "MegaManXSNESRecomp-linux-2.4.4-x86_64.AppImage",
+    "MegaManXSNESRecomp-windows-2.4.4.zip"
    ],
    "targetsFrom": "assets",
    "targetsReadmeOnly": [
@@ -2937,11 +2926,11 @@
   },
   "mstan/Sonic3AndKnucklesRecomp": {
    "stars": 35,
-   "pushed_at": "2026-11-20T07:49:50Z",
+   "pushed_at": "2026-11-23T02:29:19Z",
    "archived": false,
    "release": {
-    "tag": "v0.8.13",
-    "published_at": "2026-11-20T07:49:50Z",
+    "tag": "v0.8.14",
+    "published_at": "2026-11-23T02:29:31Z",
     "prerelease": false
    },
    "targets": [
@@ -2963,18 +2952,18 @@
    },
    "assets": [
     "SHA256SUMS.txt",
-    "Sonic3KRecomp-linux-x86_64-v0.8.13.AppImage",
-    "Sonic3KRecomp-linux-x86_64-v0.8.13.AppImage.sha256",
-    "Sonic3KRecomp-windows-x64-v0.8.13.zip",
-    "Sonic3KRecomp-windows-x64-v0.8.13.zip.sha256",
-    "Sonic3Recomp-linux-x86_64-v0.8.13.AppImage",
-    "Sonic3Recomp-linux-x86_64-v0.8.13.AppImage.sha256",
-    "Sonic3Recomp-windows-x64-v0.8.13.zip",
-    "Sonic3Recomp-windows-x64-v0.8.13.zip.sha256",
-    "SonicAndKnucklesRecomp-linux-x86_64-v0.8.13.AppImage",
-    "SonicAndKnucklesRecomp-linux-x86_64-v0.8.13.AppImage.sha256",
-    "SonicAndKnucklesRecomp-windows-x64-v0.8.13.zip",
-    "SonicAndKnucklesRecomp-windows-x64-v0.8.13.zip.sha256"
+    "Sonic3KRecomp-linux-x86_64-v0.8.14.AppImage",
+    "Sonic3KRecomp-linux-x86_64-v0.8.14.AppImage.sha256",
+    "Sonic3KRecomp-windows-x64-v0.8.14.zip",
+    "Sonic3KRecomp-windows-x64-v0.8.14.zip.sha256",
+    "Sonic3Recomp-linux-x86_64-v0.8.14.AppImage",
+    "Sonic3Recomp-linux-x86_64-v0.8.14.AppImage.sha256",
+    "Sonic3Recomp-windows-x64-v0.8.14.zip",
+    "Sonic3Recomp-windows-x64-v0.8.14.zip.sha256",
+    "SonicAndKnucklesRecomp-linux-x86_64-v0.8.14.AppImage",
+    "SonicAndKnucklesRecomp-linux-x86_64-v0.8.14.AppImage.sha256",
+    "SonicAndKnucklesRecomp-windows-x64-v0.8.14.zip",
+    "SonicAndKnucklesRecomp-windows-x64-v0.8.14.zip.sha256"
    ],
    "targetsFrom": "assets"
   },
@@ -3209,7 +3198,7 @@
    "targetsFrom": "readme"
   },
   "Voicedrew11/verdite2": {
-   "stars": 90,
+   "stars": 91,
    "pushed_at": "2026-11-17T08:33:34Z",
    "archived": false,
    "release": {
@@ -3276,8 +3265,8 @@
    "targetsFrom": "assets"
   },
   "HenryKun55/celosia": {
-   "stars": 84,
-   "pushed_at": "2026-11-23T00:22:22Z",
+   "stars": 85,
+   "pushed_at": "2026-11-23T09:47:01Z",
    "archived": false,
    "release": null,
    "targets": [],
@@ -3316,7 +3305,7 @@
     "readmeTargets": [
      "windows"
     ],
-    "issues30d": 20,
+    "issues30d": 19,
     "bugs30d": 6,
     "open": 15,
     "bugTitles": [
@@ -3384,11 +3373,11 @@
   },
   "andersfischernielsen/ssx3-decomp": {
    "stars": 49,
-   "pushed_at": "2026-11-22T22:02:21Z",
+   "pushed_at": "2026-11-23T08:11:40Z",
    "archived": false,
    "release": {
-    "tag": "v0.1.7",
-    "published_at": "2026-11-22T21:55:12Z",
+    "tag": "v0.1.11",
+    "published_at": "2026-11-23T07:13:31Z",
     "prerelease": false
    },
    "targets": [
@@ -3449,7 +3438,7 @@
      "windows",
      "macos"
     ],
-    "issues30d": 1,
+    "issues30d": 0,
     "bugs30d": 0,
     "open": 1,
     "bugTitles": []
@@ -3516,7 +3505,7 @@
    "targetsFrom": "assets"
   },
   "Patt92/recvx-native": {
-   "stars": 13,
+   "stars": 14,
    "pushed_at": "2026-11-16T11:16:36Z",
    "archived": false,
    "release": {
@@ -3599,11 +3588,11 @@
   },
   "ogdanimal/SkiesOfArcadiaLegends-Recomp": {
    "stars": 196,
-   "pushed_at": "2026-11-23T01:56:42Z",
+   "pushed_at": "2026-11-23T05:25:14Z",
    "archived": false,
    "release": {
-    "tag": "v0.91.0-beta",
-    "published_at": "2026-11-22T00:57:45Z",
+    "tag": "v0.92.0-beta",
+    "published_at": "2026-11-23T05:19:25Z",
     "prerelease": true
    },
    "targets": [
@@ -3627,23 +3616,23 @@
     ],
     "issues30d": 19,
     "bugs30d": 1,
-    "open": 25,
+    "open": 23,
     "bugTitles": [
      "Crash when selecting Start Game on AYN Thor"
     ]
    },
    "assets": [
     "SHA256SUMS.txt",
-    "SkiesOfArcadiaLegends-v0.91.0-beta-android.apk",
-    "SkiesOfArcadiaLegends-v0.91.0-beta-linux.tar.gz",
-    "SkiesOfArcadiaLegends-v0.91.0-beta-macos.zip",
-    "SkiesOfArcadiaLegends-v0.91.0-beta-windows.zip",
-    "SkiesOfArcadiaLegends-v0.91.0-beta-x86_64.AppImage"
+    "SkiesOfArcadiaLegends-v0.92.0-beta-android.apk",
+    "SkiesOfArcadiaLegends-v0.92.0-beta-linux.tar.gz",
+    "SkiesOfArcadiaLegends-v0.92.0-beta-macos.zip",
+    "SkiesOfArcadiaLegends-v0.92.0-beta-windows.zip",
+    "SkiesOfArcadiaLegends-v0.92.0-beta-x86_64.AppImage"
    ],
    "targetsFrom": "assets"
   },
   "ZeldaWWHDRecomp/ZeldaWWHDRecomp": {
-   "stars": 1654,
+   "stars": 1661,
    "pushed_at": "2026-11-23T01:49:24Z",
    "archived": false,
    "release": {
@@ -3693,7 +3682,7 @@
    "targetsFrom": "assets"
   },
   "Guuzzeji/sneaky-whopper-recomp": {
-   "stars": 11,
+   "stars": 12,
    "pushed_at": "2026-11-01T22:13:34Z",
    "archived": false,
    "release": {
@@ -3908,7 +3897,7 @@
      "linux",
      "macos"
     ],
-    "issues30d": 7,
+    "issues30d": 6,
     "bugs30d": 0,
     "open": 2,
     "bugTitles": []
@@ -3968,11 +3957,11 @@
   },
   "mstan/SonicTheHedgehog2Recomp": {
    "stars": 45,
-   "pushed_at": "2026-11-23T01:11:12Z",
+   "pushed_at": "2026-11-23T04:35:52Z",
    "archived": false,
    "release": {
-    "tag": "v0.15.6",
-    "published_at": "2026-11-23T01:11:20Z",
+    "tag": "v1.0",
+    "published_at": "2026-11-23T04:36:00Z",
     "prerelease": false
    },
    "targets": [
@@ -3990,14 +3979,14 @@
      "linux",
      "macos"
     ],
-    "issues30d": 0,
+    "issues30d": 1,
     "bugs30d": 0,
-    "open": 0,
+    "open": 1,
     "bugTitles": []
    },
    "assets": [
-    "SonicTheHedgehog2Recomp-windows-x64-v0.15.6.zip",
-    "SonicTheHedgehog2Recomp-windows-x64-v0.15.6.zip.sha256"
+    "SonicTheHedgehog2Recomp-windows-x64-v1.0.zip",
+    "SonicTheHedgehog2Recomp-windows-x64-v1.0.zip.sha256"
    ],
    "targetsFrom": "assets",
    "targetsReadmeOnly": [
@@ -4040,7 +4029,7 @@
    "targetsFrom": "assets"
   },
   "Voicedrew11/verdite3": {
-   "stars": 55,
+   "stars": 57,
    "pushed_at": "2026-11-20T06:33:06Z",
    "archived": false,
    "release": {
@@ -4070,7 +4059,7 @@
    "targetsFrom": "assets"
   },
   "deadinside28/bloodborne_pc": {
-   "stars": 4179,
+   "stars": 4181,
    "pushed_at": "2026-10-28T23:56:07Z",
    "archived": false,
    "release": {
@@ -4174,7 +4163,7 @@
    "targetsFrom": "assets"
   },
   "Awakenchan/LanternEngine": {
-   "stars": 1892,
+   "stars": 1897,
    "pushed_at": "2026-11-17T06:48:41Z",
    "archived": false,
    "release": {
@@ -4213,7 +4202,7 @@
   },
   "Yharnam-Hunters/Paleblood": {
    "stars": 225,
-   "pushed_at": "2026-11-23T01:44:53Z",
+   "pushed_at": "2026-11-23T02:54:26Z",
    "archived": false,
    "release": null,
    "targets": [],
@@ -4232,7 +4221,7 @@
    "assets": []
   },
   "supermedo/bloodborne_pc": {
-   "stars": 5633,
+   "stars": 5642,
    "pushed_at": "2026-11-14T21:58:22Z",
    "archived": false,
    "release": {
@@ -4287,7 +4276,7 @@
    "assets": []
   },
   "FelipePrado0/SpartanPort": {
-   "stars": 4994,
+   "stars": 5002,
    "pushed_at": "2026-11-21T00:53:10Z",
    "archived": false,
    "release": {
@@ -4336,7 +4325,7 @@
    ]
   },
   "HayatoG/tlg_pc": {
-   "stars": 597,
+   "stars": 598,
    "pushed_at": "2026-11-14T21:30:45Z",
    "archived": false,
    "release": {
@@ -4378,7 +4367,7 @@
    "targetsFrom": "assets"
   },
   "HayatoG/iss_pc": {
-   "stars": 1233,
+   "stars": 1237,
    "pushed_at": "2026-11-12T14:03:15Z",
    "archived": false,
    "release": {
@@ -4400,9 +4389,9 @@
      "windows",
      "linux"
     ],
-    "issues30d": 47,
+    "issues30d": 46,
     "bugs30d": 6,
-    "open": 36,
+    "open": 35,
     "bugTitles": [
      "Problem report: NVIDIA GeForce GT 1030 game keeps crashing",
      "How to swipe up on keyboard? It's still broken. I'm stuck at the car crash scene.",
@@ -4423,7 +4412,7 @@
    ]
   },
   "Supermedo/uncharted_pc": {
-   "stars": 2350,
+   "stars": 2353,
    "pushed_at": "2026-11-15T18:45:35Z",
    "archived": false,
    "release": {
@@ -4444,15 +4433,15 @@
     "readmeTargets": [
      "windows"
     ],
-    "issues30d": 38,
-    "bugs30d": 8,
-    "open": 36,
+    "issues30d": 39,
+    "bugs30d": 9,
+    "open": 37,
     "bugTitles": [
+     "a random crash on ch2 U2 log file provided",
      "Crash after 30 minutes of playing",
      "change render resolution",
      "Uncharted 1 Crash",
-     "Uncharted 2 Crashes After the Train Climbing Cinematic CUSA02320",
-     "uncharted 3 game crash"
+     "Uncharted 2 Crashes After the Train Climbing Cinematic CUSA02320"
     ]
    },
    "assets": [
@@ -4461,7 +4450,7 @@
    "targetsFrom": "assets"
   },
   "bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port": {
-   "stars": 851,
+   "stars": 854,
    "pushed_at": "2026-11-14T16:44:10Z",
    "archived": false,
    "release": {
@@ -4499,7 +4488,7 @@
    "targetsFrom": "assets"
   },
   "AjncSystem/ShadowOfTheColossus-PC": {
-   "stars": 2028,
+   "stars": 2030,
    "pushed_at": "2026-11-19T18:41:07Z",
    "archived": false,
    "release": {
@@ -4574,7 +4563,7 @@
    ]
   },
   "OverkillLabs3/driveclub-recomp": {
-   "stars": 1066,
+   "stars": 1067,
    "pushed_at": "2026-11-09T09:38:35Z",
    "archived": false,
    "release": {
@@ -4596,15 +4585,15 @@
      "windows",
      "linux"
     ],
-    "issues30d": 31,
-    "bugs30d": 5,
-    "open": 23,
+    "issues30d": 32,
+    "bugs30d": 6,
+    "open": 24,
     "bugTitles": [
+     "Language changing not working",
      "Game briefly shows a black screen and then exits",
      "Any way to change keyboard controls?",
      "Game hangs on loading, navigating the menu.",
-     "Possible regression: Rival \"ghosts\" get stuck almost at the start during time trial events",
-     "crashes after i press play"
+     "Possible regression: Rival \"ghosts\" get stuck almost at the start during time trial events"
     ]
    },
    "assets": [
@@ -4634,7 +4623,7 @@
    "assets": []
   },
   "LoreanXavier/pt-pc": {
-   "stars": 2549,
+   "stars": 2551,
    "pushed_at": "2026-11-22T18:53:46Z",
    "archived": false,
    "release": {
@@ -4677,8 +4666,8 @@
    "targetsFrom": "assets"
   },
   "boykopovar/AnyPS5": {
-   "stars": 60297,
-   "pushed_at": "2026-11-23T01:59:35Z",
+   "stars": 60650,
+   "pushed_at": "2026-11-23T10:44:42Z",
    "archived": false,
    "release": {
     "tag": "v0.1.5",
@@ -4695,9 +4684,9 @@
     "readmeTargets": [
      "macos"
     ],
-    "issues30d": 0,
+    "issues30d": 2,
     "bugs30d": 0,
-    "open": 0,
+    "open": 2,
     "bugTitles": []
    },
    "assets": [
@@ -4728,7 +4717,7 @@
    ]
   },
   "sp00nznet/ps3recomp": {
-   "stars": 735,
+   "stars": 737,
    "pushed_at": "2026-11-22T18:22:16Z",
    "archived": false,
    "release": {
@@ -4767,7 +4756,7 @@
    "targetsFrom": "assets"
   },
   "soyjxck/dod3-recomp": {
-   "stars": 358,
+   "stars": 359,
    "pushed_at": "2026-11-03T16:34:34Z",
    "archived": false,
    "release": {
@@ -4860,7 +4849,7 @@
      "linux",
      "macos"
     ],
-    "issues30d": 1,
+    "issues30d": 0,
     "bugs30d": 0,
     "open": 3,
     "bugTitles": []
@@ -4990,12 +4979,11 @@
      "windows",
      "linux"
     ],
-    "issues30d": 12,
-    "bugs30d": 2,
+    "issues30d": 11,
+    "bugs30d": 1,
     "open": 3,
     "bugTitles": [
-     "Arch Linux Linker Crash",
-     "Linux build hangs at `compile` step on machines with ≤ ~22 GB RAM: `mem_acquire` waits forever"
+     "Arch Linux Linker Crash"
     ]
    },
    "assets": [
@@ -5045,7 +5033,7 @@
    "targetsFrom": "readme"
   },
   "Nycolazs/EoWRecomp": {
-   "stars": 175,
+   "stars": 176,
    "pushed_at": "2026-10-21T10:01:17Z",
    "archived": false,
    "release": {
@@ -5166,7 +5154,7 @@
    "assets": []
   },
   "K0NL/B2recomp": {
-   "stars": 645,
+   "stars": 646,
    "pushed_at": "2026-10-23T22:47:32Z",
    "archived": false,
    "release": {
@@ -5189,7 +5177,7 @@
      "windows",
      "linux"
     ],
-    "issues30d": 34,
+    "issues30d": 31,
     "bugs30d": 3,
     "open": 35,
     "bugTitles": [
@@ -5353,7 +5341,7 @@
    "assets": []
   },
   "coccofresco/TriAevum": {
-   "stars": 746,
+   "stars": 748,
    "pushed_at": "2026-11-12T20:56:17Z",
    "archived": false,
    "release": {
@@ -5396,7 +5384,7 @@
    "targetsFrom": "assets"
   },
   "TeamGDB/Yakumo": {
-   "stars": 626,
+   "stars": 627,
    "pushed_at": "2026-11-18T10:41:25Z",
    "archived": false,
    "release": {
@@ -5419,7 +5407,7 @@
      "linux",
      "macos"
     ],
-    "issues30d": 26,
+    "issues30d": 25,
     "bugs30d": 4,
     "open": 22,
     "bugTitles": [
@@ -5470,7 +5458,7 @@
    "assets": []
   },
   "saulob/dragons-crown-pro-pc": {
-   "stars": 554,
+   "stars": 558,
    "pushed_at": "2026-11-22T03:06:02Z",
    "archived": false,
    "release": {
@@ -5495,7 +5483,7 @@
     ],
     "issues30d": 37,
     "bugs30d": 3,
-    "open": 24,
+    "open": 26,
     "bugTitles": [
      "Game crashed when tabbing back in",
      "[Bazzite, RX 9070 XT, EU Copy] Black Screen During Game Mode, Audio Only",
@@ -5511,7 +5499,7 @@
    "targetsFrom": "assets"
   },
   "bc160201983/medievil_2019_pc_port": {
-   "stars": 276,
+   "stars": 277,
    "pushed_at": "2026-11-10T13:03:34Z",
    "archived": false,
    "release": {
@@ -5533,8 +5521,8 @@
      "windows",
      "linux"
     ],
-    "issues30d": 27,
-    "bugs30d": 7,
+    "issues30d": 26,
+    "bugs30d": 6,
     "open": 36,
     "bugTitles": [
      "Crash in Scarecrow Fields (Level 3) shortly after engaging the second Iron Giant",
@@ -5697,7 +5685,7 @@
    "targetsFrom": "readme"
   },
   "eandis/SDOJ-Recomp": {
-   "stars": 191,
+   "stars": 192,
    "pushed_at": "2026-10-31T16:52:46Z",
    "archived": false,
    "release": {
@@ -5821,7 +5809,7 @@
    "targetsFrom": "assets"
   },
   "raulzrrs/letsgo-recomp": {
-   "stars": 324,
+   "stars": 325,
    "pushed_at": "2026-11-21T21:02:31Z",
    "archived": false,
    "release": {
@@ -5842,8 +5830,8 @@
     "readmeTargets": [
      "windows"
     ],
-    "issues30d": 38,
-    "bugs30d": 15,
+    "issues30d": 36,
+    "bugs30d": 13,
     "open": 31,
     "bugTitles": [
      "Crash: closed with code 3 after 9 s",
@@ -5894,8 +5882,8 @@
    "targetsFrom": "assets"
   },
   "Dittobyte/Recompia": {
-   "stars": 975,
-   "pushed_at": "2026-11-23T01:46:21Z",
+   "stars": 981,
+   "pushed_at": "2026-11-23T07:38:34Z",
    "archived": false,
    "release": {
     "tag": "v0.17.0",
@@ -5918,9 +5906,9 @@
      "windows",
      "linux"
     ],
-    "issues30d": 13,
+    "issues30d": 14,
     "bugs30d": 3,
-    "open": 11,
+    "open": 12,
     "bugTitles": [
      "[Linux] Freeze right after the first presented frame on RADV/KDE Wayland (0.16.0): guest waits forever, no crash",
      "[Graphics Bug] Wooden fences change brightness depending on camera angle (AMD RX 6700 XT)",
@@ -5944,7 +5932,7 @@
    "targetsFrom": "assets"
   },
   "Lucas-blip-png/dkb-pc-recomp": {
-   "stars": 1331,
+   "stars": 1340,
    "pushed_at": "2026-11-21T22:22:25Z",
    "archived": false,
    "release": {
@@ -5969,9 +5957,9 @@
      "linux",
      "macos"
     ],
-    "issues30d": 20,
+    "issues30d": 23,
     "bugs30d": 2,
-    "open": 14,
+    "open": 18,
     "bugTitles": [
      "Crashing due to GPU memory write fail (code -4)",
      "Crashed my pc suddenly and restarted windows"
@@ -5989,8 +5977,8 @@
    "targetsFrom": "assets"
   },
   "valentderah/totk-pc-recomp": {
-   "stars": 8036,
-   "pushed_at": "2026-11-22T13:50:39Z",
+   "stars": 8088,
+   "pushed_at": "2026-11-23T07:36:59Z",
    "archived": false,
    "release": {
     "tag": "v0.5.0",
@@ -6010,13 +5998,15 @@
      "windows",
      "linux"
     ],
-    "issues30d": 23,
-    "bugs30d": 3,
+    "issues30d": 25,
+    "bugs30d": 6,
     "open": 21,
     "bugTitles": [
+     "Crashes with Linkle mod installed via TKMM, HORRIBLE slowdown when anything else is installed via TKMM.",
+     "DotK hangs on a black screen before the title screen, caused by Pack/Actor/Player.pack.zs.",
+     "Crash vk: device lost / upload submit failed (-4) after several minutes on Intel UHD Graphics 620",
      "Installer stuck in a python background process while preparing shaders | update 0.4.3 -> 0.5.0",
-     "Intel Iris Xe (Raptor Lake-P): freeze on \"Nintendo presents\" screen, then GPU hang (-4), i915 ecode 12:1:8ed9eff2",
-     "Crash: closed with code -1073740791: il s'est arrêté après une erreur grave after 1 s"
+     "Intel Iris Xe (Raptor Lake-P): freeze on \"Nintendo presents\" screen, then GPU hang (-4), i915 ecode 12:1:8ed9eff2"
     ]
    },
    "assets": [
@@ -6027,7 +6017,7 @@
    "targetsFrom": "assets"
   },
   "Revivedx/SavageWindRecomp": {
-   "stars": 5002,
+   "stars": 5016,
    "pushed_at": "2026-11-22T19:06:06Z",
    "archived": false,
    "release": {
@@ -6050,15 +6040,13 @@
      "windows",
      "linux"
     ],
-    "issues30d": 34,
-    "bugs30d": 6,
-    "open": 30,
+    "issues30d": 28,
+    "bugs30d": 3,
+    "open": 21,
     "bugTitles": [
      "Crash: closed with code -1073740791: parou sozinho depois de um erro grave after 1528 s",
      "[Bug] Crash during combat/gameplay on AMD iGPU (Radeon 680M) when combining FSR 1 / FSR 3 Upscaler with Frame Generation",
-     "Game crashes when activating Stasis+ (exception c0000005)",
-     "Crash: closed with code -1073740791: it stopped itself after a serious error after 196 s",
-     "\"Stop Climbing\" action becomes unresponsive after changing custom key bindings (Xbox controller)"
+     "Game crashes when activating Stasis+ (exception c0000005)"
     ]
    },
    "assets": [
@@ -6072,8 +6060,8 @@
    "targetsFrom": "assets"
   },
   "adriadam10/mkw-recomp": {
-   "stars": 1682,
-   "pushed_at": "2026-11-21T20:32:28Z",
+   "stars": 1702,
+   "pushed_at": "2026-11-23T10:47:43Z",
    "archived": false,
    "release": {
     "tag": "v0.1.17",
@@ -6093,15 +6081,15 @@
      "linux",
      "switch"
     ],
-    "issues30d": 24,
-    "bugs30d": 6,
-    "open": 24,
+    "issues30d": 26,
+    "bugs30d": 7,
+    "open": 26,
     "bugTitles": [
+     "Crashes on first loading screen",
+     "Crashes when loading",
      "Crash: closed with code 71 after 385 s",
      "game crash",
-     "Windows startup crashes after save mount with 0xC0000005 (v0.1.17)",
-     "crash game on external hdd",
-     "Crash: MKW Recomp closed with code -1073740791: si è fermato da solo dopo un errore gr…"
+     "Windows startup crashes after save mount with 0xC0000005 (v0.1.17)"
     ]
    },
    "assets": [
@@ -6116,7 +6104,7 @@
    ]
   },
   "tangerineturtle1/NX2navi": {
-   "stars": 4343,
+   "stars": 4346,
    "pushed_at": "2026-11-16T02:02:29Z",
    "archived": false,
    "release": {
@@ -6155,7 +6143,7 @@
    "targetsFrom": "readme"
   },
   "kuraeow/ultratears": {
-   "stars": 965,
+   "stars": 967,
    "pushed_at": "2026-11-17T09:57:27Z",
    "archived": false,
    "release": {
@@ -6191,8 +6179,8 @@
    "targetsFrom": "assets"
   },
   "morerokk/MHGURecomp": {
-   "stars": 725,
-   "pushed_at": "2026-11-22T23:37:20Z",
+   "stars": 731,
+   "pushed_at": "2026-11-23T09:23:28Z",
    "archived": false,
    "release": {
     "tag": "0.18.3",
@@ -6217,9 +6205,9 @@
      "macos",
      "android"
     ],
-    "issues30d": 39,
+    "issues30d": 38,
     "bugs30d": 4,
-    "open": 20,
+    "open": 19,
     "bugTitles": [
      "Got stuck in suppy box on rageing twins high rank event quest",
      "Borderless / Fullscreen / Alt+Enter all hang before the first frame (swapchain forced to 3840x2160, no FPS, screen flash",
@@ -6228,9 +6216,9 @@
     ]
    },
    "assets": [
-    "Android-MHGURecomp.0.18.3.apk",
-    "Linux-MHGURecomp.0.18.3.tar.gz",
-    "Windows-MHGURecomp.0.18.3.zip"
+    "Android-MHGURecomp.0.19.0.apk",
+    "Linux-MHGURecomp.0.19.0.tar.gz",
+    "Windows-MHGURecomp.0.19.0.zip"
    ],
    "targetsFrom": "assets",
    "targetsReadmeOnly": [
@@ -6238,7 +6226,7 @@
    ]
   },
   "yozander2009-stack/Metroid-Dread-Recomp": {
-   "stars": 469,
+   "stars": 473,
    "pushed_at": "2026-11-22T17:21:33Z",
    "archived": false,
    "release": {
@@ -6283,12 +6271,12 @@
    "targetsFrom": "assets"
   },
   "Zexyen/Witch-Time": {
-   "stars": 436,
-   "pushed_at": "2026-11-23T02:01:33Z",
+   "stars": 440,
+   "pushed_at": "2026-11-23T03:30:04Z",
    "archived": false,
    "release": {
-    "tag": "v0.14.0",
-    "published_at": "2026-11-22T19:17:29Z",
+    "tag": "v0.14.1",
+    "published_at": "2026-11-23T03:33:23Z",
     "prerelease": false
    },
    "targets": [
@@ -6304,7 +6292,7 @@
      "linux",
      "macos"
     ],
-    "issues30d": 24,
+    "issues30d": 25,
     "bugs30d": 3,
     "open": 12,
     "bugTitles": [
@@ -6314,10 +6302,10 @@
     ]
    },
    "assets": [
-    "WitchTime-v0.14.0-linux-x86_64.tar.gz",
-    "WitchTime-v0.14.0-linux-x86_64.tar.gz.sha256",
-    "WitchTime-v0.14.0-windows-x86_64.zip",
-    "WitchTime-v0.14.0-windows-x86_64.zip.sha256"
+    "WitchTime-v0.14.1-linux-x86_64.tar.gz",
+    "WitchTime-v0.14.1-linux-x86_64.tar.gz.sha256",
+    "WitchTime-v0.14.1-windows-x86_64.zip",
+    "WitchTime-v0.14.1-windows-x86_64.zip.sha256"
    ],
    "targetsFrom": "assets",
    "targetsReadmeOnly": [
@@ -6325,12 +6313,12 @@
    ]
   },
   "PlagueDrRiess/salsburysteaks": {
-   "stars": 135,
-   "pushed_at": "2026-11-22T20:33:46Z",
+   "stars": 139,
+   "pushed_at": "2026-11-23T08:11:17Z",
    "archived": false,
    "release": {
-    "tag": "v2026.11.31",
-    "published_at": "2026-11-22T20:36:56Z",
+    "tag": "v2026.11.33",
+    "published_at": "2026-11-23T08:14:10Z",
     "prerelease": false
    },
    "targets": [
@@ -6355,15 +6343,15 @@
     ]
    },
    "assets": [
-    "MetroidPrime4Recomp-PC-v2026.11.31.zip",
+    "MetroidPrime4Recomp-PC-v2026.11.33.zip",
     "SHA256SUMS.txt",
-    "update-2026.11.31.zip",
+    "update-2026.11.33.zip",
     "update.txt"
    ],
    "targetsFrom": "readme"
   },
   "AksharDP/xc2-recomp": {
-   "stars": 396,
+   "stars": 398,
    "pushed_at": "2026-11-22T23:37:26Z",
    "archived": false,
    "release": {
@@ -6397,8 +6385,8 @@
    "targetsFrom": "assets"
   },
   "jmars125/xcx-recomp": {
-   "stars": 369,
-   "pushed_at": "2026-11-20T00:01:47Z",
+   "stars": 373,
+   "pushed_at": "2026-11-23T07:57:48Z",
    "archived": false,
    "release": {
     "tag": "test-0.1.21-fixes9",
@@ -6418,9 +6406,9 @@
      "windows",
      "linux"
     ],
-    "issues30d": 19,
+    "issues30d": 18,
     "bugs30d": 4,
-    "open": 17,
+    "open": 16,
     "bugTitles": [
      "Crash post \"lin express\" orientation",
      "After the launcher finishes compiling, entering the game results in a black screen.",
@@ -6436,7 +6424,7 @@
    "targetsFrom": "assets"
   },
   "rob646464/luigis-mansion-recompiled": {
-   "stars": 367,
+   "stars": 369,
    "pushed_at": "2026-11-12T08:46:06Z",
    "archived": false,
    "release": {
@@ -6452,7 +6440,7 @@
    "signals": {
     "readme": [],
     "readmeTargets": [],
-    "issues30d": 21,
+    "issues30d": 20,
     "bugs30d": 2,
     "open": 11,
     "bugTitles": [
@@ -6492,7 +6480,7 @@
      "windows",
      "linux"
     ],
-    "issues30d": 21,
+    "issues30d": 19,
     "bugs30d": 1,
     "open": 14,
     "bugTitles": [
@@ -6507,7 +6495,7 @@
    "targetsFrom": "assets"
   },
   "imnotsharingmyname/pcportastrobot": {
-   "stars": 1106,
+   "stars": 1110,
    "pushed_at": "2026-11-22T21:35:17Z",
    "archived": false,
    "release": {
