@@ -3464,7 +3464,11 @@
    "status": "beta",
    "repo": "PlagueDrRiess/salsburysteaks",
    "wiki": "Metroid Prime 4: Beyond",
-   "note": "基于 SwitchRecomp 的原生 Windows 静态重编译（TweakTown、DSOGaming、VGTimes 报道），新版修复画面与性能；需自备游戏与更新文件，不含任何游戏素材。仍为开发中：首次进入区域有着色器卡顿、读档短暂冻结、FOV 滑块无效。"
+   "note": "基于 SwitchRecomp 的原生 Windows 静态重编译（TweakTown、DSOGaming、VGTimes 报道），新版修复画面与性能；需自备游戏与更新文件，不含任何游戏素材。仍为开发中：首次进入区域有着色器卡顿、读档短暂冻结、FOV 滑块无效。",
+   "targets": [
+    "windows"
+   ],
+   "targetsChecked": true
   },
   {
    "id": "xc2recomp",
