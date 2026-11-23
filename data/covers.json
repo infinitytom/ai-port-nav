@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T09:47:36.741Z",
+ "generated": "2026-11-23T02:02:03.683Z",
  "covers": {
   "soh": {
    "src": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -1647,6 +1647,54 @@
    "h": 316,
    "page": "https://en.wikipedia.org/wiki/Bayonetta_3",
    "title": "Bayonetta 3",
+   "how": "title"
+  },
+  "mp4beyond": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/48/Metroid_Prime_4_Beyond_cover_art.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 316,
+   "h": 316,
+   "page": "https://en.wikipedia.org/wiki/Metroid_Prime_4:_Beyond",
+   "title": "Metroid Prime 4: Beyond",
+   "how": "title"
+  },
+  "xc2recomp": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/4/4a/Xenoblade_Chronicles_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 300,
+   "h": 300,
+   "page": "https://en.wikipedia.org/wiki/Xenoblade_Chronicles_2",
+   "title": "Xenoblade Chronicles 2",
+   "how": "title"
+  },
+  "xcxrecomp": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/7/7f/Xenoblade_Chronicles_X_-_Boxart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 283,
+   "h": 351,
+   "page": "https://en.wikipedia.org/wiki/Xenoblade_Chronicles_X",
+   "title": "Xenoblade Chronicles X",
+   "how": "title"
+  },
+  "luigimansion": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/5/5e/Lmbox.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 250,
+   "h": 354,
+   "page": "https://en.wikipedia.org/wiki/Luigi%27s_Mansion",
+   "title": "Luigi's Mansion",
+   "how": "title"
+  },
+  "eternaldarkness": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/8/8d/Eternal_Darkness_box.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 256,
+   "h": 362,
+   "page": "https://en.wikipedia.org/wiki/Eternal_Darkness",
+   "title": "Eternal Darkness",
+   "how": "title"
+  },
+  "astrobot": {
+   "src": "https://upload.wikimedia.org/wikipedia/en/a/a9/Astro_Bot_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "w": 273,
+   "h": 365,
+   "page": "https://en.wikipedia.org/wiki/Astro_Bot",
+   "title": "Astro Bot",
    "how": "title"
   }
  }
